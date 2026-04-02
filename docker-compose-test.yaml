@@ -1,0 +1,66 @@
+services:
+#  postgres:
+#    image: postgres:12-alpine
+#    environment:
+#      POSTGRES_USER: figure1_admin
+#      POSTGRES_DB: figure1_test
+#      POSTGRES_PASSWORD: test1234
+#
+  redis:
+    image: circleci/redis:latest
+#
+#  firestore:
+#    image: mtlynch/firestore-emulator
+#    environment:
+#      PORT: "8200"
+#      FIRESTORE_PROJECT_ID: f1-migration-sb
+
+#  elasticsearch:
+#    image: docker.elastic.co/elasticsearch/elasticsearch:7.8.0
+#    environment:
+#      discovery.type: single-node
+#    healthcheck:
+#      test: [ "CMD", "curl", "-f", "http://localhost:9200" ]
+#      start_period: 5s
+#      retries: 5
+#      timeout: 3s
+#      interval: 10s
+#    ports:
+#      - 9200
+
+  figure1:
+    build:
+      context: .
+    env_file:
+      - ./.env
+    command: python figure1/run/flask_startup.py
+    ports:
+      - "30000:30000"
+
+  celery:
+    build:
+      context: .
+    command: celery -A figure1.core.celery_app worker --loglevel=info
+    environment:
+      DATABASE_DSN: "postgresql://figure1_admin:test1234@postgres:5432/figure1_test"
+      REDIS_URL: redis://redis:6379
+      FIRESTORE_EMULATOR_HOST: firestore:8200
+      ELASTICSEARCH_HOSTS: http://elasticsearch:9200
+      ELASTICSEARCH_USERS_ALIAS: test_users
+      ELASTICSEARCH_CASES_ALIAS: test_cases
+      TEST_MODE: "true"
+    depends_on:
+      - figure1
+      - redis
+
+  flower:
+    build:
+      context: .
+    command: celery -A figure1.core.celery_app flower --port=5555 --conf=flowerconfig.py
+    ports:
+      - "5555:5555"
+    environment:
+      REDIS_URL: redis://redis:6379
+    depends_on:
+      - redis
+      - celery

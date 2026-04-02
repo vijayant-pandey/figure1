@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "promotions",
+  "definitions": {
+    "PromotionCase": {
+      "type": "object",
+      "properties": {
+        "case_id": {
+          "$ref": "dataTypes#/definitions/UUID"
+        },
+        "promotion_uuid": {
+          "$ref": "dataTypes#/definitions/UUID"
+        }
+      }
+    },
+    "Channel": {
+      "type": "object",
+      "properties": {
+        "channel_uuid": {
+          "$ref": "dataTypes#/definitions/UUID"
+        },
+        "channel_name": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

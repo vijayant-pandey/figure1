@@ -1,0 +1,11 @@
+Unresolved,unresolved,true
+Resolved,resolved,true
+Common presentation,common_presentation,true
+Teaching case,teaching_case,true
+Rare condition,rare_condition,true
+Verified literature,verified_literature,true
+Poll,poll,false
+Quiz,quiz,false
+Grand rounds,grand_rounds,false
+Trending,trending,true
+Case CME,case_cme,false

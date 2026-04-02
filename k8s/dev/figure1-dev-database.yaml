@@ -1,0 +1,77 @@
+# PostgreSQL Config Map
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: figure1-postgres-env
+data:
+  POSTGRES_USER: figure1_admin
+  POSTGRES_PASSWORD: test1234
+  POSTGRES_DB: figure1
+
+---
+
+# PostgreSQL Service Definition
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: figure1-database
+  labels:
+    app: figure1
+    tier: backend
+    role: data-store
+spec:
+  type: NodePort
+  ports:
+    - port: 5432
+      targetPort: 5432
+      nodePort: 30001
+  selector:
+    app: figure1
+    tier: backend
+    role: data-store
+
+---
+
+# PostgreSQL / PGAdmin4 Pod Definition
+#
+# This is a multi-container pod definition that spins up both PostgreSQL and PGAdmin4 containers in the same pd. Chose
+# to do it this way because we only ever need PGAdmin4 if we are also running PostgreSQL for local development. By
+# running them both on the same pod, we don't create unnecessary deployments that just end up being clutter when
+# administering the cluster. Also, for development we'll only have one instance of PostgreSQL, so if we did these as
+# deployments we end up getting unnecessary replica sets too...
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: figure1-database
+  labels:
+    app: figure1
+    tier: backend
+    role: data-store
+spec:
+  containers:
+    - name: figure1-database                        # PostgreSQL container
+      image: postgres:10.5
+      envFrom:
+        - configMapRef:
+            name: figure1-postgres-env
+      resources:
+        limits:
+          cpu: 2
+          memory: 2000Mi
+        requests:
+          cpu: 100m                                  # requests a minimum of 1/10th of a CPU (may use more)
+          memory: 100Mi                              # requests a minimum of 100MB of memory (may use more)
+      ports:
+        - containerPort: 5432
+      volumeMounts:
+        - mountPath: /var/lib/postgresql/data
+          name: figure1-db-volume
+  volumes:
+    - name: figure1-db-volume
+      hostPath:
+        # dev/start-dev.sh creates a symlink to <project root>/database so that /figure1/database always works
+        path: /private/figure1-pg
+        type: DirectoryOrCreate

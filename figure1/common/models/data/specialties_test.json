@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Physician",
+    "label": "physician",
+    "children": [
+      {
+        "name": "Addiction Specialist",
+        "label": "addictionSpecialist",
+        "children": [
+          {
+            "name": "Addiction Medicine",
+            "label": "addictionMedicine"
+          }
+        ]
+      },
+      {
+        "name": "Allergy & Immunology",
+        "label": "allergyImmunology",
+        "children": [
+          {
+            "name": "General Allergy & Immunology",
+            "label": "generalAllergyImmunology"
+          },
+          {
+            "name": "Asthma & Allergic Conditions",
+            "label": "asthmaAllergicConditions"
+          },
+          {
+            "name": "Clinical & Laboratory Immunology",
+            "label": "clinicalLaboratoryImmunology"
+          },
+          {
+            "name": "Clinical Pharmacology - Allergy and Immunology",
+            "label": "clinicalPharmacologyAllergyAndImmunology"
+          },
+          {
+            "name": "Pediatric Asthma & Allergic Conditions",
+            "label": "pediatricAsthmaAllergicConditions"
+          }
+        ]
+      },
+      {
+        "name": "Anesthesiology",
+        "label": "anesthesiology",
+        "children": [
+          {
+            "name": "General Anesthesiology",
+            "label": "generalAnesthesiology"
+          },
+          {
+            "name": "Addiction Medicine",
+            "label": "addictionMedicine"
+          },
+          {
+            "name": "Ambulatory Anesthesiology",
+            "label": "ambulatoryAnesthesiology"
+          },
+          {
+            "name": "Cardiothoracic Anesthesiology",
+            "label": "cardiothoracicAnesthesiology"
+          },
+          {
+            "name": "Clinical Pharmacology - Anesthesiology",
+            "label": "clinicalPharmacologyAnesthesiology"
+          },
+          {
+            "name": "Critical Care Medicine",
+            "label": "criticalCareMedicine"
+          },
+          {
+            "name": "Hospice & Palliative Medicine",
+            "label": "hospiceAndPalliativeMedicine"
+          },
+          {
+            "name": "Neurophysiology",
+            "label": "neurophysiology"
+          },
+          {
+            "name": "Obesterical Anesthesiology",
+            "label": "obestericalAnesthesiology"
+          },
+          {
+            "name": "Pain Medicine",
+            "label": "painMedicine"
+          },
+          {
+            "name": "Pediatric Anesthesiology",
+            "label": "pediatricAnesthesiology"
+          },
+          {
+            "name": "Perioperative Care",
+            "label": "perioperativeCare"
+          },
+          {
+            "name": "Regional Anesthesiology",
+            "label": "regionalAnesthesiology"
+          },
+          {
+            "name": "Sleep Medicine",
+            "label": "sleepMedicine"
+          },
+          {
+            "name": "Undersea & Hyperbaric Medicine",
+            "label": "underseaHyperbaricMedicine"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Medical Resident",
+    "label": "medicalResident",
+    "children": [
+      {
+        "name": "Allergy & Immunology",
+        "label": "allergyImmunology"
+      },
+      {
+        "name": "Anesthesiology",
+        "label": "anesthesiology"
+      },
+      {
+        "name": "Cardiology",
+        "label": "cardiology"
+      },
+      {
+        "name": "Child Neurology",
+        "label": "childNeurology"
+      },
+      {
+        "name": "Colon & Rectal Surgery",
+        "label": "colonRectalSurgery"
+      },
+      {
+        "name": "Dermatology",
+        "label": "dermatology"
+      },
+      {
+        "name": "Emergency Medicine",
+        "label": "emergencyMedicine"
+      },
+      {
+        "name": "Endocrinology",
+        "label": "endocrinology"
+      },
+      {
+        "name": "Family Medicine",
+        "label": "familyMedicine"
+      },
+      {
+        "name": "Gastroenterology",
+        "label": "gastroenterology"
+      },
+      {
+        "name": "General Surgery",
+        "label": "generalSurgery"
+      }
+    ]
+  },
+  {
+    "name": "Medical Student",
+    "label": "medicalStudent",
+    "children": [
+      {
+        "name": "Addiction Medicine",
+        "label": "addictionMedicine"
+      },
+      {
+        "name": "Adolescent Medicine",
+        "label": "adolescentMedicine"
+      },
+      {
+        "name": "Anesthesiology",
+        "label": "anesthesiology"
+      },
+      {
+        "name": "Critical Care Medicine",
+        "label": "criticalCareMedicine"
+      },
+      {
+        "name": "Dermatology",
+        "label": "dermatology"
+      },
+      {
+        "name": "Emergency Medicine",
+        "label": "emergencyMedicine"
+      },
+      {
+        "name": "Family Medicine",
+        "label": "familyMedicine"
+      }
+    ]
+  }
+]

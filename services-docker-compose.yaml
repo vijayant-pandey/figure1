@@ -1,0 +1,51 @@
+version: "3.3"
+services:
+  # postgres-dev:
+  #   image: postgres:12-alpine
+  #   environment:
+  #     POSTGRES_USER: figure1_admin
+  #     POSTGRES_DB: figure1
+  #     POSTGRES_PASSWORD: test1234
+  #   volumes:
+  #     - postgres:/var/lib/postgresql/data
+  #   ports:
+  #     - 5432:5432
+
+  redis-dev:
+    image: redis:latest
+    container_name: redis
+    ports:
+      - 6379:6379
+
+  elasticsearch-dev:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.8.0
+    container_name: elasticsearch
+    environment:
+      discovery.type: single-node
+      ES_JAVA_OPTS: "-Xms512m -Xmx512m"
+    volumes:
+      - elasticsearch:/usr/share/elasticsearch/data
+
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl --silent --fail localhost:9200/_cluster/health || exit 1",
+        ]
+      interval: 10s
+      timeout: 10s
+      retries: 3
+    ports:
+      - 9200:9200
+
+  # kibana-dev:
+  #   image: docker.elastic.co/kibana/kibana:7.8.0
+  #   environment:
+  #     ELASTICSEARCH_URL: http://elasticsearch-dev:9200
+  #     ELASTICSEARCH_HOSTS: http://elasticsearch-dev:9200
+  #   ports:
+  #     - 5601:5601
+
+volumes:
+  elasticsearch:
+  # postgres:

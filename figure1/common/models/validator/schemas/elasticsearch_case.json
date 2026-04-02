@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "elasticsearch_case",
+  "type": "object",
+  "properties": {
+    "caseState": {
+      "type": "string",
+      "enum": [
+        "retry",
+        "failed",
+        "waiting",
+        "processing",
+        "pending_assignment",
+        "assigned",
+        "pending_approval",
+        "approved"
+      ]
+    },
+    "taggingState": {
+      "type": "string",
+      "enum": [
+        "retry",
+        "failed",
+        "waiting",
+        "processing",
+        "pending_assignment",
+        "assigned",
+        "pending_approval",
+        "approved"
+      ]
+    },
+    "caseUuid": {
+      "$ref": "dataTypes#/definitions/UUID"
+    },
+    "userUuid": {
+      "$ref": "dataTypes#/definitions/UUID"
+    },
+    "likes": {
+      "type": "number"
+    },
+    "follows": {
+      "type": "number"
+    },
+    "title": {
+      "$ref": "dataTypes#/definitions/freeText10k"
+    },
+    "caption": {
+      "$ref": "dataTypes#/definitions/freeText10k"
+    },
+    "uploader": {
+      "$ref": "elasticsearch_definitions#/definitions/User"
+    },
+    "comments": {
+      "type": "array",
+      "items": {
+        "$ref": "elasticsearch_definitions#/definitions/Comment"
+      }
+    }
+  }
+}

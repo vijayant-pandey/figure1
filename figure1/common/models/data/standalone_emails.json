@@ -1,0 +1,15 @@
+[
+  {
+    "kind": "reset_password",
+    "iterableName": "Transactional / Forgot password (reset link)"
+  },
+  {
+    "kind": "contact_support",
+    "iterableName": "Transactional / Contact support (new support request)"
+  },
+  {
+    "kind": "login_link",
+    "iterableName": "Login Link email"
+  }
+]
+

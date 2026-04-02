@@ -1,0 +1,17 @@
+from .cases.endpoints import bp as pro_cases_endpoint
+from .cases.quiz.endpoints import bp as pro_cases_quiz_endpoint
+from .cases.upload.endpoints import bp as pro_cases_upload_endpoint
+from .cme.endpoints import bp as pro_cme_endpoint
+from .topics.endpoints import bp as pro_topics_endpoint
+from .users.endpoints import bp as pro_users_endpoint
+from .groups.endpoints import bp as pro_groups_endpoint
+from .verification.endpoints import bp as pro_verification_endpoint
+from .feeds.endpoints import bp as pro_feeds_endpoint
+from .notifications.endpoints import bp as pro_notifications_endpoint
+from .comments.endpoints import bp as pro_comments_endpoint
+from .mentions.endpoints import bp as pro_mentions_endpoint
+from .search.endpoints import bp as pro_search_endpoint
+from .tracking.endpoints import bp as pro_tracking_endpoint
+from .api.endpoints import bp as api_endpoint
+from .legacy.endpoints import bp as pro_legacy_endpoint
+from .cases.casecme.endpoints import bp as pro_case_cme_endpoints

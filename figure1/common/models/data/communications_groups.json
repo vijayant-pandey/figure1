@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Activity",
+    "description": "",
+    "displayOrder": 0,
+    "activities": [
+      {
+        "name": "Activity",
+        "iterablePreferencesName": "activity",
+        "communicationActivityKey": "ACTIVITY",
+        "description": "Alert me when there are new reactions or comments on cases I share, or updates on cases I've engaged with.",
+        "displayOrder": 0
+      }
+    ]
+  },
+  {
+    "name": "Paging",
+    "description": "",
+    "displayOrder": 1,
+    "activities": [
+      {
+        "name": "Paging",
+        "iterablePreferencesName": "pagingActivity",
+        "communicationActivityKey": "PAGING_ACTIVITY",
+        "description": "Notify me when my peers share a paging case looking for expertise in my specialty.",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "Interactive Content",
+    "description": "",
+    "displayOrder": 2,
+    "activities": [
+      {
+        "name": "Interactive Content",
+        "iterablePreferencesName": "interactiveContent",
+        "communicationActivityKey": "INTERACTIVE_CONTENT",
+        "description": "Send me a summary of my results and updates on completed quizzes, CME, or other interactive content.",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "System",
+    "description": "",
+    "displayOrder": 3,
+    "activities": [
+      {
+        "name": "Verification Complete",
+        "iterablePreferencesName": "systemVerification",
+        "communicationActivityKey": "VERIFICATION_COMPLETE",
+        "description": "How Verification Moderators will let me know my profile needs changes",
+        "displayOrder": 3,
+        "isHidden": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: firestore
+  labels:
+    app: firestore
+spec:
+  type: ClusterIP
+  ports:
+    - port: 8200
+  selector:
+    app: firestore
+
+---
+kind: Deployment
+apiVersion: apps/v1 
+metadata:
+  name: firestore
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: firestore
+  template:
+    metadata:
+      labels:
+        app: firestore
+    spec:
+      containers:
+        - name: firestore
+          image: mtlynch/firestore-emulator
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: FIRESTORE_PROJECT_ID
+              value: some-project-name
+            - name: PORT
+              value: "8200"
+          ports:
+            - containerPort: 8200

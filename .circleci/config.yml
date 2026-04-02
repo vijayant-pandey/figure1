@@ -1,0 +1,280 @@
+version: 2.1
+orbs:
+  aws-ecr: circleci/aws-ecr@6.5.0
+
+jobs:
+  deploy_prod:
+    docker:
+      - image: cimg/python:3.9
+    steps:
+      - setup_remote_docker:
+          version: 20.10.14
+      - aws-ecr/build-and-push-image:
+          account-url: AWS_ECR_ACCOUNT_URL
+          aws-access-key-id: AWS_ACCESS_KEY_ID
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
+          region: AWS_REGION
+          dockerfile: Dockerfile
+          repo: f1-pro-backend
+          tag: '$CIRCLE_TAG'
+      - add_ssh_keys:
+          fingerprints:
+            - "8c:3b:0c:70:c6:b1:02:1f:b6:50:dc:83:f0:c6:d3:92"
+      - run:
+          name: Update-deployment
+          command: |
+            curl -s https://api.github.com/repos/kubernetes-sigs/kustomize/releases |\
+              grep browser_download |\
+              grep linux_amd64 |\
+              cut -d '"' -f 4 |\
+              grep /kustomize/v |\
+              sort | tail -n 1 |\
+              xargs curl -O -L
+            tar xzf ./kustomize_v*_linux_amd64.tar.gz
+            ./kustomize version
+            git clone git@github.com:Figure1/f1-pro-deployment.git
+            K_EX=$PWD/kustomize
+            cd f1-pro-deployment/production
+            $K_EX edit set image $AWS_ECR_ACCOUNT_URL/f1-pro-backend=$AWS_ECR_ACCOUNT_URL/f1-pro-backend:$CIRCLE_TAG
+            git config --global user.email "circleci@figure1.com"
+            git config --global user.name "CircleCI BuildBot"
+            git commit -am "pushing image $AWS_ECR_ACCOUNT_URL/f1-pro-backend:$CIRCLE_TAG" && git push
+  deploy_qa:
+    docker:
+      - image: cimg/python:3.9
+    steps:
+      - setup_remote_docker:
+          version: 20.10.14
+      - aws-ecr/build-and-push-image:
+          account-url: AWS_ECR_ACCOUNT_URL
+          aws-access-key-id: AWS_ACCESS_KEY_ID
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
+          region: AWS_REGION
+          dockerfile: Dockerfile
+          repo: f1-pro-backend
+          tag: '$CIRCLE_TAG'
+      - add_ssh_keys:
+          fingerprints:
+            - "8c:3b:0c:70:c6:b1:02:1f:b6:50:dc:83:f0:c6:d3:92"
+      - run:
+          name: Update-deployment
+          command: |
+            curl -s https://api.github.com/repos/kubernetes-sigs/kustomize/releases |\
+              grep browser_download |\
+              grep linux_amd64 |\
+              cut -d '"' -f 4 |\
+              grep /kustomize/v |\
+              sort | tail -n 1 |\
+              xargs curl -O -L
+            tar xzf ./kustomize_v*_linux_amd64.tar.gz
+            ./kustomize version
+            git clone git@github.com:Figure1/f1-pro-deployment.git
+            K_EX=$PWD/kustomize
+            cd f1-pro-deployment/qa
+            $K_EX edit set image $AWS_ECR_ACCOUNT_URL/f1-pro-backend=$AWS_ECR_ACCOUNT_URL/f1-pro-backend:$CIRCLE_TAG
+            git config --global user.email "circleci@figure1.com"
+            git config --global user.name "CircleCI BuildBot"
+            git commit -am "pushing image $CIRCLE_TAG" && git push
+
+  deploy_staging:
+    docker:
+      - image: cimg/python:3.9
+    steps:
+      - setup_remote_docker:
+          version: 20.10.14
+      - aws-ecr/build-and-push-image:
+          account-url: AWS_ECR_ACCOUNT_URL
+          aws-access-key-id: AWS_ACCESS_KEY_ID
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
+          region: AWS_REGION
+          dockerfile: Dockerfile
+          repo: f1-pro-backend
+          tag: '$CIRCLE_TAG'
+      - add_ssh_keys:
+          fingerprints:
+            - "8c:3b:0c:70:c6:b1:02:1f:b6:50:dc:83:f0:c6:d3:92"
+      - run:
+          name: Update-deployment
+          command: |
+            curl -s https://api.github.com/repos/kubernetes-sigs/kustomize/releases |\
+              grep browser_download |\
+              grep linux_amd64 |\
+              cut -d '"' -f 4 |\
+              grep /kustomize/v |\
+              sort | tail -n 1 |\
+              xargs curl -O -L
+            tar xzf ./kustomize_v*_linux_amd64.tar.gz
+            ./kustomize version
+            git clone git@github.com:Figure1/f1-pro-deployment.git
+            K_EX=$PWD/kustomize
+            cd f1-pro-deployment/staging
+            $K_EX edit set image $AWS_ECR_ACCOUNT_URL/f1-pro-backend=$AWS_ECR_ACCOUNT_URL/f1-pro-backend:$CIRCLE_TAG
+            git config --global user.email "circleci@figure1.com"
+            git config --global user.name "CircleCI BuildBot"
+            git commit -am "pushing image $CIRCLE_TAG" && git push
+
+  deploy_dev:
+    docker:
+      - image: cimg/python:3.9
+    steps:
+      - setup_remote_docker:
+          version: 20.10.14
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "8c:3b:0c:70:c6:b1:02:1f:b6:50:dc:83:f0:c6:d3:92"
+      - run:
+          name: Create Tag
+          command: |
+            TAG=$( echo -n ${CIRCLE_SHA1} | cut -c 1-6 - )
+            echo "export TAG=$TAG" >> $BASH_ENV
+
+      - aws-ecr/build-and-push-image:
+          account-url: AWS_ECR_ACCOUNT_URL
+          aws-access-key-id: AWS_ACCESS_KEY_ID
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
+          region: AWS_REGION
+          dockerfile: Dockerfile
+          repo: f1-pro-backend
+          tag: '$TAG'
+          extra-build-args: '--no-cache'
+
+      - run:
+          name: Update-deployment
+          command: |
+            curl -s https://api.github.com/repos/kubernetes-sigs/kustomize/releases |\
+              grep browser_download |\
+              grep linux_amd64 |\
+              cut -d '"' -f 4 |\
+              grep /kustomize/v |\
+              sort | tail -n 1 |\
+              xargs curl -O -L
+            tar xzf ./kustomize_v*_linux_amd64.tar.gz
+            ./kustomize version
+            git clone git@github.com:Figure1/f1-pro-deployment.git
+            K_EX=$PWD/kustomize
+            cd f1-pro-deployment/dev
+            $K_EX edit set image $AWS_ECR_ACCOUNT_URL/f1-pro-backend=$AWS_ECR_ACCOUNT_URL/f1-pro-backend:$TAG
+            git config --global user.email "circleci@figure1.com"
+            git config --global user.name "CircleCI BuildBot"
+            git commit -am "pushing image $TAG" && git push
+
+  test:
+    docker:
+      - image: cimg/python:3.9
+        environment:
+          DB_HOST: 127.0.0.1
+          DB_USERNAME: figure1_admin
+          DB_DATABASE: figure1_test
+          DB_PORT: "5432"
+          REDIS_URL: redis://127.0.0.1:6379
+          FIRESTORE_EMULATOR_HOST: 127.0.0.1:8200
+          ELASTICSEARCH_HOSTS: 127.0.0.1:9200
+          TEST_MODE: "true"
+      - image: circleci/postgres:12-alpine
+        environment:
+          POSTGRES_USER: figure1_admin
+          POSTGRES_DB: figure1_test
+          POSTGRES_PASSWORD: test1234
+      - image: circleci/redis:latest
+      - image: docker.elastic.co/elasticsearch/elasticsearch:7.8.0
+        environment:
+          discovery.type: single-node
+      - image: mtlynch/firestore-emulator
+        environment:
+          PORT: "8200"
+          FIRESTORE_PROJECT_ID: some-project-id
+    steps:
+      - checkout
+      - run:
+          name: Setup Virtual Env
+          command: |
+            python -m venv venv
+            . venv/bin/activate
+            pip install wheel
+            pip install pip --upgrade
+            pip install --no-cache-dir -r requirements.txt
+            pip freeze
+      - run:
+          name: Pycodestyle
+          command: |
+            . venv/bin/activate;
+            pycodestyle figure1
+
+      - run:
+          name: Run Tests
+          command: |
+            . venv/bin/activate;
+            python -m pytest figure1/tests
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - test:
+          filters:
+            branches:
+              ignore:
+                - master
+                - develop
+                - /release.*/
+  dev:
+    jobs:
+      - test:
+          filters:
+            branches:
+              only: develop
+      - deploy_dev:
+          requires:
+            - test
+          filters:
+            branches:
+              only: develop
+  qa:
+    jobs:
+      - test:
+          filters:
+            tags:
+              only: /^qa\d{1,3}\.\d{1,3}\.\d{1,3}/
+            branches:
+              ignore: /.*/
+      - deploy_qa:
+          requires:
+            - test
+          filters:
+            tags:
+              only: /^qa\d{1,3}\.\d{1,3}\.\d{1,3}/
+            branches:
+              ignore: /.*/
+  staging:
+    jobs:
+      - test:
+          filters:
+            tags:
+              only: /^rc\d{1,3}\.\d{1,3}\.\d{1,3}/
+            branches:
+              ignore: /.*/
+      - deploy_staging:
+          requires:
+            - test
+          filters:
+            tags:
+              only: /^rc\d{1,3}\.\d{1,3}\.\d{1,3}/
+            branches:
+              ignore: /.*/
+  prod:
+    jobs:
+      - test:
+          filters:
+            tags:
+              only: /^v\d{1,3}\.\d{1,3}\.\d{1,3}/
+            branches:
+              ignore: /.*/
+      - deploy_prod:
+          requires:
+            - test
+          filters:
+            tags:
+              only: /^v\d{1,3}\.\d{1,3}\.\d{1,3}/
+            branches:
+              ignore: /.*/

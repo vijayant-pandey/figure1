@@ -1,0 +1,84 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongodb
+data:
+  mongod.conf: |
+    storage:
+      engine: wiredTiger
+      dbPath: /data/mongo
+      journal:
+        enabled: true
+    net:
+      bindIp: 0.0.0.0
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mongo
+  labels:
+    app: mongo
+spec:
+  ports:
+  - port: 27017
+    name: mongo
+  clusterIP: None
+  selector:
+    app: mongo
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mongo
+spec:
+  selector:
+    matchLabels:
+      app: mongo
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: mongo
+    spec:
+      terminationGracePeriodSeconds: 60
+      volumes:
+        - name: mongo-import
+          hostPath:
+            path: /private/figure1-mongo-import
+            type: DirectoryOrCreate
+        - name: mongo-db
+          hostPath:
+            path: /private/figure1-mongo
+            type: DirectoryOrCreate
+        - name: mongo-config
+          configMap:
+            name: mongodb
+      initContainers:
+      - name: restore-mongo
+        image: figure1-mongo:dev
+        imagePullPolicy: Never
+        command:
+          - /initmongo.sh
+        volumeMounts:
+        - name: mongo-import
+          mountPath: /data/restore
+        - name: mongo-db
+          mountPath: /data/mongo
+      containers:
+      - name: mongo
+        image: figure1-mongo:dev
+        imagePullPolicy: Never
+        command:
+          - /mongodb-linux-x86_64-3.0.15/bin/mongod
+        args:
+          - "--config"
+          - "/etc/mongo/mongod.conf"
+        ports:
+        - containerPort: 27017
+          name: mongo
+        volumeMounts:
+        - name: mongo-config
+          mountPath: /etc/mongo
+        - name: mongo-db
+          mountPath: /data/mongo

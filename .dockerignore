@@ -1,0 +1,23 @@
+**/__pycache__
+**/.direnv
+# **/.env*
+**/.git
+**/.gitignore
+**/.jj
+**/.mypy_cache
+**/.pytest_cache/
+**/.venv
+**/.vscode
+**/.idea
+**/build
+**/compose*
+**/docker-compose*
+**/Dockerfile*
+
+azure
+docs
+k8s
+venv
+dev
+.circleci
+.run

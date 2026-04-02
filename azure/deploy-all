@@ -1,0 +1,19 @@
+#!/bin/sh
+
+echo deploying all container apps...
+
+# deploy celery workers
+az deployment group create --resource-group celery-rg --template-file celery-workers-ca.bicep --parameters celery-workers-ca.secure.bicepparam &
+
+# deploy celery beat
+az deployment group create --resource-group celery-rg --template-file celery-beat-ca.bicep --parameters celery-beat-ca.secure.bicepparam &
+
+# deploy rest api
+az deployment group create --resource-group rest-api-rg --template-file rest-api-ca.bicep --parameters rest-api-ca.secure.bicepparam &
+
+# deploy flower
+az deployment group create --resource-group celery-rg --template-file celery-flower-ca.bicep --parameters celery-flower-ca.secure.bicepparam &
+
+wait
+
+echo done.

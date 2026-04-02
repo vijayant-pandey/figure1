@@ -1,0 +1,132 @@
+# Configurations based off example found here: https://kubernetes.io/docs/tutorials/stateless-application/guestbook
+# NOTE: the guest book example referred to above uses a single master and two replicated slaves. I'm starting with
+# just the master. Will add slaves later if we need them.
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis
+  labels:
+    app: figure1-redis
+    role: master
+    tier: backend
+spec:
+  ports:
+  - port: 6379
+  selector:
+    app: figure1-redis
+    role: master
+    tier: backend
+  type: ClusterIP 
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: figure1-redis-master
+  labels:
+    app: figure1-redis
+    role: master
+    tier: backend
+  ######## BEGIN include to send metrics to prometheus
+  # see https://itnext.io/simple-redis-cache-on-kubernetes-with-prometheus-metrics-8667baceab6b
+  annotations:
+    prometheus.io/scrape: "true"
+    prometheus.io/port: "9121"
+  ######## END include to send metrics to prometheus
+spec:
+  ports:
+  - port: 6379
+    nodePort: 30300
+  selector:
+    app: figure1-redis
+    role: master
+    tier: backend
+  type: NodePort
+
+---
+
+# Redis Commander is a free web interface for Redis - not needed in production
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: figure1-redis-commander
+  labels:
+    app: figure1-redis
+    role: master-web-interface
+    tier: backend
+  ######## BEGIN include to send metrics to prometheus
+  # see https://itnext.io/simple-redis-cache-on-kubernetes-with-prometheus-metrics-8667baceab6b
+  annotations:
+    prometheus.io/scrape: "true"
+    prometheus.io/port: "9121"
+  ######## END include to send metrics to prometheus
+spec:
+  ports:
+  - port: 8081
+    nodePort: 30301
+  selector:
+    app: figure1-redis
+    role: master
+    tier: backend
+  type: NodePort
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: figure1-redis-master
+spec:
+  selector:
+    matchLabels:
+      app: figure1-redis
+      role: master
+      tier: backend
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: figure1-redis
+        role: master
+        tier: backend
+      ######## BEGIN include to send metrics to prometheus
+      # see https://itnext.io/simple-redis-cache-on-kubernetes-with-prometheus-metrics-8667baceab6b
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "9121"
+      ######## END include to send metrics to prometheus
+    spec:
+      ######### BEGIN include to git rid of huge pages warning #########
+      # see https://itnext.io/simple-redis-cache-on-kubernetes-with-prometheus-metrics-8667baceab6b
+      volumes:
+      - name: host-sys
+        hostPath:
+          path: /sys
+      initContainers:
+      - name: disable-thp
+        image: redis:4
+        volumeMounts:
+        - name: host-sys
+          mountPath: /host-sys
+        command: ["sh", "-c", "echo never > /host-sys/kernel/mm/transparent_hugepage/enabled"]
+      ######### END include to get rid of huge page warnings #######
+      containers:
+      - name: master
+        image: redis:5
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+        ports:
+        - containerPort: 6379
+      - name: redis-commander
+        image: rediscommander/redis-commander
+        env:
+        - name: REDIS_HOSTS
+          value: redis-master:redis-master:6379
+        ports:
+        - name: redis-commander
+          containerPort: 8081

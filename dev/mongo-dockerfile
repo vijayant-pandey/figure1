@@ -1,0 +1,8 @@
+FROM amazonlinux:2.0.20190508
+RUN yum update -y && yum install -y tar gzip aws-cli
+COPY initmongo.sh /initmongo.sh
+RUN chmod a+x /initmongo.sh
+ADD https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.0.15.tgz .
+RUN /bin/tar -zxf mongodb-linux-x86_64-3.0.15.tgz
+ENTRYPOINT ["/mongodb-linux-x86_64-3.0.15/bin/mongod"]
+CMD ["--setParameter", "logLevel=5", "--dbpath", "/data/mongo/mongo"]

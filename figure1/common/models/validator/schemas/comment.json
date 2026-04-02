@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "comment_report",
+  "type": "object",
+  "properties": {
+    "reporting_user_uid": {
+      "type": "string"
+    },
+    "text": {
+      "$ref": "dataTypes#/definitions/freeText1k"
+    },
+    "moderator_user_uid": {
+      "type": "string"
+    },
+    "moderator_approved": {
+      "type": "boolean"
+    },
+    "report_reason": {
+      "type": "string"
+    }
+  },
+  "dependencies": {
+    "moderator_user_uid": [
+      "moderator_approved",
+      "text"
+    ],
+    "reporting_user_uid": [
+      "report_reason"
+    ]
+  }
+}

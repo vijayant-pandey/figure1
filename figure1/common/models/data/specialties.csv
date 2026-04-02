@@ -1,0 +1,924 @@
+physician,physician,Physician,7275dbe6-7416-4352-b2d9-ebf3d580cc0d,0,FALSE
+physician.addictionSpecialist,addictionSpecialist,Addiction Specialist,806c04a5-4dcf-4592-b2af-638cd66b2b1a,0,FALSE
+physician.addictionSpecialist.addictionMedicine,addictionMedicine,Addiction Medicine,e9dce273-2212-45a1-83ce-bae2bafb361e,0,FALSE
+physician.allergyImmunology,allergyImmunology,Allergy & Immunology,692b5170-11fa-4e0c-983c-127bc566bea0,1,FALSE
+physician.allergyImmunology.asthmaAllergicConditions,asthmaAllergicConditions,Asthma & Allergic Conditions,e9193025-1ea6-4673-b4ac-c9f09abe7699,1,FALSE
+physician.allergyImmunology.clinicalLaboratoryImmunology,clinicalLaboratoryImmunology,Clinical & Laboratory Immunology,25eb1125-0f59-4f4c-8e39-c0b956653498,2,FALSE
+physician.allergyImmunology.clinicalPharmacologyAllergyAndImmunology,clinicalPharmacologyAllergyAndImmunology,Clinical Pharmacology - Allergy and Immunology,6ca41172-8a0e-420a-a291-c38fd9ce0f4f,3,FALSE
+physician.allergyImmunology.generalAllergyImmunology,generalAllergyImmunology,General Allergy & Immunology,cf81c809-d20f-494d-9508-8b4b0a9f53ce,0,FALSE
+physician.allergyImmunology.pediatricAsthmaAllergicConditions,pediatricAsthmaAllergicConditions,Pediatric Asthma & Allergic Conditions,20fff338-336d-475a-903e-f0ce1be8f905,4,FALSE
+physician.anesthesiology,anesthesiology,Anesthesiology,1134fa8f-91ab-4dca-a988-fa602cb8ebed,2,FALSE
+physician.anesthesiology.addictionMedicine,addictionMedicine,Addiction Medicine,588769cc-3be1-4d93-929d-d97bc20ccfaf,1,FALSE
+physician.anesthesiology.ambulatoryAnesthesiology,ambulatoryAnesthesiology,Ambulatory Anesthesiology,7e483968-a55d-4dac-9d54-f35df4df3f68,2,FALSE
+physician.anesthesiology.cardiothoracicAnesthesiology,cardiothoracicAnesthesiology,Cardiothoracic Anesthesiology,168b09d2-604b-4d9b-a957-338f6212cde4,3,FALSE
+physician.anesthesiology.clinicalPharmacologyAnesthesiology,clinicalPharmacologyAnesthesiology,Clinical Pharmacology - Anesthesiology,350f9662-f965-4016-a1c2-cbba901a4e04,4,FALSE
+physician.anesthesiology.criticalCareMedicine,criticalCareMedicine,Critical Care Medicine,76e5b9d5-5304-4f7b-8ee5-4aa9eaa77b56,5,FALSE
+physician.anesthesiology.generalAnesthesiology,generalAnesthesiology,General Anesthesiology,da118f71-e44a-4d25-bebc-faca42aff5b6,0,FALSE
+physician.anesthesiology.hospiceAndPalliativeMedicine,hospiceAndPalliativeMedicine,Hospice & Palliative Medicine,0fca8ba6-7ed7-4010-9df3-3a6d336b12dd,6,FALSE
+physician.anesthesiology.neurophysiology,neurophysiology,Neurophysiology,d4c9c91c-a28d-414f-9878-7458da254555,7,FALSE
+physician.anesthesiology.obestericalAnesthesiology,obestericalAnesthesiology,Obesterical Anesthesiology,be23c38b-94bd-4373-9885-5649ab65fdf9,8,FALSE
+physician.anesthesiology.painMedicine,painMedicine,Pain Medicine,afd71517-9174-462c-8d2c-4478b5318c11,9,FALSE
+physician.anesthesiology.pediatricAnesthesiology,pediatricAnesthesiology,Pediatric Anesthesiology,227fc48f-7b56-4e11-b8b1-54e9a0749cf8,10,FALSE
+physician.anesthesiology.perioperativeCare,perioperativeCare,Perioperative Care,e4e9b20f-62bf-484f-be88-546f80b24a3b,11,FALSE
+physician.anesthesiology.regionalAnesthesiology,regionalAnesthesiology,Regional Anesthesiology,f4ffa88c-9803-4358-b59d-ab6f6ecbb4c0,12,FALSE
+physician.anesthesiology.sleepMedicine,sleepMedicine,Sleep Medicine,45dd88b6-3576-4113-a49b-360d1f2efbe0,13,FALSE
+physician.anesthesiology.underseaHyperbaricMedicine,underseaHyperbaricMedicine,Undersea & Hyperbaric Medicine,935f7ca3-c990-4a1a-9f1e-dd60b1827910,14,FALSE
+physician.bariatrics,bariatrics,Bariatrics,7d3b8abb-8cd0-4a57-aa1e-e69a89a93475,3,FALSE
+physician.cardiology,cardiology,Cardiology,378da919-1478-438f-89bb-335582785293,4,FALSE
+physician.cardiology.adultCongenitalHeartDisease,adultCongenitalHeartDisease,Adult Congenital Heart Disease,3f239c02-a32e-4d43-bb16-193b1ff9c080,1,FALSE
+physician.cardiology.cardiacCriticalCare,cardiacCriticalCare,Cardiac Critical Care,6cbc9442-d911-4efa-afbc-03566b29f51e,2,FALSE
+physician.cardiology.cardiacElectrophysiology,cardiacElectrophysiology,Cardiac Electrophysiology,5c41c69f-03d1-46b0-af2a-5e7bf65e2ffc,3,FALSE
+physician.cardiology.cardiothoracicImaging,cardiothoracicImaging,Cardiothoracic Imaging,3bcf95ff-0a65-4217-a090-da6f0298b2ff,4,FALSE
+physician.cardiology.cardiovascularDisease,cardiovascularDisease,Cardiovascular Disease,9783e309-e7ce-4444-b404-d305deeaa19e,5,FALSE
+physician.cardiology.clinicalPharmacologyCardiology,clinicalPharmacologyCardiology,Clinical Pharmacology - Cardiology,5536ae34-3193-4584-ac14-1fa2a1fbb58c,6,FALSE
+physician.cardiology.echocardiography,echocardiography,Echocardiography,aa9748e8-77e7-468f-9f8d-b2c1d777dfa3,7,FALSE
+physician.cardiology.exercisePhysiologyAndCardiacRehabilitation,exercisePhysiologyAndCardiacRehabilitation,Exercise Physiology and Cardiac Rehabilitation,10288571-84c5-4d8a-ab37-6192fc5d8580,8,FALSE
+physician.cardiology.generalCardiology,generalCardiology,General Cardiology,e941e89b-26c5-4b26-ab28-a6ca2543fbc0,0,FALSE
+physician.cardiology.heartFailureTransplantation,heartFailureTransplantation,Heart Failure & Transplantation,aa384a10-dcb0-429d-94e9-56391eb8d205,9,FALSE
+physician.cardiology.interventionalCardiology,interventionalCardiology,Interventional Cardiology,d3bb8829-5597-414d-b7a4-3bfa87e8277d,10,FALSE
+physician.cardiology.nonInvasiveCardiology,nonInvasiveCardiology,Non-Invasive Cardiology,8e709172-be37-498c-9c10-f0234f948c64,11,FALSE
+physician.cardiology.nuclearCardiology,nuclearCardiology,Nuclear Cardiology,85f8e4ad-987c-432c-a49e-c6e5e8d4fc19,12,FALSE
+physician.cardiology.peripheralEndovascularInterventionalCardiology,peripheralEndovascularInterventionalCardiology,Peripheral Endovascular Interventional Cardiology,4294cc91-83c4-4bb7-a85b-79ef1ea20ea1,13,FALSE
+physician.cardiology.preventiveCardiology,preventiveCardiology,Preventive Cardiology,12df5ee3-02c8-4f6b-b470-983a2804b1e1,14,FALSE
+physician.cardiology.vascularMedicine,vascularMedicine,Vascular Medicine,f98a25bf-3ecb-4068-a3ee-5653641183a1,15,FALSE
+physician.cardiothoracicSurgery,cardiothoracicSurgery,Cardiothoracic Surgery,39fa1cb0-69ff-4174-ab18-5c85c60dead8,55,FALSE
+physician.cardiothoracicSurgery.adultCardiacSurgery,adultCardiacSurgery,Adult Cardiac Surgery,346895b3-e406-4c39-a7ca-7c835fbd758e,1,FALSE
+physician.cardiothoracicSurgery.adultGeneralThoracic,adultGeneralThoracic,Adult General Thoracic,9aa5c540-e9e8-4387-868d-6d63dfa8e060,2,FALSE
+physician.cardiothoracicSurgery.cardiopulmonaryTransplantation,cardiopulmonaryTransplantation,Cardiopulmonary Transplantation,6e1bd395-567e-4758-8f86-f0af1d370666,4,FALSE
+physician.cardiothoracicSurgery.cardiothoracicSurgery,cardiothoracicSurgery,Cardiothoracic Surgery,82c3a44e-9270-4c46-b76f-e22572863c46,3,FALSE
+physician.cardiothoracicSurgery.cardiovascularSurgery,cardiovascularSurgery,Cardiovascular Surgery,9ec2f977-78d5-4da9-92cb-1ea6af0274dd,5,FALSE
+physician.cardiothoracicSurgery.generalThoracicSurgery,generalThoracicSurgery,General Thoracic Surgery,914f3869-b45a-40b0-a1e0-4ae115250b64,0,FALSE
+physician.cardiothoracicSurgery.pediatricCardiacSurgery,pediatricCardiacSurgery,Pediatric Cardiac Surgery,3784726c-7604-4c1c-be54-801f18fb257a,7,FALSE
+physician.cardiothoracicSurgery.pediatricThoracicSurgery,pediatricThoracicSurgery,Pediatric Thoracic Surgery,3eb2e1c6-d4e3-4743-a505-a6bd70068f75,6,FALSE
+physician.cardiothoracicSurgery.roboticSurgery,roboticSurgery,Robotic Surgery,e6d84db4-1e97-4e26-9868-97e5ec11605c,11,FALSE
+physician.cardiothoracicSurgery.thoracicSurgicalOncology,thoracicSurgicalOncology,Thoracic Surgical Oncology,15dca2c0-c215-4cf5-adc6-e4962c35bc0d,9,FALSE
+physician.cardiothoracicSurgery.traumaSurgerySurgicalCriticalCare,traumaSurgerySurgicalCriticalCare,Trauma Surgery & Surgical Critical Care,cab6bc8b-0aed-4683-b492-4380542d2c66,10,FALSE
+physician.cardiothoracicSurgery.vascularSurgery,vascularSurgery,Vascular Surgery,fc2ea83c-0697-4daa-adfd-1010fbf32000,8,FALSE
+physician.childNeurology,childNeurology,Child Neurology,2d7cf57c-7d6d-447f-b060-acd1f257edf3,5,FALSE
+physician.childNeurology.clinicalPharmacologyChildNeurology,clinicalPharmacologyChildNeurology,Clinical Pharmacology - Child Neurology,59aece15-a49b-44f1-a7fc-6802d986d271,1,FALSE
+physician.childNeurology.generalChildNeurology,generalChildNeurology,General Child Neurology,db3210ec-2328-4ca3-a3fb-6e8be69cbad2,0,FALSE
+physician.childNeurology.pediatricEpilepsy,pediatricEpilepsy,Pediatric Epilepsy,034617b4-3d39-457b-99e7-681e96a89f16,2,FALSE
+physician.childNeurology.pediatricHospicePalliativeMedicine,pediatricHospicePalliativeMedicine,Pediatric Hospice & Palliative Medicine,3f8b41f0-6131-4224-88d3-29c93c721a73,3,FALSE
+physician.childNeurology.pediatricNeurodevelopmentalDisabilities,pediatricNeurodevelopmentalDisabilities,Pediatric Neurodevelopmental Disabilities,d2686906-7491-4876-9090-7acb9bce731b,4,FALSE
+physician.childNeurology.pediatricNeuromuscularMedicine,pediatricNeuromuscularMedicine,Pediatric Neuromuscular Medicine,7ff4fd87-8711-41ee-9cd6-0f380d7a42f4,5,FALSE
+physician.childNeurology.pediatricNeurophysiology,pediatricNeurophysiology,Pediatric Neurophysiology,a29567ee-7e0c-4df4-9c38-948291c5d5b7,6,FALSE
+physician.childNeurology.pediatricNeurorehabilitation,pediatricNeurorehabilitation,Pediatric Neurorehabilitation,a0953e9e-7951-43f6-b932-f98e146aab48,7,FALSE
+physician.childNeurology.pediatricPainMedicine,pediatricPainMedicine,Pediatric Pain Medicine,8f524370-f6ee-402c-920e-8bfee5a817af,8,FALSE
+physician.childNeurology.pediatricSleepMedicine,pediatricSleepMedicine,Pediatric Sleep Medicine,43f64bc7-0b81-4ca3-b147-a2469802afd5,10,FALSE
+physician.childNeurology.pediatricVascularNeurology,pediatricVascularNeurology,Pediatric Vascular Neurology,02f5f4d2-40d0-45ec-89be-3b9d91d4bb25,9,FALSE
+physician.colonRectalSurgery,colonRectalSurgery,Colon & Rectal Surgery,cf1a09a0-a1fc-449e-9442-7c5391f46015,6,FALSE
+physician.colonRectalSurgery.clinicalPharmacologyColonAndRectalSurgery,clinicalPharmacologyColonAndRectalSurgery,Clinical Pharmacology - Colon and Rectal Surgery,10fb39d5-d378-467a-965b-847e48ee0c86,1,FALSE
+physician.colonRectalSurgery.generalColonRectalSurgery,generalColonRectalSurgery,General Colon & Rectal Surgery,6904a5ac-ddac-416f-80f6-0cfd15960a08,0,FALSE
+physician.dermatology,dermatology,Dermatology,9b4000c0-dfcc-420e-9cdf-a4e37ffbf196,7,FALSE
+physician.dermatology.acneRosacea,acneRosacea,Acne & Rosacea,8efadaf3-8742-4589-aca9-744055de2f50,1,FALSE
+physician.dermatology.clinicalPharmacy,clinicalPharmacy,Clinical Pharmacology - Dermatology,55b1ba69-9f9f-456d-8328-5fd17c50e287,2,FALSE
+physician.dermatology.cosmeticDermatology,cosmeticDermatology,Cosmetic Dermatology,35023970-b70b-458b-aa09-0989337e8796,3,FALSE
+physician.dermatology.dermatologicSurgery,dermatologicSurgery,Dermatologic Surgery,572ff283-a878-469e-a7f2-46e226324a43,4,FALSE
+physician.dermatology.dermatopathology,dermatopathology,Dermatopathology,d4ec7301-81e0-4c97-b0fb-4ed245d85f61,5,FALSE
+physician.dermatology.generalDermatology,generalDermatology,General Dermatology,e1438b6c-7ad4-487d-a44e-2c93f7dd8e33,0,FALSE
+physician.dermatology.pediatricDermatology,pediatricDermatology,Pediatric Dermatology,01ca91fe-747e-4f00-991e-cc52536af2a5,6,FALSE
+physician.emergencyMedicine,emergencyMedicine,Emergency Medicine,b17d5e93-13eb-49d1-abb6-bbad0ecdca8f,8,FALSE
+physician.emergencyMedicine.clinicalPharmacologyEmergencyMedicine,clinicalPharmacologyEmergencyMedicine,Clinical Pharmacology - Emergency Medicine,d4c434d4-9d9f-47cd-a119-821dc71bc67e,1,FALSE
+physician.emergencyMedicine.criticalCareMedicine,criticalCareMedicine,Critical Care Medicine,3180268f-0e88-4683-8b11-3f38daeaf4b1,2,FALSE
+physician.emergencyMedicine.generalEmergencyMedicine,generalEmergencyMedicine,General Emergency Medicine,9264e7f1-7413-44d7-9c15-0985a78cd991,0,FALSE
+physician.emergencyMedicine.hospiceAndPalliativeMedicine,hospiceAndPalliativeMedicine,Hospice & Palliative Medicine,9a198716-013e-41f4-8c66-c280ea008215,3,FALSE
+physician.emergencyMedicine.medicalToxicology,medicalToxicology,Medical Toxicology,704a1de3-a535-4f06-91a8-2ff647ea4d90,4,FALSE
+physician.emergencyMedicine.pediatricEmergencyMedicine,pediatricEmergencyMedicine,Pediatric Emergency Medicine,8dd9d2e4-0591-4e80-a450-a7a5fc586187,5,FALSE
+physician.emergencyMedicine.sportsMedicineNonsurgical,sportsMedicineNonsurgical,Sports Medicine (Non surgical),8f25e3e4-bb3e-4fc6-ab48-5b67fd2ac1fd,6,FALSE
+physician.emergencyMedicine.underseaHyperbaricMedicine,underseaHyperbaricMedicine,Undersea & Hyperbaric Medicine,1b6dbe97-0adb-4931-a2c5-11ffbd10611c,7,FALSE
+physician.endocrinology,endocrinology,Endocrinology,ecb14f8f-f817-4818-88b5-fa2bc21b20ae,9,FALSE
+physician.endocrinology.adrenalDisease,adrenalDisease,Adrenal Disease,18feb6d7-7cc3-482b-ab03-9c678f973574,1,FALSE
+physician.endocrinology.clinicalPharmacologyEndocrinology,clinicalPharmacologyEndocrinology,Clinical Pharmacology - Endocrinology,ae2e656b-08a4-45b6-8f49-742343cd3b32,2,FALSE
+physician.endocrinology.diabetes,diabetes,Diabetes,faa9e7c0-4dfd-467b-9719-cdabebbf9dae,3,FALSE
+physician.endocrinology.generalEndocrinology,generalEndocrinology,General Endocrinology,87746e84-5821-469d-991d-04351af0e1a7,0,FALSE
+physician.endocrinology.gonadDisordersReproductive,gonadDisordersReproductive,Gonad Disorders & Reproductive,4b5ce067-f678-4002-99de-20a63893ac8c,4,FALSE
+physician.endocrinology.hIVAIDSRelatedMetabolism,hIVAIDSRelatedMetabolism,HIV/AIDS related metabolism,a5f48c5c-033a-400b-b426-72cf668034ba,5,FALSE
+physician.endocrinology.lipidMetabolism,lipidMetabolism,Lipid Metabolism,eb977acc-57b9-4e4a-b9f1-ade1551a15e4,6,FALSE
+physician.endocrinology.obesity,obesity,Obesity,4dc3854c-4085-4941-883a-b47018b93aad,7,FALSE
+physician.endocrinology.osteoporosisBoneMetabolismMedicine,osteoporosisBoneMetabolismMedicine,Osteoporosis & Bone Metabolism Medicine,38e90f98-e55e-4b12-886e-04cc6483b214,8,FALSE
+physician.endocrinology.parathyroid,parathyroid,Parathyroid,34ab78d4-766e-48b6-90c7-95c2729e738d,9,FALSE
+physician.endocrinology.pediatricEndocrinology,pediatricEndocrinology,Pediatric Endocrinology,0be3a74f-2294-4fb8-a808-2a48c8b6d3d2,10,FALSE
+physician.endocrinology.pituitaryDisordersNeuroendocrinology,pituitaryDisordersNeuroendocrinology,Pituitary Disorders & Neuroendocrinology,cbd923d2-ad09-4a85-adfa-87bd6db561aa,11,FALSE
+physician.endocrinology.thyroid,thyroid,Thyroid,4bfee405-bd59-4e2a-adb1-c47d2f528062,12,FALSE
+physician.familyMedicine,familyMedicine,Family Medicine,271fc1e5-01bd-43ec-bac7-2542c3b2a5ba,10,FALSE
+physician.familyMedicine.addictionMedicine,addictionMedicine,Addiction Medicine,77d8e51b-7d2e-4715-b98c-574019e93bf3,1,FALSE
+physician.familyMedicine.adolescentMedicine,adolescentMedicine,Adolescent Medicine,3ebec5da-2799-4153-9444-4a295ea03cfc,2,FALSE
+physician.familyMedicine.bariatricMedicine,bariatricMedicine,Bariatric Medicine,fb857238-6e17-4f17-a624-d5fd296944a9,3,FALSE
+physician.familyMedicine.behavioralMedicine,behavioralMedicine,Behavioral Medicine,85e97b7c-6b56-484a-9802-0bfb4d541e7b,4,FALSE
+physician.familyMedicine.clinicalPharmacologyFamilyMedicine,clinicalPharmacologyFamilyMedicine,Clinical Pharmacology - Family Medicine,0ee47124-4ef0-48b0-bc9c-fc7227481be1,5,FALSE
+physician.familyMedicine.emergencyMedicine,emergencyMedicine,Emergency Medicine,b83d1423-5336-4203-af4f-22f60e19a41b,6,FALSE
+physician.familyMedicine.generalFamilyMedicine,generalFamilyMedicine,General Family Medicine,25fe2e6e-2c7a-4661-aa6f-ea6ec7d8c892,0,FALSE
+physician.familyMedicine.geriatricMedicine,geriatricMedicine,Geriatric Medicine,e692f5ab-b592-49f9-9105-d953e6638213,7,FALSE
+physician.familyMedicine.hIVAIDSMedicine,hIVAIDSMedicine,HIV/AIDS Medicine,e055be17-9017-4c5c-9640-55920f7edc4f,8,FALSE
+physician.familyMedicine.headacheMedicine,headacheMedicine,Headache Medicine,970ed957-b2af-48aa-beea-2e5c13248a3e,9,FALSE
+physician.familyMedicine.healthAndCulture,healthAndCulture,Health and Culture,2c9916af-7ebc-4d99-832f-58ff8cc728ab,10,FALSE
+physician.familyMedicine.healthcareResearchAndHealthcarePolicy,healthcareResearchAndHealthcarePolicy,Healthcare Research and Healthcare Policy,b8d23ff6-05da-40d4-8013-035a7892704b,11,FALSE
+physician.familyMedicine.hospiceAndPalliativeMedicine,hospiceAndPalliativeMedicine,Hospice & Palliative Medicine,6d8813ba-40ca-4baa-ae1e-cea2234f620b,12,FALSE
+physician.familyMedicine.hospitalMedicineHospitalist,hospitalMedicineHospitalist,Hospital Medicine / Hospitalist,cc8539a4-4eb1-4103-b6c3-1598e01ab856,13,FALSE
+physician.familyMedicine.hospitalPediatricsPediatricHospitalist,hospitalPediatricsPediatricHospitalist,Hospital Pediatrics / Pediatric Hospitalist,9f2b2729-56b3-4ae5-8943-8cd8b86df8b5,14,FALSE
+physician.familyMedicine.obesityAndWeightManagementPrimaryCare,obesityAndWeightManagementPrimaryCare,Obesity and Weight Management (Primary Care),06a68535-397c-43a3-bfcb-0a17e7452ecd,15,FALSE
+physician.familyMedicine.obstetrics,obstetrics,Obstetrics,be40cf04-4779-4234-88bc-2a777685f082,16,FALSE
+physician.familyMedicine.occupationalMedicine,occupationalMedicine,Occupational Medicine,220b8da8-0535-46fc-a6b7-a41fa046c0a1,17,FALSE
+physician.familyMedicine.preventiveMedicine,preventiveMedicine,Preventive Medicine,ae22a7a8-c76f-4d06-81b5-0840af45693d,18,FALSE
+physician.familyMedicine.sportsMedicineNonsurgical,sportsMedicineNonsurgical,Sports Medicine (Non surgical),b5898b2b-5c4b-4055-87f9-7434a7ee0b35,19,FALSE
+physician.familyMedicine.urgentCare,urgentCare,Urgent Care,af870685-7704-4727-b3b5-9af63b48aa5d,20,FALSE
+physician.familyMedicine.womensHealth,womensHealth,Women's Health,7a10c189-b5a3-4a48-91ae-db7d7e756b89,21,FALSE
+physician.gastroenterology,gastroenterology,Gastroenterology,76c46eae-ca64-47a7-8740-9776292602fc,11,FALSE
+physician.gastroenterology.advancedEndoscopicInterventional,advancedEndoscopicInterventional,Advanced Endoscopic Interventional,9ca3deaf-d7ef-4a18-9f54-6507aa75efe4,1,FALSE
+physician.gastroenterology.bariatricMedicine,bariatricMedicine,Bariatric Medicine,3119b33d-34b8-44e1-9d4f-d319f6abaadb,2,FALSE
+physician.gastroenterology.biliaryTractDisease,biliaryTractDisease,Biliary Tract Disease,cfbc629a-016f-4477-acb6-0ffd27594c4d,3,FALSE
+physician.gastroenterology.clinicalPharmacologyGastroenterology,clinicalPharmacologyGastroenterology,Clinical Pharmacology - Gastroenterology,6198d9b3-b030-48cc-ab3f-1210765efd7e,4,FALSE
+physician.gastroenterology.esophagusDisease,esophagusDisease,Esophagus Disease,aa8e45d0-7217-4b59-a9f4-192f5dbaeadc,5,FALSE
+physician.gastroenterology.gastrointestinalCancer,gastrointestinalCancer,Gastrointestinal Cancer,173613fe-2b33-4063-b343-8a9d582c7a69,6,FALSE
+physician.gastroenterology.gastrointestinalFunctionMotilityDisorders,gastrointestinalFunctionMotilityDisorders,Gastrointestinal Function & Motility Disorders,48afe9f9-6ca9-46b1-9b46-72c08ad0f9b7,7,FALSE
+physician.gastroenterology.generalGastroenterology,generalGastroenterology,General Gastroenterology,843ff8b1-c233-4a76-98ae-47101e03d1d1,0,FALSE
+physician.gastroenterology.hepatologyLiverTransplantation,hepatologyLiverTransplantation,Hepatology & Liver Transplantation,356705aa-34eb-4616-975d-a0fb8b01d35f,8,FALSE
+physician.gastroenterology.inflammatoryBowelDisease,inflammatoryBowelDisease,Inflammatory Bowel Disease,3bfeecf8-e4b0-4e2f-95fe-6d20a58545b5,9,FALSE
+physician.gastroenterology.malabsorption,malabsorption,Malabsorption,a7e4e827-bdbb-446f-a850-7c8f75182ba6,10,FALSE
+physician.gastroenterology.nutrition,nutrition,Nutrition,0ad80995-04d9-43d1-a11e-d51e46b77d63,11,FALSE
+physician.gastroenterology.pancreasDisease,pancreasDisease,Pancreas Disease,5c3f9e67-8e78-439d-a018-fc73a9df554c,12,FALSE
+physician.generalSurgery,generalSurgery,General Surgery,d0a276f9-b15e-42cf-b2fd-bc6b015efdcc,12,FALSE
+physician.generalSurgery.bariatricSurgery,bariatricSurgery,Bariatric Surgery,4240baea-73f2-4f95-87e5-e8f789eb8bed,1,FALSE
+physician.generalSurgery.breast,breast,Breast,e0b48e12-f3f8-47df-9cf8-959bc671edac,2,FALSE
+physician.generalSurgery.burn,burn,Burn,bfabb8e8-8db7-48ff-a8a8-d86213171dd4,3,FALSE
+physician.generalSurgery.clinicalPharmacologyGeneralSurgery,clinicalPharmacologyGeneralSurgery,Clinical Pharmacology - General Surgery,7757657a-d151-483f-b538-8a2797125074,4,FALSE
+physician.generalSurgery.colonRectalSurgery,colonRectalSurgery,Colon & Rectal Surgery,e14a90c6-90b4-471b-b972-7e8af91c1709,5,FALSE
+physician.generalSurgery.endocrine,endocrine,Endocrine,5eab25d8-97c4-446e-8683-7f68b1074cf9,6,FALSE
+physician.generalSurgery.generalSurgery,generalSurgery,General Surgery,727a342f-4ebe-422c-806b-01e11bb8caf6,0,FALSE
+physician.generalSurgery.hand,hand,Hand,f0533299-1a18-48d1-af31-ce693376d56e,7,FALSE
+physician.generalSurgery.hepatobiliarySurgery,hepatobiliarySurgery,Hepatobiliary Surgery,2ba976ea-b6aa-4eb3-8cda-fd057d2a30a0,8,FALSE
+physician.generalSurgery.minimallyInvasiveSurgery,minimallyInvasiveSurgery,Minimally Invasive Surgery,543e6a9f-1ed5-473a-95b8-2e11bfccfa1c,10,FALSE
+physician.generalSurgery.oralMaxillofacialSurgery,oralMaxillofacialSurgery,Oral & Maxillofacial Surgery,70d6a9aa-9ce3-4d94-b048-ac41b01a370e,11,FALSE
+physician.generalSurgery.pancreaticDisease,pancreaticDisease,Pancreatic Disease,7d5832da-e778-4fec-99b0-a187cd8d4a84,12,FALSE
+physician.generalSurgery.pediatricGeneralSurgery,pediatricGeneralSurgery,Pediatric General Surgery,70a007f8-8779-4c56-a036-554d440bf1a5,13,FALSE
+physician.generalSurgery.surgicalCriticalCare,surgicalCriticalCare,Surgical Critical Care,d9b5c596-e006-40fd-9456-b288883ae8fd,9,FALSE
+physician.generalSurgery.surgicalOncologyOtherThanBreast,surgicalOncologyOtherThanBreast,Surgical Oncology (Other than Breast),01d3eb6c-1211-47ba-af90-184a5b396744,14,FALSE
+physician.generalSurgery.transplantation,transplantation,Transplantation,1f6295c0-e141-447d-ab04-3432fd629139,15,FALSE
+physician.generalSurgery.traumaSurgery,traumaSurgery,Trauma Surgery,c7993a88-b658-4fe5-8d2b-1ebc035470f0,16,FALSE
+physician.generalSurgery.vascularSurgery,vascularSurgery,Vascular Surgery,b3ad3268-64e6-4128-8f32-e56e756c6fd9,17,FALSE
+physician.geriatrics,geriatrics,Geriatrics,f4d01c4a-78e4-4496-abc1-aedc6c495203,13,FALSE
+physician.geriatrics.clinicalPharmacologyGeriatrics,clinicalPharmacologyGeriatrics,Clinical Pharmacology - Geriatrics,b20800ca-38fd-4c24-beb3-d3462b862cf5,1,FALSE
+physician.geriatrics.dementia,dementia,Dementia,994b4fc3-6f32-4c3a-937f-67ea3331863a,2,FALSE
+physician.geriatrics.generalGeriatrics,generalGeriatrics,General Geriatrics,44e5b1ad-c8ea-426b-a153-0522987e410a,0,FALSE
+physician.geriatrics.hospiceAndPalliativeMedicine,hospiceAndPalliativeMedicine,Hospice & Palliative Medicine,5b5be1ec-1d5a-49d2-8c44-ca888890d13f,3,FALSE
+physician.hematology,hematology,Hematology,19de9fdc-78df-4def-95cc-6429aa7aaa44,14,FALSE
+physician.hematology.anemiasandHemoglobinopathies,anemiasandHemoglobinopathies,Anemias and Hemoglobinopathies,8ffe270a-57d7-4a05-9b9b-52fcd9da0239,6,FALSE
+physician.hematology.bleedingDisorders,bleedingDisorders,Bleeding Disorders,a7bad768-afad-4907-b796-e925ed1e7b89,5,FALSE
+physician.hematology.bloodBankingTransfusionMedicine,bloodBankingTransfusionMedicine,Blood Banking & Transfusion Medicine,e39d36e0-2c22-4ca7-9ce8-69f2ee43f278,1,FALSE
+physician.hematology.clinicalPharmacologyHematology,clinicalPharmacologyHematology,Clinical Pharmacology - Hematology,8b525e87-2650-4835-b0a9-8392551bf820,2,FALSE
+physician.hematology.generalHematology,generalHematology,General Hematology,14ed5387-a4e3-4715-9e4b-05a7856b9f69,0,FALSE
+physician.hematology.hematologicOncology,hematologicOncology,Hematologic Oncology,004db954-a04f-4e37-ae9e-a8163e7b3141,4,FALSE
+physician.hematology.thrombosis,thrombosis,Thrombosis,eff2668e-35bc-40d5-a117-95307c186317,3,FALSE
+physician.hospitalist,hospitalist,Hospitalist,77364f2e-e366-46ea-adf6-16256721f72d,15,FALSE
+physician.hospitalist.hospitalMedicine,hospitalMedicine,Hospital Medicine,ee4c7ec8-9370-476a-9648-2e2111ddbd4e,0,FALSE
+physician.infectiousDisease,infectiousDisease,Infectious Disease,a959ad30-43bb-42e5-99dc-bd3bef4fc875,16,FALSE
+physician.infectiousDisease.clinicalPharmacologyInfectiousDisease,clinicalPharmacologyInfectiousDisease,Clinical Pharmacology - Infectious Disease,8c8f6361-c68e-43e1-9eb3-2b78cd1f23c7,1,FALSE
+physician.infectiousDisease.generalInfectiousDisease,generalInfectiousDisease,General Infectious Disease,915307ef-2a06-4ff3-9b38-1586603c4738,0,FALSE
+physician.infectiousDisease.hIVAIDSMedicine,hIVAIDSMedicine,HIV/AIDS Medicine,af13b6d4-e3e5-4c0b-9a89-1b2b622a0f3e,2,FALSE
+physician.infectiousDisease.healthcareAssociatedInfections,healthcareAssociatedInfections,Healthcare Associated Infections,0ecf41e3-db07-4a6b-8781-866efc17304d,3,FALSE
+physician.infectiousDisease.internationalHealthTravelTropical,internationalHealthTravelTropical,"International Health, Travel & Tropical",b80bca70-030a-4eb0-805e-429973cc0c72,4,FALSE
+physician.infectiousDisease.microbiology,microbiology,Microbiology,384dadd1-970c-4a24-a507-33062bafddfd,5,FALSE
+physician.infectiousDisease.mycobacterialDisease,mycobacterialDisease,Mycobacterial Disease,6b52c416-f07b-4210-bb59-7fadc01a5d73,6,FALSE
+physician.infectiousDisease.sTDMedicine,sTDMedicine,STD Medicine,7faf7ac4-121f-4928-bf44-47012f4b36d2,7,FALSE
+physician.infectiousDisease.transplantImmunocompromisedStates,transplantImmunocompromisedStates,Transplant/Immunocompromised States,008de804-637f-4c01-8def-4e00082fca79,8,FALSE
+physician.integrativeMedicine,integrativeMedicine,Integrative Medicine,4c6c3eac-fe39-4c95-a06a-2da57da1b9fb,17,FALSE
+physician.internalMedicine,internalMedicine,Internal Medicine,32570ec1-710e-4c5f-9fc0-f942f398bd87,18,FALSE
+physician.internalMedicine.addictionMedicine,addictionMedicine,Addiction Medicine,3dcf702f-1ea5-4ea6-a8f9-fd1b4bd59b01,1,FALSE
+physician.internalMedicine.adolescentMedicine,adolescentMedicine,Adolescent Medicine,194a3fae-9dab-458d-8fb9-dc6c56fef34f,2,FALSE
+physician.internalMedicine.adultClinicalLaboratory,adultClinicalLaboratory,Adult Clinical & Laboratory,c25d85ab-b924-4822-89a3-9ee7d69003d3,3,FALSE
+physician.internalMedicine.allergyImmunology,allergyImmunology,Allergy & Immunology,4d7a666f-fcc8-4720-aadc-12b35dec9f66,4,FALSE
+physician.internalMedicine.bariatricMedicine,bariatricMedicine,Bariatric Medicine,f71992c8-fe11-4be0-894a-88f391a88148,5,FALSE
+physician.internalMedicine.behavioralMedicine,behavioralMedicine,Behavioral Medicine,a158f92b-fd3e-4107-97c1-6ac7d860aeff,6,FALSE
+physician.internalMedicine.cardiology,cardiology,Cardiology,4b8e0e11-830a-4deb-bcdb-fc53d21994ac,7,FALSE
+physician.internalMedicine.clinicalPharmacologyInternalMedicine,clinicalPharmacologyInternalMedicine,Clinical Pharmacology - Internal Medicine,e5665e24-7e41-4462-bf4c-95c0e1322dca,8,FALSE
+physician.internalMedicine.criticalCareMedicine,criticalCareMedicine,Critical Care Medicine,2a9b0d5f-aac1-47eb-a0ae-749d67526b7b,10,FALSE
+physician.internalMedicine.endocrinology,endocrinology,Endocrinology,806ac537-3fda-4646-8d76-98a98f07a0d9,11,FALSE
+physician.internalMedicine.gastroenterology,gastroenterology,Gastroenterology,08824d69-eeae-4f47-a57c-d18f70ced16b,12,FALSE
+physician.internalMedicine.generalInternalMedicine,generalInternalMedicine,General Internal Medicine,d6a3de6c-168e-49ba-b4ab-7cd40e6563c3,0,FALSE
+physician.internalMedicine.geriatrics,geriatrics,Geriatrics,a0b4a7cb-760e-46c0-a480-f5c3d76dac87,13,FALSE
+physician.internalMedicine.hIVAIDS,hIVAIDS,HIV/AIDS,58d60d05-4cf2-47a7-bf6a-7b14ed43b245,14,FALSE
+physician.internalMedicine.hematologyOncology,hematologyOncology,Hematology-Oncology,dcb7744c-080a-4691-938d-fe7dd695f83b,15,FALSE
+physician.internalMedicine.hospiceAndPalliativeMedicine,hospiceAndPalliativeMedicine,Hospice & Palliative Medicine,1c9b3a12-d914-42ef-80d0-5e98e1e0ee3d,16,FALSE
+physician.internalMedicine.hospitalMedicineHospitalist,hospitalMedicineHospitalist,Hospital Medicine / Hospitalist,ba263d0a-1d65-49cd-85b6-11e465442900,17,FALSE
+physician.internalMedicine.infectiousDisease,infectiousDisease,Infectious Disease,4db8d35c-732d-4fe1-bf26-c7a99a8c5a66,18,FALSE
+physician.internalMedicine.integrativeMedicine,integrativeMedicine,Integrative Medicine,d890088e-bd78-4012-ab77-a2804865df47,9,FALSE
+physician.internalMedicine.medicalInformationSciences,medicalInformationSciences,Medical Information Sciences,cf842cdc-5603-4d45-81fb-a22e39f646ec,19,FALSE
+physician.internalMedicine.medicalOncology,medicalOncology,Medical Oncology,d3693578-f966-47f6-b374-966c6778ba1c,21,FALSE
+physician.internalMedicine.nephrology,nephrology,Nephrology,a4687b56-9b18-4616-a4a8-d37370af03c4,20,FALSE
+physician.internalMedicine.occupationalMedicine,occupationalMedicine,Occupational Medicine,9bf7fcfe-0992-4177-a48f-3cba490fcb70,22,FALSE
+physician.internalMedicine.painMedicine,painMedicine,Pain Medicine,68f33e9c-781f-4681-812b-e9ed6cfa0266,23,FALSE
+physician.internalMedicine.preventiveMedicine,preventiveMedicine,Preventive Medicine,6bd79f35-9246-4040-ba4b-f0615ae486c5,24,FALSE
+physician.internalMedicine.pulmonology,pulmonology,Pulmonology,c34df91f-4c53-4461-b36b-470f31930c11,25,FALSE
+physician.internalMedicine.rheumatology,rheumatology,Rheumatology,8e64e783-b989-45f6-aa10-0bd4ffdb16ff,26,FALSE
+physician.internalMedicine.sTIMedicine,sTIMedicine,STI Medicine,e6b55f37-a5b3-4b7e-a3a2-d80a5405a956,27,FALSE
+physician.internalMedicine.sleepMedicine,sleepMedicine,Sleep Medicine,e63788ee-736a-4d4e-81b9-3e61f1e50db4,28,FALSE
+physician.internalMedicine.sportsMedicine,sportsMedicine,Sports Medicine,5eeb1c3b-674f-494c-915f-48a50b964d99,29,FALSE
+physician.internalMedicine.travelPreparationVaccinations,travelPreparationVaccinations,Travel Preparation & Vaccinations,9f8034bf-2be1-4a29-8cb4-f495d3e1ee7f,30,FALSE
+physician.internalMedicine.vascularMedicine,vascularMedicine,Vascular Medicine,f2daf2f1-b528-49e8-b7e1-88deca419ee6,31,FALSE
+physician.internalMedicine.womensHealth,womensHealth,Women's Health,2726f0b7-e518-43b2-ada1-266f4b4882ec,32,FALSE
+physician.interventionalRadiology,interventionalRadiology,Interventional Radiology,cb557de2-8d34-4687-a167-ed190212ef88,19,FALSE
+physician.interventionalRadiology.diagnosticRadiology,diagnosticRadiology,Diagnostic Radiology,11922091-c879-4306-9b70-8c1a1af0eda8,1,FALSE
+physician.interventionalRadiology.generalInterventionalRadiology,generalInterventionalRadiology,General Interventional Radiology,c059c3b9-ba3b-47a2-8c8c-8839d544053c,0,FALSE
+physician.medicalGenetics,medicalGenetics,Medical Genetics,a7089af3-85f2-46e3-9d57-a38154694245,20,FALSE
+physician.medicalGenetics.biochemicalOrMolecularGenetics,biochemicalOrMolecularGenetics,Biochemical or Molecular Genetics,d4669e23-1f45-4bbd-b3c3-b6158b67b064,1,FALSE
+physician.medicalGenetics.clinicalCytogenetics,clinicalCytogenetics,Clinical Cytogenetics,d0b73f04-7215-4ad8-9be2-5c6f1195999b,2,FALSE
+physician.medicalGenetics.clinicalGenetics,clinicalGenetics,Clinical Genetics,4d209132-f5f4-4325-a71c-b5fc34369e6f,3,FALSE
+physician.medicalGenetics.generalMedicalGenetics,generalMedicalGenetics,General Medical Genetics,21e21886-89d0-4ddb-a933-e01e6195b332,0,FALSE
+physician.medicalGenetics.molecularGeneticPathology,molecularGeneticPathology,Molecular Genetic Pathology,b47bf42c-ff1b-4dd5-8f1f-4711a3cd1bcb,4,FALSE
+physician.medicalGenetics.pediatricMedicalGenetics,pediatricMedicalGenetics,Pediatric Medical Genetics,73df9f96-e82c-46c2-81a3-ff02abc60750,5,FALSE
+physician.medicinePediatrics,medicinePediatrics,Medicine/Pediatrics,38929b09-6628-4182-9436-6009571b1d54,21,FALSE
+physician.medicinePediatrics.clinicalPharmacologyPediatrics,clinicalPharmacologyPediatrics,Clinical Pharmacology - Pediatrics,6483c72f-2015-4705-991a-c863c36fd6dc,1,FALSE
+physician.medicinePediatrics.generalMedicinePediatrics,generalMedicinePediatrics,General Medicine/Pediatrics,1584c472-d484-44c5-be96-ce37baa8291f,0,FALSE
+physician.neonatPerinatology,neonatPerinatology,Neonat/Perinatology,15b9efc4-2c07-4b40-81a8-3a4c85048d3c,22,FALSE
+physician.neonatPerinatology.birthDefectGenetics,birthDefectGenetics,Birth Defect Genetics,13d0fe92-1d14-4425-80a4-bcc68a49c4b7,1,FALSE
+physician.neonatPerinatology.clinicalPharmacologyNeonat,clinicalPharmacologyNeonat,Clinical Pharmacology - Neonat,c08eee63-6905-4b53-b8a9-e318016d3caa,2,FALSE
+physician.neonatPerinatology.generalNeonatology,generalNeonatology,General Neonatology,2a395604-6c0e-46bc-b94b-e7fd95579351,0,FALSE
+physician.neonatPerinatology.highRiskInfantFollowup,highRiskInfantFollowup,High Risk Infant Follow-up,379ba145-5991-4c0f-a759-e7f6e435499d,3,FALSE
+physician.neonatPerinatology.neonatalEthics,neonatalEthics,Neonatal Ethics,908b6ef5-bb25-4102-9e39-2c54ec9528e8,4,FALSE
+physician.neonatPerinatology.neonatalInfections,neonatalInfections,Neonatal Infections,475bcadc-bb5c-4c22-b0e7-08dcbcf8b2a4,5,FALSE
+physician.neonatPerinatology.neonatalNeurodevelopment,neonatalNeurodevelopment,Neonatal Neurodevelopment,548a86a7-e9a5-4597-aa40-d8ad975e7df9,6,FALSE
+physician.neonatPerinatology.neonatalRespiratoryFailureLungDevelopment,neonatalRespiratoryFailureLungDevelopment,Neonatal Respiratory Failure & Lung Development,167504f7-03ce-44ba-a5da-ca3c899c63c1,7,FALSE
+physician.nephrology,nephrology,Nephrology,031df20d-01c7-4c6a-b48a-7b86f25a8a13,23,FALSE
+physician.nephrology.acuteRenalFailure,acuteRenalFailure,Acute Renal Failure,39b382aa-e03f-4707-bdad-e8b3f5903ee5,1,FALSE
+physician.nephrology.chronicRenalFailureDialysis,chronicRenalFailureDialysis,Chronic Renal Failure & Dialysis,af19f375-2300-486c-a326-9eda45f223a0,2,FALSE
+physician.nephrology.clinicalPharmacologyNephrology,clinicalPharmacologyNephrology,Clinical Pharmacology - Nephrology,3ba8b85f-f263-4780-8d1b-ffbf951fa232,3,FALSE
+physician.nephrology.criticalCare,criticalCare,Critical Care,4d54d3d1-3867-4ead-841d-8aa27e03573f,4,FALSE
+physician.nephrology.generalNephrology,generalNephrology,General Nephrology,952be305-6134-4506-babc-27b36f9a36f3,0,FALSE
+physician.nephrology.glomerularDisease,glomerularDisease,Glomerular Disease,68cc8fb0-0ca1-4420-a0d8-ed07de2b36e7,5,FALSE
+physician.nephrology.hereditaryKidneyDiseaseGenetics,hereditaryKidneyDiseaseGenetics,Hereditary Kidney Disease Genetics,27f3946b-390d-4a07-831d-0915693a3841,6,FALSE
+physician.nephrology.hypertension,hypertension,Hypertension,2413c1f7-ec97-44a4-ac95-7552737c76e2,7,FALSE
+physician.nephrology.interventionalNephrology,interventionalNephrology,Interventional Nephrology,af8b5e6e-2c56-411b-818c-e59987b4250e,8,FALSE
+physician.nephrology.kidneyPancreasTransplantation,kidneyPancreasTransplantation,Kidney & Pancreas Transplantation,4c6bc0b8-49fe-4cea-9f36-b2aa681c0bbd,9,FALSE
+physician.nephrology.renalImaging,renalImaging,Renal Imaging,99621d3a-7cba-4a88-a2c6-b655ef2081e9,10,FALSE
+physician.nephrology.renalMetabolism,renalMetabolism,Renal Metabolism,cd139722-b244-47e0-a12c-3495fac95288,11,FALSE
+physician.nephrology.renovascularMedicine,renovascularMedicine,Renovascular Medicine,f8d3745a-9e13-4f59-9a7c-17887a735dad,12,FALSE
+physician.neurology,neurology,Neurology,128d3a24-efc1-4222-a162-30a917caff5a,24,FALSE
+physician.neurology.addictionMedicine,addictionMedicine,Addiction Medicine,d9d3540a-8a82-4ec5-995d-b3281e9d131f,1,FALSE
+physician.neurology.balanceDisorders,balanceDisorders,Balance Disorders,c045872d-ce68-415f-8836-03d78c6aeb17,2,FALSE
+physician.neurology.behavioralNeurologyAndNeuropsychiatry,behavioralNeurologyAndNeuropsychiatry,Behavioral Neurology and Neuropsychiatry,801d63d5-63a9-4bbe-9b3d-469ce556b7bc,3,FALSE
+physician.neurology.childNeurology,childNeurology,Child Neurology,466c7b7d-fb87-4273-994e-58febe771606,4,FALSE
+physician.neurology.clinicalPharmacologyNeurology,clinicalPharmacologyNeurology,Clinical Pharmacology - Neurology,b8349afe-c358-4e06-b8d4-6021ef539a14,5,FALSE
+physician.neurology.clinicalResearch,clinicalResearch,Clinical Research,0cfded2a-ccb7-4154-b5e6-7824ca832874,6,FALSE
+physician.neurology.cognitiveDisorders,cognitiveDisorders,Cognitive Disorders,c7f08a2c-d988-40da-9634-ecdf1b28549a,7,FALSE
+physician.neurology.dementiaGeriatrics,dementiaGeriatrics,Dementia & Geriatrics,d4659548-62b5-4574-a91f-8ce1c4c37ae5,8,FALSE
+physician.neurology.epilepsy,epilepsy,Epilepsy,495c6481-ba81-4b1a-998f-ef17b614ffec,9,FALSE
+physician.neurology.generalNeurology,generalNeurology,General Neurology,111cb39c-9dcc-40ed-ac5d-77f0d6bf39dd,0,FALSE
+physician.neurology.headache,headache,Headache,0bc8d259-80d2-4d98-8666-3496c3072866,10,FALSE
+physician.neurology.interventionalNeurology,interventionalNeurology,Interventional Neurology,f7694da3-b08e-438a-beeb-edf60c67ee6c,11,FALSE
+physician.neurology.movementDisorder,movementDisorder,Movement Disorder,9b6d892c-f9f6-423b-b0c6-0563a4644577,12,FALSE
+physician.neurology.multipleSclerosis,multipleSclerosis,Multiple Sclerosis,ef210938-09e8-4a01-83ef-4740cdbdc7f3,13,FALSE
+physician.neurology.neuroOncology,neuroOncology,Neuro Oncology,fb947952-c6e6-40e4-b6a0-49593ef0a39e,23,FALSE
+physician.neurology.neuroOphthalmology,neuroOphthalmology,Neuro-Ophthalmology,f202d631-7b80-4913-9955-accd557b4784,14,FALSE
+physician.neurology.neurocriticalCare,neurocriticalCare,Neurocritical Care,849a2530-00bf-45c4-a846-b0a4d2074a02,15,FALSE
+physician.neurology.neurodegenerativeDiseases,neurodegenerativeDiseases,Neurodegenerative Diseases,15663c7b-0bc9-4f58-8585-0b720df2800b,16,FALSE
+physician.neurology.neurodevelopmentalDisabilities,neurodevelopmentalDisabilities,Neurodevelopmental Disabilities,f8dba3f4-91a3-434c-974d-c86427689b8d,17,FALSE
+physician.neurology.neuroendocrinology,neuroendocrinology,Neuroendocrinology,48fac51d-2206-48d6-802f-66deeb3fafc5,18,FALSE
+physician.neurology.neuroimaging,neuroimaging,Neuroimaging,819c5aa8-97e9-456f-87c0-b906507db21c,19,FALSE
+physician.neurology.neuroimmunology,neuroimmunology,Neuroimmunology,7ef274d7-6625-4f0c-acf1-9fb83cca860a,20,FALSE
+physician.neurology.neuroinfectiousDiseases,neuroinfectiousDiseases,Neuroinfectious Diseases,9f53192e-dc04-440d-aa1d-ce7ed3babaed,21,FALSE
+physician.neurology.neuromuscularMedicine,neuromuscularMedicine,Neuromuscular Medicine,90fcd537-0932-42eb-93ea-74f64ae4f8f9,22,FALSE
+physician.neurology.neurophysiology,neurophysiology,Neurophysiology,434190dc-65d1-49a6-b4e3-cf5530a0a0cc,24,FALSE
+physician.neurology.neurorehabilitation,neurorehabilitation,Neurorehabilitation,1ba6cf65-3d1d-4a1f-bff0-0d4ee016ffa5,25,FALSE
+physician.neurology.otoneurology,otoneurology,Otoneurology,f1fb3afb-bc4c-4171-821e-167c3ccf9885,26,FALSE
+physician.neurology.painMedicine,painMedicine,Pain Medicine,4b657dbe-868d-4aa9-a627-6a9713495ad4,27,FALSE
+physician.neurology.preventiveMedicine,preventiveMedicine,Preventive Medicine,0439f978-c70f-4f76-9f44-fc8024fa81c6,28,FALSE
+physician.neurology.sleepMedicine,sleepMedicine,Sleep Medicine,9423cdcf-d451-4ab2-aae5-9c4f7fd0ed65,29,FALSE
+physician.neurology.stroke,stroke,Stroke,9edaca4a-e1c0-44bb-950c-bce090e9c63f,30,FALSE
+physician.neurology.strokeSpinalDisorder,strokeSpinalDisorder,Stroke Spinal Disorder,d44e99b0-676a-43df-93e1-c2e639dd35fd,31,FALSE
+physician.neurology.vascularNeurology,vascularNeurology,Vascular Neurology,c0c74d4a-1bdb-43fe-bd69-efa3fc4661e4,32,FALSE
+physician.neurosurgery,neurosurgery,Neurosurgery,e0f03fc8-cdb6-4641-9b4e-c809a41559ee,25,FALSE
+physician.neurosurgery.brainSpinalTumor,brainSpinalTumor,Brain & Spinal Tumor,4cafad86-9351-410d-b327-60196f977fa2,1,FALSE
+physician.neurosurgery.cerebrovascular,cerebrovascular,Cerebrovascular,8183d0de-580d-431e-9164-0737fe2b2f73,2,FALSE
+physician.neurosurgery.clinicalPharmacologyNeurosurgery,clinicalPharmacologyNeurosurgery,Clinical Pharmacology - Neurosurgery,ca534b22-f2a1-4d4e-96e1-ace0f143f123,3,FALSE
+physician.neurosurgery.epilepsySurgery,epilepsySurgery,Epilepsy Surgery,2de13335-3ac4-426b-8774-a30f33872772,4,FALSE
+physician.neurosurgery.generalNeurosurgery,generalNeurosurgery,General Neurosurgery,99fa750a-4d8c-4759-8b4f-82046b3dca9e,0,FALSE
+physician.neurosurgery.interventionalNeuroradiology,interventionalNeuroradiology,Interventional Neuroradiology,9b30cec1-3f1d-455f-8d96-28c62bb5f224,5,FALSE
+physician.neurosurgery.neurocriticalCare,neurocriticalCare,Neurocritical Care,5d30211d-2def-439a-bc6a-0b1ff29e07fc,6,FALSE
+physician.neurosurgery.neurosurgicalSpineSurgery,neurosurgicalSpineSurgery,Neurosurgical Spine Surgery,797655b4-bfc3-46ae-ac7b-0b86509b781b,7,FALSE
+physician.neurosurgery.neurotrauma,neurotrauma,Neurotrauma,52e23ec5-bb26-4182-8eef-e4e3c4319c80,8,FALSE
+physician.neurosurgery.pain,pain,Pain,0a71a5f1-e056-41cf-8125-40887a7f4407,9,FALSE
+physician.neurosurgery.pediatricNeurosurgery,pediatricNeurosurgery,Pediatric Neurosurgery,85e8eb6a-bdf7-4742-a617-dd396d876d9f,10,FALSE
+physician.neurosurgery.peripheralNerve,peripheralNerve,Peripheral Nerve,1fb660e1-fa0e-4352-ad24-7679594e9c52,11,FALSE
+physician.neurosurgery.pituitarySurgery,pituitarySurgery,Pituitary Surgery,a46c6434-a90d-444d-ab3f-3e47c023ac79,12,FALSE
+physician.neurosurgery.skullBase,skullBase,Skull Base,ab88b463-663f-4229-98b1-d1f82f6a6fa4,13,FALSE
+physician.neurosurgery.stereotacticFunctionalNeurosurgery,stereotacticFunctionalNeurosurgery,Stereotactic & Functional Neurosurgery,bd0a8122-a78a-4db0-9814-1e91a15cb597,14,FALSE
+physician.neurosurgery.traumaNeurosurgery,traumaNeurosurgery,Trauma Neurosurgery,6ba67132-cb97-4cb2-9843-c1cea3540e00,15,FALSE
+physician.neurosurgery.tumorNeurosurgery,tumorNeurosurgery,Tumor Neurosurgery,073c04bd-db42-43c7-8bca-4ac99f9f67ae,16,FALSE
+physician.neurosurgery.vascularNeurosurgery,vascularNeurosurgery,Vascular Neurosurgery,e581fc59-68d9-401c-8f1f-90a57a25cff5,17,FALSE
+physician.nuclearMedicine,nuclearMedicine,Nuclear Medicine,fca7ee54-394e-475d-8982-5582d3e19c84,26,FALSE
+physician.nuclearMedicine.generalNuclearMedicine,generalNuclearMedicine,General nuclear medicine,e04c6cec-5443-4a69-ad25-2106f2889e0a,0,FALSE
+physician.obstetricsGynecology,obstetricsGynecology,Obstetrics & Gynecology,ba0ebf51-7a67-4fb4-86f7-5f912136a6a8,27,FALSE
+physician.obstetricsGynecology.birthDefectFetalTreatment,birthDefectFetalTreatment,Birth Defect & Fetal Treatment,1249a875-a99e-49c8-9a04-def3310e96c8,3,FALSE
+physician.obstetricsGynecology.clinicalPharmacologyOBGYN,clinicalPharmacologyOBGYN,Clinical Pharmacology - OBGYN,c9f22915-94b0-4003-9c19-0706c1176152,4,FALSE
+physician.obstetricsGynecology.generalGynecology,generalGynecology,General Gynecology,9a7b93a8-f53f-4b2c-9c52-55721f9a3f16,0,FALSE
+physician.obstetricsGynecology.generalObstetrics,generalObstetrics,General Obstetrics,4675a7d3-1603-41ed-a77a-34193460e8be,1,FALSE
+physician.obstetricsGynecology.generalObstetricsGynecology,generalObstetricsGynecology,General Obstetrics & Gynecology,74361d7e-a5d9-4fb8-9562-4d6e6c5ff36c,2,FALSE
+physician.obstetricsGynecology.gynecologicOncology,gynecologicOncology,Gynecologic Oncology,9612266e-3e63-4d9a-bc61-0986399daf0c,5,FALSE
+physician.obstetricsGynecology.hospiceAndPalliativeMedicine,hospiceAndPalliativeMedicine,Hospice & Palliative Medicine,20be32b1-c372-4aa7-aacc-c8587ece863b,6,FALSE
+physician.obstetricsGynecology.maternalFetalMedicineHighRisk,maternalFetalMedicineHighRisk,Maternal & Fetal Medicine/High Risk,d280b24a-ec5e-4e10-9886-745103378d50,7,FALSE
+physician.obstetricsGynecology.minimallyInvasiveEndoscopicSurgery,minimallyInvasiveEndoscopicSurgery,Minimally Invasive/Endoscopic Surgery,a984d2f7-781f-4917-9981-49c6441ba5a1,8,FALSE
+physician.obstetricsGynecology.pediatricGynecology,pediatricGynecology,Pediatric Gynecology,1289d0db-c723-44dc-a0ab-c23d30a12ba1,9,FALSE
+physician.obstetricsGynecology.pelvicReconstructiveSurgery,pelvicReconstructiveSurgery,Pelvic Reconstructive Surgery,3cb78531-ef50-4378-93fa-299d5431c8ea,13,FALSE
+physician.obstetricsGynecology.reproductiveEndocrinologyFertility,reproductiveEndocrinologyFertility,Reproductive Endocrinology & Fertility,a21345db-8aad-489d-8613-e50d6d716a27,10,FALSE
+physician.obstetricsGynecology.reproductiveGenetics,reproductiveGenetics,Reproductive Genetics,bfb27021-9be7-4cf7-8c00-633cb7de84b3,11,FALSE
+physician.obstetricsGynecology.sTDGynecology,sTDGynecology,STD Gynecology,d722731f-7089-4632-bd3d-439828bdec5c,12,FALSE
+physician.obstetricsGynecology.urogynecology,urogynecology,Urogynecology,ceeab4c5-a801-48c5-9f3d-61781257a213,14,FALSE
+physician.occupationalMedicine,occupationalMedicine,Occupational Medicine,b4cf682d-8a91-4551-9a6b-8f591c1326c1,28,FALSE
+physician.occupationalMedicine.generalOccupationalMedicine,generalOccupationalMedicine,General Occupational Medicine,4205e05a-d625-49cb-b4f3-22ce7dda5df5,0,FALSE
+physician.oncologist,oncologist,Oncologist,76038adf-bb54-42d4-8024-e8fd36a28a94,29,FALSE
+physician.oncologist.bladderCancer,bladderCancer,Bladder Cancer,594414e8-36f7-4769-a8ce-3e67bc4b8f33,3,FALSE
+physician.oncologist.bloodCancer,bloodCancer,Blood Cancer,1c39904b-038d-4b18-9deb-b76716c33865,4,FALSE
+physician.oncologist.boneCancer,boneCancer,Bone Cancer,d0ceeec2-2382-4f29-864d-a65a3588bc11,5,FALSE
+physician.oncologist.brainCancer,brainCancer,Brain Cancer,2b34ceba-d1d5-4b09-b891-8c516d04a8dc,1,FALSE
+physician.oncologist.breastCancer,breastCancer,Breast Cancer,3b14b339-c113-4123-b85e-eb191f61a1f5,2,FALSE
+physician.oncologist.cancerGeneticsCancerRiskAssessment,cancerGeneticsCancerRiskAssessment,Cancer Genetics/Cancer Risk Assessment,785a33ee-481d-43f4-98da-4352fb8fdea1,6,FALSE
+physician.oncologist.cervixCancer,cervixCancer,Cervix Cancer,48275fd9-9da1-43e0-b263-919240c125bb,9,FALSE
+physician.oncologist.clinicalPharmacologyOncology,clinicalPharmacologyOncology,Clinical Pharmacology - Oncology,ac9be1b5-f333-471d-a7e8-858153e7a3a6,7,FALSE
+physician.oncologist.colonAndRectalCancer,colonAndRectalCancer,Colon & Rectal Cancer,406c457f-34e6-42e6-8ba1-436b4198bdd0,8,FALSE
+physician.oncologist.cutaneousLymphoma,cutaneousLymphoma,Cutaneous Lymphoma,8d7f0fa9-6071-44c9-a1b8-f85b5ad98560,10,FALSE
+physician.oncologist.endocrineCancer,endocrineCancer,Endocrine Cancer,1b9b5b22-b67a-420b-a193-9926102e366f,11,FALSE
+physician.oncologist.endometrialCancer,endometrialCancer,Endometrial Cancer,94637954-150c-4639-824b-9842daebfb7b,12,FALSE
+physician.oncologist.esophagealCancer,esophagealCancer,Esophageal Cancer,09747b34-c455-440d-a12e-143870f92a8d,13,FALSE
+physician.oncologist.gastrointestinalCancer,gastrointestinalCancer,Gastrointestinal Cancer,20f33dd1-5643-430c-8335-745735261611,14,FALSE
+physician.oncologist.generalOncology,generalOncology,General Oncology,f8c4206c-64f3-49fa-a1a6-801b6dfbdd59,0,FALSE
+physician.oncologist.genitourinaryOncology,genitourinaryOncology,Genitourinary Oncology,e9d45c94-164d-47a7-95ad-a30e0dfb94b8,15,FALSE
+physician.oncologist.gynecologicCancer,gynecologicCancer,Gynecologic Cancer,057c1416-c06c-413f-a506-9b0f6a2d84cf,16,FALSE
+physician.oncologist.headNeckCancer,headNeckCancer,Head & Neck Cancer,7d6146f7-c54a-4ca0-8252-87741040a0fd,17,FALSE
+physician.oncologist.hematologicOncology,hematologicOncology,Hematologic Oncology,e3e9d39e-d1bf-4234-8219-0f920404cf61,18,FALSE
+physician.oncologist.hospicePalliative,hospicePalliative,Hospice & Palliative,56aaebe4-6d5b-4c5c-9a9e-5f718a3fea00,19,FALSE
+physician.oncologist.liverCancer,liverCancer,Liver Cancer,1f5283ef-7444-4b63-8a70-5d9b669bb805,20,FALSE
+physician.oncologist.lungCancer,lungCancer,Lung Cancer,fd9230f3-5ee8-4b1f-bc46-482fa02187e0,21,FALSE
+physician.oncologist.lymphoma,lymphoma,Lymphoma,b09600df-dc71-4021-ad0f-0bd5fdb37d5e,22,FALSE
+physician.oncologist.melanoma,melanoma,Melanoma,25b37fad-577c-4d43-86ed-261d983bedd7,23,FALSE
+physician.oncologist.mensHealth,mensHealth,Men's Health,78ba5863-3726-414b-9bb0-973d9b403387,24,FALSE
+physician.oncologist.neuroOncology,neuroOncology,Neuro Oncology,291c7723-869a-4177-8968-5206f82687ac,25,FALSE
+physician.oncologist.ovarianCancer,ovarianCancer,Ovarian Cancer,ddf7afcf-7b0b-4dcb-91a0-9084e6dd0731,26,FALSE
+physician.oncologist.pancreaticCancer,pancreaticCancer,Pancreatic Cancer,fde4b714-0932-4f12-a657-564c36116e99,27,FALSE
+physician.oncologist.prostateCancer,prostateCancer,Prostate Cancer,0065ace8-b560-49ce-89de-fb2a4c78f4f0,28,FALSE
+physician.oncologist.sarcoma,sarcoma,Sarcoma,659918f0-16b4-4fd7-9683-0fa4bdf431ee,29,FALSE
+physician.oncologist.skinCancer,skinCancer,Skin Cancer,b0972e85-d83d-4bfb-8941-f936eb09b166,30,FALSE
+physician.oncologist.stomachCancer,stomachCancer,Stomach Cancer,9fe041c2-e25b-487c-8cb9-14465f81857f,31,FALSE
+physician.oncologist.testisCancer,testisCancer,Testis Cancer,5ee22602-7285-48a2-8bf0-5178e07c8db6,34,FALSE
+physician.oncologist.thoracicCancer,thoracicCancer,Thoracic Cancer,7a4fe1fa-4af5-409b-bf8b-b4dcb1419d66,32,FALSE
+physician.oncologist.thyroidCancer,thyroidCancer,Thyroid Cancer,65d494c6-6161-4c17-9e0a-532a4f9dfc0a,33,FALSE
+physician.ophthalmology,ophthalmology,Ophthalmology,8eb7dd00-4c83-47f6-97da-57897b83a077,30,FALSE
+physician.ophthalmology.anteriorSegmentRelated,anteriorSegmentRelated,Anterior Segment Related,f6ee828e-670a-45de-b60e-abdadda83e38,1,FALSE
+physician.ophthalmology.cataracts,cataracts,Cataracts,3e42b3f3-cd15-4f29-8cab-99c45355c6ac,2,FALSE
+physician.ophthalmology.clinicalPharmacologyOpthalmology,clinicalPharmacologyOpthalmology,Clinical Pharmacology - Opthalmology,98244ada-b4bb-42b9-aae8-086eb5834f00,3,FALSE
+physician.ophthalmology.corneaExternalDisease,corneaExternalDisease,Cornea & External Disease,e8e9f2c8-e8a5-41fc-99e3-e3b89438e75c,5,FALSE
+physician.ophthalmology.generalOphthalmology,generalOphthalmology,General Ophthalmology,3a69b6d9-1640-4711-99bb-f483c09a5fcd,0,FALSE
+physician.ophthalmology.glaucoma,glaucoma,Glaucoma,ca8306c3-3d0b-44d9-97cd-4a15500fee65,6,FALSE
+physician.ophthalmology.laserCorrection,laserCorrection,Laser Correction,0e54747e-9ee4-4f97-a0f0-892c5500ef7d,4,FALSE
+physician.ophthalmology.neuroOphthalmology,neuroOphthalmology,Neuro-Ophthalmology,2440c45a-4add-4f86-9498-a80c845fed1e,8,FALSE
+physician.ophthalmology.ocularOncology,ocularOncology,Ocular Oncology,8397728a-56c5-455b-bdfe-b136485e9e05,9,FALSE
+physician.ophthalmology.oculoplasticOrbitalReconstructiveSurgery,oculoplasticOrbitalReconstructiveSurgery,Oculoplastic & Orbital Reconstructive Surgery,bf835164-b85b-4ead-ac8b-7efa7bf33cc3,10,FALSE
+physician.ophthalmology.pediatricStrabismus,pediatricStrabismus,Pediatric & Strabismus,2cc9fae4-4145-4392-95de-33ee55d2f7d5,11,FALSE
+physician.ophthalmology.refractiveSurgery,refractiveSurgery,Refractive Surgery,39918ee9-a7a6-4572-be38-922fc3e70c09,12,FALSE
+physician.ophthalmology.retina,retina,Retina,b9545f89-0786-4f09-b410-3286040ffe76,7,FALSE
+physician.ophthalmology.retinalDisease,retinalDisease,Retinal Disease,4ab60c66-bef8-444e-b5bb-13761eea2864,13,FALSE
+physician.ophthalmology.uveitis,uveitis,Uveitis,4ad6e47c-ff7b-4795-82a0-169583dfbd82,14,FALSE
+physician.oralMaxillofacialSurgery,oralMaxillofacialSurgery,Oral & Maxillofacial Surgery,58bc41ea-8105-4002-82d0-24acee2decdf,31,FALSE
+physician.oralMaxillofacialSurgery.clinicalPharmacologyOralAndMaxillofacialSurgery,clinicalPharmacologyOralAndMaxillofacialSurgery,Clinical Pharmacology - Oral and Maxillofacial Surgery,b217b667-b842-42cb-965e-9a6b87ce8ca5,1,FALSE
+physician.oralMaxillofacialSurgery.facialCosmeticSurgery,facialCosmeticSurgery,Facial Cosmetic Surgery,0bf3f297-ad53-4028-9360-c6d90a5f4d62,2,FALSE
+physician.oralMaxillofacialSurgery.generalOralMaxillofacial,generalOralMaxillofacial,General Oral & Maxillofacial,75a02395-b33a-4465-acc6-b673a1368f34,0,FALSE
+physician.oralMaxillofacialSurgery.maxillofacialOncologyReconstructiveSurgery,maxillofacialOncologyReconstructiveSurgery,Maxillofacial Oncology & Reconstructive Surgery,21636d4b-f863-4bf7-a186-306a60ca1ad6,3,FALSE
+physician.oralMaxillofacialSurgery.maxillofacialTrauma,maxillofacialTrauma,Maxillofacial Trauma,66f6dac4-f36a-495b-b71c-571db4f741a6,4,FALSE
+physician.oralMaxillofacialSurgery.pediatricCraniomaxillofacialSurgery,pediatricCraniomaxillofacialSurgery,Pediatric Craniomaxillofacial Surgery,107066fd-4424-4049-9a2c-0aa467d83046,5,FALSE
+physician.orthopaedicSurgery,orthopaedicSurgery,Orthopaedic Surgery,4d00ba02-ff74-4dcf-a67a-1c1f213de8ad,32,FALSE
+physician.orthopaedicSurgery.clinicalPharmacologyOrthopaedicSurgery,clinicalPharmacologyOrthopaedicSurgery,Clinical Pharmacology - Orthopaedic Surgery,43be3947-110b-40e8-a90f-4416b2fffa98,1,FALSE
+physician.orthopaedicSurgery.elbowSurgery,elbowSurgery,Elbow Surgery,2d2a5977-f147-46b1-856a-deb8d443cb0a,2,FALSE
+physician.orthopaedicSurgery.footAnkleSurgery,footAnkleSurgery,Foot & Ankle Surgery,6d9485df-a61d-4534-9680-490be61f473f,3,FALSE
+physician.orthopaedicSurgery.generalOrthopedicSurgery,generalOrthopedicSurgery,General Orthopedic Surgery,5c365ae7-5112-473a-be59-e34010d42423,0,FALSE
+physician.orthopaedicSurgery.handSurgery,handSurgery,Hand Surgery,efd62c03-c8ca-4afb-9dc2-e9067ee014bc,4,FALSE
+physician.orthopaedicSurgery.hipKneeReconstructiveSurgery,hipKneeReconstructiveSurgery,Hip & Knee Reconstructive Surgery,d4135431-28c6-4d68-9550-3ce6c3ae6096,5,FALSE
+physician.orthopaedicSurgery.musculoskeletalOncologyCancer,musculoskeletalOncologyCancer,Musculoskeletal Oncology,7edea5cf-5238-42bf-86a6-529f88ceb71d,6,FALSE
+physician.orthopaedicSurgery.orthopedicSpineSurgery,orthopedicSpineSurgery,Orthopedic Spine Surgery,cc3272c1-1d3c-4d03-9e07-a3f7ae1f74ab,7,FALSE
+physician.orthopaedicSurgery.orthopedicSportsMedicine,orthopedicSportsMedicine,Orthopedic Sports Medicine,9c13b54e-a6c8-4936-ae99-9aad0278bc75,8,FALSE
+physician.orthopaedicSurgery.pediatricOrthopedics,pediatricOrthopedics,Pediatric Orthopedics,1e8fb9ef-9da6-4f50-a3f1-18f3a6d23e74,10,FALSE
+physician.orthopaedicSurgery.shoulderSurgery,shoulderSurgery,Shoulder Surgery,1c96841e-722b-4869-9f0e-0925ee125115,11,FALSE
+physician.orthopaedicSurgery.traumaSurgery,traumaSurgery,Trauma Surgery,6f2ac396-4dd7-41ef-a846-80d0d69a8eca,9,FALSE
+physician.otherMDDO,otherMDDO,Other MD/DO,f27fc152-0f8c-4cf2-893f-7065ebf6127c,33,FALSE
+physician.otherMDDO.aerospaceMedicine,aerospaceMedicine,Aerospace Medicine,2ed6ac62-68b9-4662-9ae2-ee6b5ece4638,0,FALSE
+physician.otherMDDO.clinicalPharmacologyOther,clinicalPharmacologyOther,Clinical Pharmacology - Other,8794808b-7e58-409a-845b-5bc0a3de809b,1,FALSE
+physician.otherMDDO.independentMedicalExaminer,independentMedicalExaminer,Independent Medical Examiner,5d504d54-3634-488c-bd08-ebf4f1dd1133,2,FALSE
+physician.otherMDDO.legalMachine,legalMachine,Legal Machine,e2f8b5d2-220b-4bd4-b855-3744556f6585,3,FALSE
+physician.otherMDDO.otherMDDO,otherMDDO,Other MD/DO,7e78c76c-d9ba-4304-a042-00e4ea7daa47,4,FALSE
+physician.otolaryngologyENT,otolaryngologyENT,Otolaryngology (ENT),2cdc8097-be91-48bd-86db-b823c41af85e,34,FALSE
+physician.otolaryngologyENT.facialPlasticSurgery,facialPlasticSurgery,Facial Plastic Surgery,e9cb5c41-950b-4b61-99b0-c19572096317,1,FALSE
+physician.otolaryngologyENT.generalOtolaryngologyENT,generalOtolaryngologyENT,General Otolaryngology/ENT,2d89e5f9-3760-4dd7-b60a-6e80a71436e3,0,FALSE
+physician.otolaryngologyENT.headNeckMicrovascularSurgery,headNeckMicrovascularSurgery,Head & Neck Microvascular Surgery,3ebab4a2-e2ec-41ae-9e2b-9fbb730a7ac0,2,FALSE
+physician.otolaryngologyENT.headNeckOncologicSurgery,headNeckOncologicSurgery,Head & Neck Oncologic Surgery,21353a43-776c-452b-8d4f-4d362b2b5fc0,3,FALSE
+physician.otolaryngologyENT.headNeckPlasticSurgery,headNeckPlasticSurgery,Head & Neck Plastic Surgery,bad98cf6-0231-4dba-a28e-13c87dcbf887,4,FALSE
+physician.otolaryngologyENT.laryngologyVoicesDisorders,laryngologyVoicesDisorders,Laryngology & Voices Disorders,f0201ac9-8daf-4274-b810-233b4529e7e4,5,FALSE
+physician.otolaryngologyENT.neurotology,neurotology,Neurotology,5f0be813-0216-42e1-8d32-0ee5a0f40cb0,6,FALSE
+physician.otolaryngologyENT.otolaryngicAllergy,otolaryngicAllergy,Otolaryngic Allergy,8f737751-22cc-42dd-b8bb-632a3bb2aaeb,7,FALSE
+physician.otolaryngologyENT.pedOtolaryngologyENT,pedOtolaryngologyENT,Ped Otolaryngology (ENT),30d156fd-ef2b-4f91-885c-e6bc7f4444cc,8,FALSE
+physician.otolaryngologyENT.rhinologyParanasalSinusDisease,rhinologyParanasalSinusDisease,Rhinology & Paranasal Sinus Disease,ce2fe73d-a7d5-43fb-8490-40056b906444,9,FALSE
+physician.otolaryngologyENT.sleepMedicine,sleepMedicine,Sleep Medicine,1ef90781-2d7a-4bba-8099-2c9d13a60417,10,FALSE
+physician.pathology,pathology,Pathology,9ddaf144-06e5-44db-967e-5dd3603250d5,35,FALSE
+physician.pathology.anatomicPathology,anatomicPathology,Anatomic Pathology,292d8bef-2a45-4a2a-b89d-a51d3f376538,1,FALSE
+physician.pathology.bloodBankingTransfusionMedicine,bloodBankingTransfusionMedicine,Blood Banking & Transfusion Medicine,3b0e644b-3907-4539-a6e0-74d3d5468895,2,FALSE
+physician.pathology.chemicalPathology,chemicalPathology,Chemical Pathology,d336fa9b-f85b-4ade-97b6-5fa736d708ae,3,FALSE
+physician.pathology.clinicalPathology,clinicalPathology,Clinical Pathology,3c8d3418-a355-4b91-97ff-df9c2ad11e2d,4,FALSE
+physician.pathology.cytopathology,cytopathology,Cytopathology,f916fd3a-f4ad-4fe8-ac53-cb07b388c2b3,5,FALSE
+physician.pathology.dermatopathology,dermatopathology,Dermatopathology,cca4306a-f340-4855-97a8-22f7c7d9f90b,6,FALSE
+physician.pathology.forensicAutopsy,forensicAutopsy,Forensic / Autopsy,5886b06e-88d5-4c42-857b-44179b9f6dcf,7,FALSE
+physician.pathology.gastrointestinalHepatobiliaryPathology,gastrointestinalHepatobiliaryPathology,Gastrointestinal & Hepatobiliary Pathology,1f7acee8-4971-47e4-a2c2-9d472c84a8f2,8,FALSE
+physician.pathology.generalPathology,generalPathology,General Pathology,a1a10343-520d-425c-bbba-9e811b301081,0,FALSE
+physician.pathology.genitourinaryPathology,genitourinaryPathology,Genitourinary Pathology,c64a34b8-f668-49b7-81d9-74d69c8261aa,9,FALSE
+physician.pathology.hematopathology,hematopathology,Hematopathology,3a1ed3ba-c670-42ed-b394-bb1b3e301488,10,FALSE
+physician.pathology.microbiology,microbiology,Microbiology,2cef981e-c675-4247-9303-97c51fa1d22d,11,FALSE
+physician.pathology.molecularGenetics,molecularGenetics,Molecular Genetics,adf7958c-200b-443e-9d51-f7ce1de5cca2,12,FALSE
+physician.pathology.neuropathology,neuropathology,Neuropathology,3e179f2f-0599-4b30-8339-d2cd17ecd8a1,13,FALSE
+physician.pathology.obstetricsPerinatalPathology,obstetricsPerinatalPathology,Obstetrics & Perinatal Pathology,e33d326d-f1df-4c4d-90c9-9efeac8b0623,14,FALSE
+physician.pathology.pediatricPathology,pediatricPathology,Pediatric Pathology,29ac3e48-9ccf-43b4-97a9-f6a3332476b4,15,FALSE
+physician.pathology.pulmonaryPathology,pulmonaryPathology,Pulmonary Pathology,804154d6-854e-4e2e-b45f-4ff2954bdefe,16,FALSE
+physician.pathology.renalPathology,renalPathology,Renal Pathology,2159ec01-bacc-447b-9fa5-5d3962e42b39,17,FALSE
+physician.pathology.surgicalPathology,surgicalPathology,Surgical Pathology,dc0ce3c3-aff2-46ca-ad48-35fead2fbf34,18,FALSE
+physician.pathology.transplantationImmunology,transplantationImmunology,Transplantation Immunology,d2fa7ec8-06ed-4a08-b5e0-0d4a19fd8dc7,19,FALSE
+physician.pediatricCardiology,pediatricCardiology,Pediatric Cardiology,01acd759-636e-45f4-8ae6-cfb6910d70b6,36,FALSE
+physician.pediatricCardiology.clinicalPharmacologyPediatricCardiology,clinicalPharmacologyPediatricCardiology,Clinical Pharmacology - Pediatric Cardiology,9a5d706f-6ae9-45bc-9eff-809d7e99b2b4,1,FALSE
+physician.pediatricCardiology.fetalCardiology,fetalCardiology,Fetal Cardiology,0c69ae79-dbe8-4dae-809b-4340dfc77cfa,2,FALSE
+physician.pediatricCardiology.generalPediatricCardiology,generalPediatricCardiology,General Pediatric Cardiology,9960feb6-834c-41eb-9ca5-25b3a6984e7f,0,FALSE
+physician.pediatricCardiology.pediatricCardiacCTAndMRI,pediatricCardiacCTAndMRI,Pediatric Cardiac CT and MRI,5576c6f6-fca1-47c6-bd91-9498396d6961,3,FALSE
+physician.pediatricCardiology.pediatricCardiacCriticalCare,pediatricCardiacCriticalCare,Pediatric Cardiac Critical Care,5a993077-720e-420b-93d6-c6bdaf2f8c61,4,FALSE
+physician.pediatricCardiology.pediatricCardiacGenetics,pediatricCardiacGenetics,Pediatric Cardiac Genetics,b11cfb7a-8f6c-40a9-94ac-d6f6aa2b7721,5,FALSE
+physician.pediatricCardiology.pediatricEchocardiography,pediatricEchocardiography,Pediatric Echocardiography,079dd3ee-a37d-41d2-be32-b168a0ab7819,6,FALSE
+physician.pediatricCardiology.pediatricElectrophysiology,pediatricElectrophysiology,Pediatric Electrophysiology,ab596f41-b07b-43cd-8b8c-7f48d6ab01c8,7,FALSE
+physician.pediatricCardiology.pediatricExercisePhysiology,pediatricExercisePhysiology,Pediatric Exercise Physiology,be04a7c2-1ad7-41d0-9e50-f60fde325951,8,FALSE
+physician.pediatricCardiology.pediatricHeartFailureAndHeartTransplantation,pediatricHeartFailureAndHeartTransplantation,Pediatric Heart Failure and Heart Transplantation,89aba4a5-5989-4d0f-9ee7-09e364cfb11f,9,FALSE
+physician.pediatricCardiology.pediatricInterventionalCardiology,pediatricInterventionalCardiology,Pediatric Interventional Cardiology,67d213de-4db4-4b6f-b8f4-7a8533542bd4,10,FALSE
+physician.pediatricCardiology.pediatricNuclearCardiology,pediatricNuclearCardiology,Pediatric Nuclear Cardiology,fa7d31c1-294b-4f2e-9986-b0d9e1ebf442,11,FALSE
+physician.pediatricEmergencyMedicine,pediatricEmergencyMedicine,Pediatric Emergency Medicine,1b89c236-9c44-4ab5-ae10-6460bf1da85a,37,FALSE
+physician.pediatricEmergencyMedicine.generalPediatricEmergency,generalPediatricEmergency,General Pediatric Emergency,09326639-2b85-42f7-a148-a165349d7bd0,0,FALSE
+physician.pediatricEndocrinoloist,pediatricEndocrinoloist,Pediatric Endocrinologist,82dbcd76-f322-4189-b82a-11c8febdcab3,38,FALSE
+physician.pediatricEndocrinoloist.clinicalPharmacologyPediatricEndocrinology,clinicalPharmacologyPediatricEndocrinology,Clinical Pharmacology - Pediatric Endocrinology,a9c07a8f-06b2-40fe-8130-4a87a4cf8061,1,FALSE
+physician.pediatricEndocrinoloist.generalPediatricEndocrinology,generalPediatricEndocrinology,General Pediatric Endocrinology,e1fbeebd-04e1-4912-ad7d-7fdf57389c8c,0,FALSE
+physician.pediatricEndocrinoloist.pediatricAdrenalEndocrinology,pediatricAdrenalEndocrinology,Pediatric Adrenal Endocrinology,e1f07452-6156-480c-a0ca-20ee063b3e91,2,FALSE
+physician.pediatricEndocrinoloist.pediatricBoneMetabolismDisorders,pediatricBoneMetabolismDisorders,Pediatric Bone Metabolism Disorders,2138b60a-20af-4377-9387-5b7157c0f185,3,FALSE
+physician.pediatricEndocrinoloist.pediatricGrowthDisorderEndocrinology,pediatricGrowthDisorderEndocrinology,Pediatric Growth Disorder Endocrinology,cd873e88-185c-46b0-8e8a-82b60dc64425,4,FALSE
+physician.pediatricEndocrinoloist.pediatricObesity,pediatricObesity,Pediatric Obesity,22af7137-d49e-43e6-b3a7-ef2b54dcb319,5,FALSE
+physician.pediatricEndocrinoloist.pediatricPituitaryDisordersAndNeuroendocrinology,pediatricPituitaryDisordersAndNeuroendocrinology,Pediatric Pituitary Disorders and Neuroendocrinology,b3ccd440-50f6-4207-b722-890844216f40,6,FALSE
+physician.pediatricEndocrinoloist.pediatricReproductiveEndocrinology,pediatricReproductiveEndocrinology,Pediatric Reproductive Endocrinology,8655bf1c-31c1-4ba1-b2dd-e28d9b2287d5,9,FALSE
+physician.pediatricEndocrinoloist.pediatricThyroidEndocrinology,pediatricThyroidEndocrinology,Pediatric Thyroid Endocrinology,dfd5ea16-a7f6-4ef9-a088-a9cc825009e3,7,FALSE
+physician.pediatricEndocrinoloist.pubertyDisorders,pubertyDisorders,Puberty Disorders,ffebe9da-ad5a-47a1-acd0-e753cc74cccd,8,FALSE
+physician.pediatricEndocrinoloist.sexDifferentiationEndocrinology,sexDifferentiationEndocrinology,Sex Differentiation Endocrinology,4bdc0ce7-69fc-4401-be1f-ca4d6f702370,10,FALSE
+physician.pediatricGastroenterology,pediatricGastroenterology,Pediatric Gastroenterology,45919fc5-411c-4b0c-ba48-3523a5993b3f,39,FALSE
+physician.pediatricGastroenterology.generalPediatricGastroenterology,generalPediatricGastroenterology,General Pediatric Gastroenterology,5bd143f6-48c6-406b-ad02-023be043a51f,0,FALSE
+physician.pediatricGastroenterology.intestinalRehabilitation,intestinalRehabilitation,Intestinal Rehabilitation,a70a51a0-02ac-443c-8ca8-20aa551e2436,2,FALSE
+physician.pediatricGastroenterology.pediatricEndoscopy,pediatricEndoscopy,Pediatric Endoscopy,e7cdadf1-4084-483e-a787-2a4b7bba8c90,1,FALSE
+physician.pediatricGastroenterology.pediatricFeedingAndSwallowingDisorders,pediatricFeedingAndSwallowingDisorders,Pediatric Feeding and Swallowing Disorders,04f421d8-393f-460d-b9c4-9a96de4356d5,3,FALSE
+physician.pediatricGastroenterology.pediatricGastrointestinalMotilityDisorders,pediatricGastrointestinalMotilityDisorders,Pediatric Gastrointestinal Motility Disorders,a383147d-be4d-49fb-a448-6abb66fff2a9,4,FALSE
+physician.pediatricGastroenterology.pediatricHepatologyAndLiverTransplantation,pediatricHepatologyAndLiverTransplantation,Pediatric Hepatology and Liver Transplantation,6f193b9c-00d3-4582-b0af-78e595feb777,5,FALSE
+physician.pediatricGastroenterology.pediatricInflammatoryBowelDisease,pediatricInflammatoryBowelDisease,Pediatric Inflammatory Bowel Disease,0c963bc5-4fc6-4576-919a-d3e8d650bf6d,7,FALSE
+physician.pediatricGastroenterology.pediatricInterventionalGastroenterology,pediatricInterventionalGastroenterology,Pediatric Interventional Gastroenterology,0f557c38-aecd-4e6a-b5b1-a97692e5d5a1,8,FALSE
+physician.pediatricGastroenterology.pediatricMalabsorptionSyndromes,pediatricMalabsorptionSyndromes,Pediatric Malabsorption Syndromes,24db97b0-6248-4f14-9fe6-270f459bf2a3,9,FALSE
+physician.pediatricGastroenterology.pediatricNutrition,pediatricNutrition,Pediatric Nutrition,a8ef5ff6-390b-408a-820d-1eea18248274,10,FALSE
+physician.pediatricGastroenterology.pediatricTransplantMedicine,pediatricTransplantMedicine,Pediatric Transplant Medicine,ed7dec75-6ce8-424a-bf18-b158b3417fce,6,FALSE
+physician.pediatricHematologyOncology,pediatricHematologyOncology,Pediatric Hematology & Oncology,dd3c72f7-849b-4888-b30d-1c37620408b2,40,FALSE
+physician.pediatricHematologyOncology.cancerGeneticsCancerRiskAssessment,cancerGeneticsCancerRiskAssessment,Cancer Genetics/Cancer Risk Assessment,8925e4f8-89df-42d7-85cc-8658ce5f3e2d,1,FALSE
+physician.pediatricHematologyOncology.clinicalPharmacologyPediatricHematologyOncology,clinicalPharmacologyPediatricHematologyOncology,Clinical Pharmacology - Pediatric Hematology & Oncology,1a00b955-73b4-4be9-8294-eb22f0cf005b,2,FALSE
+physician.pediatricHematologyOncology.generalPediatricHematologyOncology,generalPediatricHematologyOncology,General Pediatric Hematology & Oncology,87ed32bb-71b4-4521-9419-90e9f21969ca,0,FALSE
+physician.pediatricHematologyOncology.hospiceAndPalliativeMedicine,hospiceAndPalliativeMedicine,Hospice & Palliative Medicine,dd276b94-8918-4811-8507-3eda64224f88,3,FALSE
+physician.pediatricHematologyOncology.pediatricAnemiaAndHemoglobinopathies,pediatricAnemiaAndHemoglobinopathies,Pediatric Anemia and Hemoglobinopathies,54ee4fc0-d8e9-4471-a34f-220b4153e50c,4,FALSE
+physician.pediatricHematologyOncology.pediatricCoagulationDisorders,pediatricCoagulationDisorders,Pediatric Coagulation Disorders,827fb41d-0da5-4357-aa4a-b21f4c3f4516,5,FALSE
+physician.pediatricHematologyOncology.pediatricNeuroOncology,pediatricNeuroOncology,Pediatric Neuro-Oncology,0454b44c-5a49-41b2-915d-b3da5ff9ba49,6,FALSE
+physician.pediatricHematologyOncology.pediatricPlateletDisorderHematology,pediatricPlateletDisorderHematology,Pediatric Platelet Disorder Hematology,0646562a-7666-4509-a5df-463a45792244,7,FALSE
+physician.pediatricHematologyOncology.pediatricSarcomaOncology,pediatricSarcomaOncology,Pediatric Sarcoma Oncology,d7c4ae1f-065b-4ef7-b91a-0ec19b33bee8,8,FALSE
+physician.pediatricHematologyOncology.pediatricSolidTumourOncology,pediatricSolidTumourOncology,Pediatric Solid Tumour Oncology,6fd5825a-237a-4617-86af-1ee37b5c6c78,9,FALSE
+physician.pediatricInfectiousDisease,pediatricInfectiousDisease,Pediatric Infectious Disease,0739bb95-061d-4a2e-ba1e-8ff0e579421d,41,FALSE
+physician.pediatricInfectiousDisease.clinicalPharmacologyPediatricInfectiousDisease,clinicalPharmacologyPediatricInfectiousDisease,Clinical Pharmacology - Pediatric Infectious Disease,03919e47-f362-4f44-a38c-33ab08269eeb,1,FALSE
+physician.pediatricInfectiousDisease.generalPediatricInfectiousDisease,generalPediatricInfectiousDisease,General Pediatric Infectious Disease,db3cc404-8fa0-4808-80d6-341e70b450ef,0,FALSE
+physician.pediatricInfectiousDisease.hIVAIDSPediatrics,hIVAIDSPediatrics,HIV/AIDS Pediatrics,e042241e-c985-43e3-bab3-03cba0559dcb,2,FALSE
+physician.pediatricInfectiousDisease.medicalMicrobiology,medicalMicrobiology,Medical Microbiology,815f14bf-f8c0-4a24-8ed3-a55c98778bac,3,FALSE
+physician.pediatricInfectiousDisease.pediatricInfectiousAssociatedWithTransplantImmunocompromisedStates,pediatricInfectiousAssociatedWithTransplantImmunocompromisedStates,Pediatric Infectious Associated with Transplant/Immunocompromised States,20e728e4-50b6-47ea-8b97-1e0e784730a6,4,FALSE
+physician.pediatricInfectiousDisease.pediatricTravelAndTropicalMedicine,pediatricTravelAndTropicalMedicine,Pediatric Travel and Tropical Medicine,98a2bdf3-b910-4109-b8b6-04220f265726,5,FALSE
+physician.pediatricInfectiousDisease.pediatricVaccinologyAndVaccinePreventableDisease,pediatricVaccinologyAndVaccinePreventableDisease,Pediatric Vaccinology and Vaccine Preventable Disease,22633947-cc47-461c-bb40-9e8ca9e3e701,6,FALSE
+physician.pediatricInfectiousDisease.perinatalInfections,perinatalInfections,Perinatal Infections,4fb37b44-eac9-4033-95b3-b8885683aa2b,7,FALSE
+physician.pediatricNephrology,pediatricNephrology,Pediatric Nephrology,2092c171-1c7d-45fb-aca6-b5295d00cd74,42,FALSE
+physician.pediatricNephrology.clinicalPharmacologyPediatricNephrology,clinicalPharmacologyPediatricNephrology,Clinical Pharmacology - Pediatric Nephrology,892f957a-9aa9-4555-a15a-e1499807e04b,1,FALSE
+physician.pediatricNephrology.congenitalNeurologicAndRenalDisorders,congenitalNeurologicAndRenalDisorders,Congenital Neurologic and Renal Disorders,879d3442-e12a-4756-9816-5a2730ee9dd4,2,FALSE
+physician.pediatricNephrology.generalPediatricNephrology,generalPediatricNephrology,General Pediatric Nephrology,f7eedbf3-41b8-4971-a681-a6694f96c32e,0,FALSE
+physician.pediatricNephrology.pediatricFluidAndElectrolyteDisorders,pediatricFluidAndElectrolyteDisorders,Pediatric Fluid and Electrolyte Disorders,b25859a4-499b-4a1c-806d-c5d35293fbb2,3,FALSE
+physician.pediatricNephrology.pediatricGlomerularDisease,pediatricGlomerularDisease,Pediatric Glomerular Disease,b1613629-2e1e-4035-92cd-7c3d31d1d3a0,4,FALSE
+physician.pediatricNephrology.pediatricHypertension,pediatricHypertension,Pediatric Hypertension,36a2dc94-151b-4440-b074-ebdfd5bb49b7,5,FALSE
+physician.pediatricNephrology.pediatricKidneyStones,pediatricKidneyStones,Pediatric Kidney Stones,21578536-1cb2-4f1c-8dcf-c0d74fe14cd1,6,FALSE
+physician.pediatricNephrology.pediatricTransplantatMedicine,pediatricTransplantatMedicine,Pediatric TransplantatMedicine,f51f41bc-762d-4552-86db-d441ceebb33b,7,FALSE
+physician.pediatricPulmonology,pediatricPulmonology,Pediatric Pulmonology,67a0449b-bb5b-4916-a30e-930a89fb20b8,43,FALSE
+physician.pediatricPulmonology.asthma,asthma,Asthma,c2c390ef-e507-4289-b76b-4a4a43e31743,4,FALSE
+physician.pediatricPulmonology.chronicLungDiseaseOfPrematurityAndInfancy,chronicLungDiseaseOfPrematurityAndInfancy,Chronic Lung Disease of Prematurity and Infancy,d3b2df7f-d440-4320-a323-edaec0bda8cd,1,FALSE
+physician.pediatricPulmonology.clinicalPharmacologyPediatricPulmonology,clinicalPharmacologyPediatricPulmonology,Clinical Pharmacology - Pediatric Pulmonology,4a2f060a-09e0-4913-b468-7b749492ae91,2,FALSE
+physician.pediatricPulmonology.cysticFibrosis,cysticFibrosis,Cystic Fibrosis,914e957f-0b50-4ba8-b8b0-46d53c50b328,3,FALSE
+physician.pediatricPulmonology.generalPediatricPulmonology,generalPediatricPulmonology,General Pediatric Pulmonology,db32095a-ac90-47b7-afda-cf6369ce6185,0,FALSE
+physician.pediatricPulmonology.interventionalPulmonology,interventionalPulmonology,Interventional Pulmonology,3c854e37-0c9a-49e9-aa01-39b28423e333,5,FALSE
+physician.pediatricPulmonology.pediatricInterstitialLungDiseasePulmonology,pediatricInterstitialLungDiseasePulmonology,Pediatric Interstitial Lung Disease Pulmonology,16b06f73-48dd-4b16-bcb9-8b0af435eb0d,7,FALSE
+physician.pediatricPulmonology.pediatricRespiratoryDystrophy,pediatricRespiratoryDystrophy,Pediatric Respiratory Dystrophy,eede4055-fb63-4f5b-972b-3c733fd916a0,8,FALSE
+physician.pediatricPulmonology.pediatricSleepMedicine,pediatricSleepMedicine,Pediatric Sleep Medicine,acadd77e-8d2e-45e7-8f6c-dbfb9d524ab9,9,FALSE
+physician.pediatricPulmonology.pediatricTransplantationMedicine,pediatricTransplantationMedicine,Pediatric Transplantation Medicine,7453fc40-6595-48ac-87f2-89bf5527530a,6,FALSE
+physician.pediatricRheumatology,pediatricRheumatology,Pediatric Rheumatology,13aee905-4987-408c-8eb4-20e5aef7db74,44,FALSE
+physician.pediatricRheumatology.clinicalPharmacologyPediatricRheumatology,clinicalPharmacologyPediatricRheumatology,Clinical Pharmacology - Pediatric Rheumatology,bb21b0e1-7f37-4faa-b7d4-0d0c6160d491,1,FALSE
+physician.pediatricRheumatology.connectiveTissueDiseaseGenetics,connectiveTissueDiseaseGenetics,Connective Tissue Disease Genetics,b3ebc60b-7989-4c16-b4e7-388e4dd4e287,2,FALSE
+physician.pediatricRheumatology.generalPediatricRheumatology,generalPediatricRheumatology,General Pediatric Rheumatology,7b37d268-cc51-45da-878a-fee93723ed65,0,FALSE
+physician.pediatricRheumatology.juvenileRheumatoidArthritisAndRelatedRheumatology,juvenileRheumatoidArthritisAndRelatedRheumatology,Juvenile Rheumatoid Arthritis and Related Rheumatology,d0f26c8b-aec9-46dd-80c5-3fa79afe2b88,3,FALSE
+physician.pediatricRheumatology.pediatricLupus,pediatricLupus,Pediatric Lupus,1e6cd328-afbc-476f-886d-c4ff59c69f7a,4,FALSE
+physician.pediatricRheumatology.pediatricMyositis,pediatricMyositis,Pediatric Myositis,c9e5140d-7ebd-42e6-92c1-10711c33b9fe,5,FALSE
+physician.pediatricRheumatology.pediatricScleroderma,pediatricScleroderma,Pediatric Scleroderma,d5e84ea8-c310-4ba3-9a0d-1420db5c1e82,6,FALSE
+physician.pediatricRheumatology.pediatricSpondyloarthropathy,pediatricSpondyloarthropathy,Pediatric Spondyloarthropathy,cdc74a38-5feb-41e1-96be-4b483f4a9a96,7,FALSE
+physician.pediatricRheumatology.pediatricSystemicPainAndInflammatorySyndromesAndRelatedRheumatology,pediatricSystemicPainAndInflammatorySyndromesAndRelatedRheumatology,Pediatric Systemic Pain and Inflammatory Syndromes and Related Rheumatology,e3f9cc24-87af-4422-a10b-a9396dd58cfa,8,FALSE
+physician.pediatricRheumatology.pediatricVasculitis,pediatricVasculitis,Pediatric Vasculitis,45320627-1e30-4af6-9784-59443a798f34,9,FALSE
+physician.pediatrics,pediatrics,Pediatrics,a94bfe9a-b6da-4f0c-86d3-43606a39ae83,45,FALSE
+physician.pediatrics.adolescentMedicine,adolescentMedicine,Adolescent Medicine,07e57d8d-dbfb-4072-936a-eb33dd623d2d,1,FALSE
+physician.pediatrics.childNeurology,childNeurology,Child Neurology,63e153fc-b38c-4f59-8a14-cc7cae7722b1,2,FALSE
+physician.pediatrics.developmentalBehavioralPediatrics,developmentalBehavioralPediatrics,Developmental-Behavioral Pediatrics,de40c862-f8c9-4fa4-a626-04a90b5d57f4,4,FALSE
+physician.pediatrics.generalPediatrics,generalPediatrics,General Pediatrics,716a76f6-e01b-4a9d-936a-d5e7cfca8acb,0,FALSE
+physician.pediatrics.hospiceAndPalliativeMedicine,hospiceAndPalliativeMedicine,Hospice & Palliative Medicine,d18ea7bf-3365-4682-a4e8-0df01c6c9dad,5,FALSE
+physician.pediatrics.medicalGenetics,medicalGenetics,Medical Genetics,9fd4d0c6-ebbd-4d13-8cb1-dafa5c48c5ca,7,FALSE
+physician.pediatrics.medicalToxicology,medicalToxicology,Medical Toxicology,e16232d3-3d39-468b-8cdd-c8d299145845,8,FALSE
+physician.pediatrics.neonatology,neonatology,Neonatology,4062fde3-d962-4e5f-8dab-b0ae60da5682,9,FALSE
+physician.pediatrics.neurodevelopmentalDisabilities,neurodevelopmentalDisabilities,Neurodevelopmental Disabilities,5079b26c-393a-4d56-bad8-8560a2f1d154,10,FALSE
+physician.pediatrics.pediatricAllergy,pediatricAllergy,Pediatric Allergy,c737169d-97ad-4b04-ba10-869765825539,11,FALSE
+physician.pediatrics.pediatricCardiacCriticalCare,pediatricCardiacCriticalCare,Pediatric Cardiac Critical Care,c29bd8e5-d434-4db7-a718-db21c599ac57,12,FALSE
+physician.pediatrics.pediatricCardiology,pediatricCardiology,Pediatric Cardiology,a9b8e372-b6e2-4531-8527-9ecf2d8f5b3e,13,FALSE
+physician.pediatrics.pediatricClinicalPharmacology,pediatricClinicalPharmacology,Clinical Pharmacology - Pediatric,1911e3b4-058b-4884-995c-36bbee6cf7c8,3,FALSE
+physician.pediatrics.pediatricCriticalCareMedicine,pediatricCriticalCareMedicine,Pediatric Critical Care Medicine,f043b967-a919-409f-85ed-768b88817d87,14,FALSE
+physician.pediatrics.pediatricEmergencyMedicine,pediatricEmergencyMedicine,Pediatric Emergency Medicine,83dcc782-2152-4cc1-9776-51ddad9a95d3,15,FALSE
+physician.pediatrics.pediatricEndocrinology,pediatricEndocrinology,Pediatric Endocrinology,8df8e3b5-28fd-4143-8813-614379ed2b0d,16,FALSE
+physician.pediatrics.pediatricGastroenterology,pediatricGastroenterology,Pediatric Gastroenterology,9a02dcc4-1d25-4741-97ce-16f5cd64ccf4,17,FALSE
+physician.pediatrics.pediatricHealthcarePolicy,pediatricHealthcarePolicy,Pediatric Healthcare Policy,5193b809-52f2-4e30-889f-0008b6b2b537,19,FALSE
+physician.pediatrics.pediatricHealthcareResearch,pediatricHealthcareResearch,Pediatric Healthcare Research,fd38d9ec-7ed5-4ef4-b23f-dcbd0b3cb319,18,FALSE
+physician.pediatrics.pediatricHematologyOncology,pediatricHematologyOncology,Pediatric Hematology & Oncology,6ef4b362-eb45-48a0-8b17-955aa0eb6830,20,FALSE
+physician.pediatrics.pediatricHospitalist,pediatricHospitalist,Pediatric Hospitalist,e79e23a1-0bd9-49b6-8208-074895146778,6,FALSE
+physician.pediatrics.pediatricInfectiousDisease,pediatricInfectiousDisease,Pediatric Infectious Disease,f62b87d1-fe5c-4276-aafc-12e441ed6000,21,FALSE
+physician.pediatrics.pediatricNutritionObesityAndEatingDisorders,pediatricNutritionObesityAndEatingDisorders,"Pediatric Nutrition, Obesity, and Eating Disorders",8d2edde7-8447-4504-a036-9eaa9fa660be,22,FALSE
+physician.pediatrics.pediatricPulmonology,pediatricPulmonology,Pediatric Pulmonology,6668d751-1b87-4798-82c7-33c419e7b245,23,FALSE
+physician.pediatrics.pediatricRheumatology,pediatricRheumatology,Pediatric Rheumatology,f9922be7-3af2-4668-b0b6-fc802fedb1c1,24,FALSE
+physician.pediatrics.pediatricSportsMedicine,pediatricSportsMedicine,Pediatric Sports Medicine,4f7d4c0c-dc8e-41db-8373-f6b4a15e0caf,25,FALSE
+physician.physicalMedicineRehab,physicalMedicineRehab,Physical Medicine/Rehab,8b64e2d8-2c09-4a75-96a0-eb3c4f0d31cf,46,FALSE
+physician.physicalMedicineRehab.clinicalPharmacologyPhysicalMedicineRehab,clinicalPharmacologyPhysicalMedicineRehab,Clinical Pharmacology - Physical Medicine/Rehab,35b58547-19e9-46d2-851a-6fc5fbb8761f,1,FALSE
+physician.physicalMedicineRehab.generalPhysicalMedicineRehabilitation,generalPhysicalMedicineRehabilitation,General Physical Medicine & Rehabilitation,0a1b7957-ef2c-4ecb-974d-ddebda2e98f5,0,FALSE
+physician.physicalMedicineRehab.hospiceAndPalliativeMedicine,hospiceAndPalliativeMedicine,Hospice & Palliative Medicine,5441addc-7dc7-49d5-8ae6-7e5b647c2a5b,2,FALSE
+physician.physicalMedicineRehab.neuromuscularMedicine,neuromuscularMedicine,Neuromuscular Medicine,1edf97c8-b6df-4368-93e1-ae842ec9f9ba,3,FALSE
+physician.physicalMedicineRehab.neurorehabilitation,neurorehabilitation,Neurorehabilitation,3d8060a4-2066-4cc3-9ae0-261899003994,4,FALSE
+physician.physicalMedicineRehab.occupationalMedicine,occupationalMedicine,Occupational Medicine,1e51229a-0100-41f8-b5e9-fbb65f17c5ee,5,FALSE
+physician.physicalMedicineRehab.painMedicine,painMedicine,Pain Medicine,f6d2871f-0fe9-46b1-9bc0-e00ae552ceb0,6,FALSE
+physician.physicalMedicineRehab.pediatricRehabilitationMedicine,pediatricRehabilitationMedicine,Pediatric Rehabilitation Medicine,f76d32b5-03bd-4f27-81eb-b758675ba25b,7,FALSE
+physician.physicalMedicineRehab.spinalCordInjuryMedicine,spinalCordInjuryMedicine,Spinal Cord Injury Medicine,9c5e3200-16a3-45eb-bc1c-5dfc5ce91a23,8,FALSE
+physician.physicalMedicineRehab.sportsMedicineNonsurgical,sportsMedicineNonsurgical,Sports Medicine (Non surgical),1591f9ba-421b-4b77-ba4e-34772bc495ef,9,FALSE
+physician.plasticSurgery,plasticSurgery,Plastic Surgery,492017a9-4076-430e-b93f-6e30c6dfe880,47,FALSE
+physician.plasticSurgery.aestheticCosmeticPlasticSurgery,aestheticCosmeticPlasticSurgery,Aesthetic/Cosmetic Plastic Surgery,bccefc67-9f9a-4edf-b9ea-ca601c5312c8,1,FALSE
+physician.plasticSurgery.breastReconstruction,breastReconstruction,Breast Reconstruction,107cd525-002a-4c59-a622-8702208570ca,2,FALSE
+physician.plasticSurgery.burn,burn,Burn,9e2b37d1-a1da-445c-975d-738103a0469d,3,FALSE
+physician.plasticSurgery.facialPlasticAndReconstructiveSurgery,facialPlasticAndReconstructiveSurgery,Facial Plastic and Reconstructive Surgery,c2fc5888-145f-41ed-816e-83d339413d0d,4,FALSE
+physician.plasticSurgery.generalPlasticSurgery,generalPlasticSurgery,General Plastic Surgery,3524347e-df76-4e2e-9c9b-02823914a7f5,0,FALSE
+physician.plasticSurgery.hand,hand,Hand,587d1c9c-e9ea-410f-bada-9d580be662fe,5,FALSE
+physician.plasticSurgery.headNeck,headNeck,Head & Neck,0b612084-a712-48e3-b21c-962dd32761b1,6,FALSE
+physician.plasticSurgery.pediatricCraniofacialPlasticSurgery,pediatricCraniofacialPlasticSurgery,Pediatric Craniofacial Plastic Surgery,d634d493-929f-4247-b74e-5943de989d26,7,FALSE
+physician.plasticSurgery.pediatricPlasticSurgery,pediatricPlasticSurgery,Pediatric Plastic Surgery,5b3ac9b0-8e88-4beb-8b02-05473ed454b0,8,FALSE
+physician.plasticSurgery.plasticReconstructiveMicrosurgery,plasticReconstructiveMicrosurgery,Plastic & Reconstructive Microsurgery,a2f35577-cd97-4822-8156-03bc790f628b,9,FALSE
+physician.plasticSurgery.woundHealing,woundHealing,Wound Healing,ac19b711-8d6f-4d4c-9924-3ed53038f691,10,FALSE
+physician.preventiveMedicine,preventiveMedicine,Preventive Medicine,d0f95875-e54f-4b33-8d19-9d6973ef942f,48,FALSE
+physician.preventiveMedicine.addictionMedicine,addictionMedicine,Addiction Medicine,48776b3b-ead2-412a-86e4-ee99fc7a6ae0,1,FALSE
+physician.preventiveMedicine.aerospaceMedicine,aerospaceMedicine,Aerospace Medicine,7f1b418d-a531-4977-a72e-cc4b8716e720,2,FALSE
+physician.preventiveMedicine.clinicalPharmacologyPreventiveMedicine,clinicalPharmacologyPreventiveMedicine,Clinical Pharmacology - Preventive Medicine,c7942c3e-fc9e-418e-8547-ca3c65178a6c,3,FALSE
+physician.preventiveMedicine.generalPreventativeMedicine,generalPreventativeMedicine,General Preventative Medicine,becdce5d-8aa3-4573-b999-5a7fc2bd32b6,0,FALSE
+physician.preventiveMedicine.medicalToxicology,medicalToxicology,Medical Toxicology,6e050128-7d4c-4bfa-a1c1-d96097bc7f42,4,FALSE
+physician.preventiveMedicine.occupationalMedicine,occupationalMedicine,Occupational Medicine,e32510c6-b376-45f9-8fb8-b207a25e56a5,5,FALSE
+physician.preventiveMedicine.underseaHyperbaricMedicine,underseaHyperbaricMedicine,Undersea & Hyperbaric Medicine,d479d96b-93ca-4919-a09c-49a7ef959422,6,FALSE
+physician.psychiatry,psychiatry,Psychiatry,2aaaa201-0f06-4cbe-981b-cbeec903661b,49,FALSE
+physician.psychiatry.addiction,addiction,Addiction,b47b9664-f8f6-4518-ae57-76d2860807ee,1,FALSE
+physician.psychiatry.childAdolescentPsychiatry,childAdolescentPsychiatry,Child & Adolescent Psychiatry,55850b00-3923-42dc-98bc-4da6b843bb95,2,FALSE
+physician.psychiatry.clinicalPharmacologyPsychiatry,clinicalPharmacologyPsychiatry,Clinical Pharmacology - Psychiatry,26d5d6a9-4b01-4cda-af61-0927c675f8e8,3,FALSE
+physician.psychiatry.community,community,Community,67de4b3d-e3fb-4029-917f-e4977391284b,4,FALSE
+physician.psychiatry.forensicPsychiatry,forensicPsychiatry,Forensic Psychiatry,bf397e1c-30db-41e0-b538-472bade252e8,5,FALSE
+physician.psychiatry.gayLesbianTransgenderFocused,gayLesbianTransgenderFocused,"Gay, Lesbian, Transgender Psychiatry",8c863b23-0a2d-440d-893d-68a24222b7c4,6,FALSE
+physician.psychiatry.generalPsychiatry,generalPsychiatry,General Psychiatry,aa93dd5f-a57e-4a62-baee-2588768959ae,0,FALSE
+physician.psychiatry.geriatricPsychiatry,geriatricPsychiatry,Geriatric Psychiatry,0b15f61f-4075-410b-902d-202cb386cdc4,7,FALSE
+physician.psychiatry.hIVAIDSFocused,hIVAIDSFocused,HIV/AIDS focused psychiatry,54db3d50-420c-4748-ac2d-09dd1aefad0c,8,FALSE
+physician.psychiatry.hospiceAndPalliativeMedicine,hospiceAndPalliativeMedicine,Hospice & Palliative Medicine,c27d4206-42a1-4a47-b1ce-c41b0355cb00,9,FALSE
+physician.psychiatry.integrativePsychiatry,integrativePsychiatry,Integrative Psychiatry,c869a2b6-a90e-4b25-8992-3becffba5422,10,FALSE
+physician.psychiatry.neuropsychiatry,neuropsychiatry,Neuropsychiatry,bea70997-23d9-496b-9b4e-dc56318bcd7e,11,FALSE
+physician.psychiatry.painMedicine,painMedicine,Pain Medicine,a326ccff-9cf1-4630-a251-5073b5df250f,12,FALSE
+physician.psychiatry.psychoOncology,psychoOncology,Psycho-Oncology,cffc61b7-e449-4fb1-9dd9-4eae7c994475,13,FALSE
+physician.psychiatry.psychopharmacology,psychopharmacology,Psychopharmacology,83f5003c-0946-4023-9916-ec08911e32c0,14,FALSE
+physician.psychiatry.psychosomaticMedicine,psychosomaticMedicine,Psychosomatic Medicine,1764ef8f-30d4-41d4-965f-16fee84b7a3d,15,FALSE
+physician.psychiatry.sleepMedicine,sleepMedicine,Sleep Medicine,bfc3eb8a-1278-419a-9a9d-bdeea015537b,16,FALSE
+physician.psychiatry.womenFocused,womenFocused,Women's Mental Health,a366e368-31eb-4fc4-9da8-32032243d6b9,17,FALSE
+physician.pulmonology,pulmonology,Pulmonology,45cbc1b7-b620-48cf-bc70-0529afe0ac1a,50,FALSE
+physician.pulmonology.asthma,asthma,Asthma,33ae55bc-524e-4206-a988-fcd63314d957,1,FALSE
+physician.pulmonology.clinicalPharmacologyPulmonology,clinicalPharmacologyPulmonology,Clinical Pharmacology - Pulmonology,10b83bf3-8c78-4ab4-852b-799f8783549e,2,FALSE
+physician.pulmonology.criticalCareMedicine,criticalCareMedicine,Critical Care Medicine,a1b782b0-0df9-49f3-906b-0b34f68bb6bc,3,FALSE
+physician.pulmonology.cysticFibrosis,cysticFibrosis,Cystic Fibrosis,c847b40d-041c-49c3-88f2-b6fdc60f6d7a,4,FALSE
+physician.pulmonology.generalPulmonaryMedicine,generalPulmonaryMedicine,General Pulmonary Medicine,aa2bb42b-fc70-46fe-9111-74f619e38258,0,FALSE
+physician.pulmonology.infectiousDisease,infectiousDisease,Infectious Disease,0d85a1e6-8cf6-4e0b-8824-a433331a245c,5,FALSE
+physician.pulmonology.interstitialLungDisease,interstitialLungDisease,Interstitial Lung Disease,4eaf02cf-ecb3-4e77-8b76-2ac9b1d79730,6,FALSE
+physician.pulmonology.interventionalPulmonology,interventionalPulmonology,Interventional Pulmonology,4486fa25-3114-4765-80ba-e4c9b3823500,7,FALSE
+physician.pulmonology.lungTransplantationMedicine,lungTransplantationMedicine,Lung Transplantation Medicine,f8474219-3f8a-4caf-89a3-150e6701b260,8,FALSE
+physician.pulmonology.occupationalEnvironmentalLungDisease,occupationalEnvironmentalLungDisease,Occupational & Environmental Lung Disease,5a9fac50-b602-4044-b9a2-46b672a4383b,9,FALSE
+physician.pulmonology.pleuralDisease,pleuralDisease,Pleural Disease,d4d009d4-aeb4-4a54-a3c3-df0ef6ac4c75,10,FALSE
+physician.pulmonology.pulmonaryRehabilitation,pulmonaryRehabilitation,Pulmonary Rehabilitation,7c9acd2e-33c4-4b40-8463-4cae0930c95f,11,FALSE
+physician.pulmonology.pulmonaryVascularMedicine,pulmonaryVascularMedicine,Pulmonary Vascular Medicine,87d68773-6c6a-412d-89a0-cc3149e69724,12,FALSE
+physician.pulmonology.restrictiveLungDisease,restrictiveLungDisease,Restrictive Lung Disease,552c0c69-aae3-4870-b182-8e4d816b09bb,13,FALSE
+physician.pulmonology.sleepMedicine,sleepMedicine,Sleep Medicine,cff49a1d-545e-4831-a85a-263f90dcd88d,14,FALSE
+physician.pulmonology.thoracicOncology,thoracicOncology,Thoracic Oncology,111b6add-0b25-4845-9253-eb261066d515,15,FALSE
+physician.radiationOncology,radiationOncology,Radiation Oncology,fb2b1d11-ad5a-45a2-a4b8-a4275b3829e2,51,FALSE
+physician.radiationOncology.benignDiseases,benignDiseases,Benign Diseases,0ce691e9-27ee-46f8-a2c0-5007df19597d,1,FALSE
+physician.radiationOncology.breastCancer,breastCancer,Breast Cancer,e250a694-4a71-4001-9da0-b872ab102137,2,FALSE
+physician.radiationOncology.centralNervousSystemCancer,centralNervousSystemCancer,Central Nervous System Cancer,a4c3dd1a-041e-4627-9c16-54d0c7dc8f4c,3,FALSE
+physician.radiationOncology.gastrointestinalCancer,gastrointestinalCancer,Gastrointestinal Cancer,0994d194-c956-41e9-9059-abde82eef0c1,4,FALSE
+physician.radiationOncology.generalRadiationOncology,generalRadiationOncology,General Radiation Oncology,cc44c2c7-fa82-45b6-bbb5-f434d323524c,0,FALSE
+physician.radiationOncology.gynecologicCancer,gynecologicCancer,Gynecologic Cancer,60b9af25-2d26-4ad6-8471-f8fcffb0fafb,5,FALSE
+physician.radiationOncology.headNeck,headNeck,Head & Neck,20413142-1838-4a83-8555-7ba7638f7cea,6,FALSE
+physician.radiationOncology.hematologicMalignancies,hematologicMalignancies,Hematologic Malignancies,9ffa8432-5a8e-4bd7-8559-02be160d85a6,7,FALSE
+physician.radiationOncology.melanoma,melanoma,Melanoma,49207696-0368-4272-81cc-1f3cfdf070aa,8,FALSE
+physician.radiationOncology.ocularRadiationOncology,ocularRadiationOncology,Ocular Radiation Oncology,bb10f4ec-d91a-45a4-9c24-8f7bd94187ad,9,FALSE
+physician.radiationOncology.pediatricRadiationOncology,pediatricRadiationOncology,Pediatric Radiation Oncology,cd480c06-8bc4-49fa-b3c1-1ba58efe5803,10,FALSE
+physician.radiationOncology.sarcoma,sarcoma,Sarcoma,629e64c1-4a5f-4877-9698-7825d7698d46,11,FALSE
+physician.radiationOncology.skinCancer,skinCancer,Skin Cancer,929a750f-9040-4286-89b6-74d70ad4b207,12,FALSE
+physician.radiationOncology.thoracicCancer,thoracicCancer,Thoracic Cancer,4942b25f-5983-4a9b-841e-a88fa4893e3c,13,FALSE
+physician.radiationOncology.urologicCancer,urologicCancer,Urologic Cancer,4d0d1c57-b51c-4945-a70d-55a69ceadd32,14,FALSE
+physician.radiology,radiology,Radiology,abfd7f18-7f09-431b-b356-3275141f962b,52,FALSE
+physician.radiology.abdominalImaging,abdominalImaging,Abdominal Imaging,3f2cb3c3-7b22-4e96-aff6-46efd7179b93,1,FALSE
+physician.radiology.boneImagingMusculoskeletal,boneImagingMusculoskeletal,Bone Imaging/Musculoskeletal,64e37c7d-abc1-44c6-a6eb-9f5384434bdb,2,FALSE
+physician.radiology.breastImaging,breastImaging,Breast Imaging,1e950420-da92-4b65-a59a-86669145b554,3,FALSE
+physician.radiology.diagnosticRadiology,diagnosticRadiology,Diagnostic Radiology,02491cdc-421b-48c3-addc-be5a9bc65180,4,FALSE
+physician.radiology.gastrointestinalImaging,gastrointestinalImaging,Gastrointestinal Imaging,9b6592ae-383c-42d5-af00-2256a43b6d97,6,FALSE
+physician.radiology.generalRadiology,generalRadiology,General Radiology,8f43cc99-16ff-4bb9-8204-9398aa3f0195,0,FALSE
+physician.radiology.genitourinaryImaging,genitourinaryImaging,Genitourinary Imaging,6b7c6d2d-813e-473b-b0f4-9b3de99efc95,7,FALSE
+physician.radiology.interventionalNeuroradiology,interventionalNeuroradiology,Interventional Neuroradiology,7b6bf47e-d6e4-4478-a7fc-45a3d9bb64cf,9,FALSE
+physician.radiology.interventionalRadiology,interventionalRadiology,Interventional Radiology,37a1bd8e-e5f0-4409-bab5-39909e98d77e,8,FALSE
+physician.radiology.medicalPhysics,medicalPhysics,Medical Physics,c621be0c-ed52-464a-ad5a-8ddfea731c0d,10,FALSE
+physician.radiology.mri,mri,MRI,4091b250-9b6c-4cb2-81b1-544c23817e88,5,FALSE
+physician.radiology.neuroradiology,neuroradiology,Neuroradiology,e5aefe8b-fd6f-43bf-bb1a-12cd0e223c4f,11,FALSE
+physician.radiology.nuclearCardiology,nuclearCardiology,Nuclear Cardiology,da4a6570-baaf-4ea4-8b72-940e2b975f2d,12,FALSE
+physician.radiology.nuclearMedicine,nuclearMedicine,Nuclear Medicine,6d2dfeda-b1b2-48b6-a6c9-3ff017e7a2ef,13,FALSE
+physician.radiology.nuclearRadiology,nuclearRadiology,Nuclear Radiology,333e8b91-bd66-417f-8c54-7aa51b2c060c,14,FALSE
+physician.radiology.thoracicImaging,thoracicImaging,Thoracic Imaging,797818c3-f3fd-4377-b108-a1941d2f63cd,15,FALSE
+physician.radiology.ultrasound,ultrasound,Ultrasound,f2d38b9e-ae84-4f74-8a12-37294fb51b2e,16,FALSE
+physician.radiology.womensImaging,womensImaging,Women's Imaging,17aa7f17-a952-4d2f-a060-b6a14403c1d4,17,FALSE
+physician.research,research,Research,f798c670-ce9b-4c97-8702-9b52be898191,53,FALSE
+physician.research.generalResearch,generalResearch,General Research,8c6ecdc6-d9d4-4d70-98b8-7b6fe969c5f4,0,FALSE
+physician.rheumatology,rheumatology,Rheumatology,f9b03deb-77f3-449a-8b23-7d5c3cde1eca,54,FALSE
+physician.rheumatology.crystalRelated,crystalRelated,Crystal Related,5af6458e-a622-4f50-9083-59412012aaae,1,FALSE
+physician.rheumatology.ehlersDanlosSyndrome,ehlersDanlosSyndrome,Ehlers-Danlos syndrome,788cb14f-6576-4aa7-8ee0-66992a98f266,2,FALSE
+physician.rheumatology.fibromyalgia,fibromyalgia,Fibromyalgia,a204fa38-3230-4668-9093-58ffa89a92ed,3,FALSE
+physician.rheumatology.generalRheumatology,generalRheumatology,General Rheumatology,8606c798-2a5f-4307-b6db-fdcdbef036e5,0,FALSE
+physician.rheumatology.geriatricRheumatology,geriatricRheumatology,Geriatric Rheumatology,8f867e4c-362f-4c0b-b5e4-e4d42bbfdcc6,4,FALSE
+physician.rheumatology.lupusRelated,lupusRelated,Lupus & Related,46982b50-d97c-462c-8fcc-f10283350808,5,FALSE
+physician.rheumatology.mixedconnectivetissuedisease,mixedconnectivetissuedisease,Mixed connective tissue disease,038b3ff1-3ae5-4eac-b3ae-6ac0f5839025,6,FALSE
+physician.rheumatology.myositis,myositis,Myositis,1a48a859-cb55-47a4-84b7-6a57b3c963d1,7,FALSE
+physician.rheumatology.osteoarthritis,osteoarthritis,Osteoarthritis,0b18e512-5e3c-4ee2-b351-2cdd3a148b87,8,FALSE
+physician.rheumatology.osteoporosisBoneMetabolism,osteoporosisBoneMetabolism,Osteoporosis & Bone Metabolism,43621bc3-4931-47da-9161-e2af0d79d1d0,9,FALSE
+physician.rheumatology.polymyalgiaRheumatica,polymyalgiaRheumatica,Polymyalgia rheumatica,40f8f912-aa8e-4c60-b410-a6ca335fb408,10,FALSE
+physician.rheumatology.polymyositis,polymyositis,Polymyositis,d3f7a56d-718c-4dec-b03d-4878aa8d2590,11,FALSE
+physician.rheumatology.relapsingPolychondritis,relapsingPolychondritis,Relapsing polychondritis,cac37c61-e69a-4311-b367-62008e2d8106,12,FALSE
+physician.rheumatology.rheumatoidArthritis,rheumatoidArthritis,Rheumatoid Arthritis,922ab4f8-6530-48d1-96a2-48f15803f31f,13,FALSE
+physician.rheumatology.scleroderma,scleroderma,Scleroderma,d1dbab74-4c42-41df-9333-e6f8cb159848,14,FALSE
+physician.rheumatology.sjogrensSyndrome,sjogrensSyndrome,Sjögren's syndrome,754e56ff-5e98-40f4-b33a-f20758479b33,15,FALSE
+physician.rheumatology.spondyloarthropathy,spondyloarthropathy,Spondyloarthropathy,cc7f2113-afcd-473a-aebf-553fd85cf94e,16,FALSE
+physician.rheumatology.systemicPainInflammatorySyndromes,systemicPainInflammatorySyndromes,Systemic Pain & Inflammatory Syndromes,3ac79ae7-f365-47b5-9a58-ad541c04d052,17,FALSE
+physician.rheumatology.vasculitis,vasculitis,Vasculitis,ad958876-d696-42db-b44a-39bf4a60cd4d,18,FALSE
+physician.urology,urology,Urology,2c9943f1-cf79-4d08-a917-ebff1d3b067e,56,FALSE
+physician.urology.clinicalPharmacologyUrology,clinicalPharmacologyUrology,Clinical Pharmacology - Urology,1495c332-e90c-44a7-add6-9fd1213ab17d,1,FALSE
+physician.urology.femaleUrologyPelvicMedicineReconstructiveSurgery,femaleUrologyPelvicMedicineReconstructiveSurgery,Female Urology/Pelvic Medicine & Reconstructive Surgery,4e3e6c4e-a2a9-4cfe-b174-17596f28a54d,2,FALSE
+physician.urology.generalUrology,generalUrology,General Urology,f9a7e9d3-8a66-4fda-b7ca-f825590ae58c,0,FALSE
+physician.urology.kidneyTransplantation,kidneyTransplantation,Kidney Transplantation,5cd54689-fda4-4039-99c8-9902d4d2c8cf,3,FALSE
+physician.urology.maleInfertility,maleInfertility,Male Infertility,41df82a9-6ca9-4d62-aeb5-62536a4c5148,4,FALSE
+physician.urology.maleSexualDysfunction,maleSexualDysfunction,Male Sexual Dysfunction,f0f6e071-ba60-435c-834c-4b4067d3cadd,5,FALSE
+physician.urology.minimallyInvasiveSurgery,minimallyInvasiveSurgery,Minimally Invasive Surgery,ac082fe9-28f3-46c5-8314-eb2ad4a8c58b,6,FALSE
+physician.urology.pediatricUrology,pediatricUrology,Pediatric Urology,e401657f-c4d4-44af-8d3b-1d48dd6d97f8,7,FALSE
+physician.urology.roboticSurgery,roboticSurgery,Robotic Surgery,28a2b36e-d8ce-4130-8adb-c8bfa71a229c,8,FALSE
+physician.urology.stoneDisease,stoneDisease,Stone Disease,f5f14655-a268-41a0-adca-8a72a687b9b9,9,FALSE
+physician.urology.surgicalOncology,surgicalOncology,Surgical Oncology,22c4d623-5c3a-4e4b-aec8-a84325f00eea,10,FALSE
+physician.urology.traumaReconstructiveSurgery,traumaReconstructiveSurgery,Trauma & Reconstructive Surgery,82aaed38-f612-4a27-bbf3-7f324f592282,11,FALSE
+physician.vascularSurgery,vascularSurgery,Vascular Surgery,77a74f90-62c4-41ea-a26b-89d7cdd30181,57,FALSE
+physician.vascularSurgery.endovascularProcedures,endovascularProcedures,Endovascular procedures,40572453-1069-49a8-be20-172153e80cb5,1,FALSE
+physician.vascularSurgery.generalVascularSurgery,generalVascularSurgery,General Vascular Surgery,8ec31c88-eda8-42e1-acc4-3736611f33e7,0,FALSE
+physician.vascularSurgery.traumaSurgery,traumaSurgery,Trauma Surgery,9312c29f-5927-460f-8744-9326d51cf720,2,FALSE
+medicalResident,medicalResident,Medical Resident,9b26f97b-9de0-443b-823d-fd599efcb1c3,1,FALSE
+medicalResident.allergyImmunology,allergyImmunology,Allergy & Immunology,e980421c-1bb4-40de-9f06-c149f7fed789,0,FALSE
+medicalResident.anesthesiology,anesthesiology,Anesthesiology,f2db28c9-afd9-4a72-8f3a-e186db2b193d,1,FALSE
+medicalResident.cardiology,cardiology,Cardiology,44faef10-df31-4783-9d7c-89d2b2517268,2,FALSE
+medicalResident.childNeurology,childNeurology,Child Neurology,82d102b0-2032-4755-85e2-168321e25345,3,FALSE
+medicalResident.colonRectalSurgery,colonRectalSurgery,Colon & Rectal Surgery,b47fc833-6aea-431b-8dba-ecee3bd6ad9b,4,FALSE
+medicalResident.dermatology,dermatology,Dermatology,09044803-a75e-4e3e-b334-482b0c6c484c,5,FALSE
+medicalResident.emergencyMedicine,emergencyMedicine,Emergency Medicine,b6c09259-c9d2-4071-b98e-ba9e6ab4a175,6,FALSE
+medicalResident.endocrinology,endocrinology,Endocrinology,80d6b225-daea-4bac-bc41-1a33604637e9,7,FALSE
+medicalResident.familyMedicine,familyMedicine,Family Medicine,134df6d2-e896-4c6e-a8c2-ebf4bc483d1b,8,FALSE
+medicalResident.gastroenterology,gastroenterology,Gastroenterology,ba86f858-3f82-4e2e-a86b-152565213c31,9,FALSE
+medicalResident.generalSurgery,generalSurgery,General Surgery,bb9c49af-6e37-4050-8ca1-1da1efbb6d59,10,FALSE
+medicalResident.geriatrics,geriatrics,Geriatrics,99c2e56b-3dfb-4a5d-a7c1-4d9d8b609988,11,FALSE
+medicalResident.hematology,hematology,Hematology,5be2ad64-19fa-4336-82a3-4eaee712b58e,12,FALSE
+medicalResident.infectiousDisease,infectiousDisease,Infectious Disease,040c5054-c9ba-48a7-b4b1-69669c02a37d,13,FALSE
+medicalResident.internalMedicine,internalMedicine,Internal Medicine,8f3da433-b06f-40c6-8d54-f6353aae67b0,14,FALSE
+medicalResident.medicalGenetics,medicalGenetics,Medical Genetics,37e940ed-4d8b-45b7-9cd2-2411385374ac,15,FALSE
+medicalResident.medicinePediatrics,medicinePediatrics,Medicine/Pediatrics,09715de4-727a-4f40-8e76-db0a1d8e9832,16,FALSE
+medicalResident.neonatPerinatology,neonatPerinatology,Neonat/Perinatology,4a88ec56-c948-4b92-8a33-268a75be7e89,17,FALSE
+medicalResident.nephrology,nephrology,Nephrology,b5b57e40-b7ba-435f-aba8-cf324851a0a4,18,FALSE
+medicalResident.neurology,neurology,Neurology,415a3936-fed8-4af5-9a4e-29aabea2b79a,19,FALSE
+medicalResident.neurosurgery,neurosurgery,Neurosurgery,e05c50a9-d7e5-454c-a432-319e2f486d65,20,FALSE
+medicalResident.nuclearMedicine,nuclearMedicine,Nuclear Medicine,584d88be-c91b-499c-8b3f-b17b9461cfce,21,FALSE
+medicalResident.obstetricsGynecology,obstetricsGynecology,Obstetrics & Gynecology,bec0f450-a6c4-4620-844c-5b6cc9b58a93,22,FALSE
+medicalResident.occupationalMedicine,occupationalMedicine,Occupational Medicine,c85df1c5-cc53-429e-ba73-7a7efb2925ea,23,FALSE
+medicalResident.oncology,oncology,Oncology,bf29ac13-9e80-4f52-88a5-1d297ff37ee9,24,FALSE
+medicalResident.ophthalmology,ophthalmology,Ophthalmology,81f1b16c-8069-43ed-a0bf-8cb328aa2a5f,25,FALSE
+medicalResident.oralMaxillofacialSurgery,oralMaxillofacialSurgery,Oral & Maxillofacial Surgery,5af238cf-6f8f-4023-a04a-91556b5e1505,26,FALSE
+medicalResident.orthopaedicSurgery,orthopaedicSurgery,Orthopaedic Surgery,2f231b9a-5338-4729-b98a-eba7d30a5f89,27,FALSE
+medicalResident.otolaryngologyENT,otolaryngologyENT,Otolaryngology (ENT),2a807497-05ee-4ee2-bcb5-23e3e5aab949,28,FALSE
+medicalResident.pathology,pathology,Pathology,a85b714b-b3c0-4980-88d5-21a0e1df156b,29,FALSE
+medicalResident.pediatricCardiology,pediatricCardiology,Pediatric Cardiology,f687cbef-e398-4b6b-a64e-6863e2335fca,30,FALSE
+medicalResident.pediatricEmergencyMedicine,pediatricEmergencyMedicine,Pediatric Emergency Medicine,b4538261-ba99-4fe8-95fa-d9857495a1c7,31,FALSE
+medicalResident.pediatricEndocrinology,pediatricEndocrinology,Pediatric Endocrinology,d48d66a6-a0ca-47e1-8cd4-6dca02a121b8,32,FALSE
+medicalResident.pediatricGastroenterology,pediatricGastroenterology,Pediatric Gastroenterology,31fe1d3a-3231-4c37-866b-973baae73098,33,FALSE
+medicalResident.pediatricHematologyOncology,pediatricHematologyOncology,Pediatric Hematology & Oncology,a3e1798f-cb37-4436-a520-cc0704fcb847,34,FALSE
+medicalResident.pediatricInfectiousDisease,pediatricInfectiousDisease,Pediatric Infectious Disease,2d3182fd-b51e-4a63-a32a-abe5bb26694e,35,FALSE
+medicalResident.pediatricNephrology,pediatricNephrology,Pediatric Nephrology,eec71528-d898-4215-88bb-879300ca53dc,36,FALSE
+medicalResident.pediatricPulmonology,pediatricPulmonology,Pediatric Pulmonology,a13b6c92-1256-42f9-b279-7af51629fb45,37,FALSE
+medicalResident.pediatricRheumatology,pediatricRheumatology,Pediatric Rheumatology,6b023241-d7d5-48e3-82dd-dd7b61fd1131,38,FALSE
+medicalResident.pediatrics,pediatrics,Pediatrics,35405f63-1929-4406-a5e9-aecc40100f64,39,FALSE
+medicalResident.physicalMedicineRehab,physicalMedicineRehab,Physical Medicine/Rehab,2cc1007d-4855-4a52-844d-b0f0c8bae0d6,40,FALSE
+medicalResident.plasticSurgery,plasticSurgery,Plastic Surgery,8a291cce-f7f5-4a8a-b10d-a51cb59ae2f4,41,FALSE
+medicalResident.preventiveMedicine,preventiveMedicine,Preventive Medicine,829f4525-c3e7-4cc4-91c5-f055a2779b75,42,FALSE
+medicalResident.psychiatry,psychiatry,Psychiatry,166a9677-3f9c-40d9-a1a4-c4475f929fde,43,FALSE
+medicalResident.pulmonology,pulmonology,Pulmonology,0373698b-b805-48a9-9c25-6d777fe273d1,44,FALSE
+medicalResident.radiationOncology,radiationOncology,Radiation Oncology,df575040-c8e0-4f12-8aad-70198ea38a96,45,FALSE
+medicalResident.radiology,radiology,Radiology,8f0e063d-3905-46b8-953d-af1b5b1e231d,46,FALSE
+medicalResident.research,research,Research,ab1e8589-e192-496c-8ab6-535586b50b95,47,FALSE
+medicalResident.residentPhysician,residentPhysician,Resident Physician,dda0f40c-9d00-45dc-b033-b38fcd69db01,48,FALSE
+medicalResident.rheumatology,rheumatology,Rheumatology,e037dd8e-c433-4f68-879e-30a726a8c914,49,FALSE
+medicalResident.thoracicSurgery,thoracicSurgery,Thoracic Surgery,02aa2264-0254-4889-a455-e7a03964bbc7,50,FALSE
+medicalResident.urology,urology,Urology,79af8099-73e9-4a4c-a266-7f9784015322,51,FALSE
+medicalResident.vascularSurgery,vascularSurgery,Vascular Surgery,bfefaf44-0279-419b-9435-b1c8c912fe34,52,FALSE
+physicianAssistant,physicianAssistant,Physician Assistant,6604270b-fe8f-4bf0-b5c2-7e7100d4e7a4,2,FALSE
+physicianAssistant.addictionMedicine,addictionMedicine,Addiction Medicine,883e4382-5dfd-41c4-a4f4-c44fa45f30aa,0,FALSE
+physicianAssistant.adolescentMedicine,adolescentMedicine,Adolescent Medicine,4860f54d-bceb-4a83-a0a1-81c73628fc23,1,FALSE
+physicianAssistant.anesthesiology,anesthesiology,Anesthesiology,896f7c98-85f9-4cf1-8d78-38b25c2b7132,2,FALSE
+physicianAssistant.criticalCareMedicine,criticalCareMedicine,Critical Care Medicine,3745dab5-fb23-437e-b044-4b60a7049f88,3,FALSE
+physicianAssistant.dermatology,dermatology,Dermatology,9b4119d4-b5c4-47d3-9f72-e5fa12de5052,4,FALSE
+physicianAssistant.emergencyMedicine,emergencyMedicine,Emergency Medicine,8345cc10-d21f-4f55-8bfc-c8f144bedb09,5,FALSE
+physicianAssistant.familyMedicine,familyMedicine,Family Medicine,7796b911-30e4-4c13-8e97-c2882ec11fd7,6,FALSE
+physicianAssistant.gynecology,gynecology,Gynecology,2c3970da-465d-4b24-b66f-36f52f636e7b,7,FALSE
+physicianAssistant.hospicePalliativeMedicine,hospicePalliativeMedicine,Hospice & Palliative Medicine,f9e54de1-af52-40c9-b882-5cf34610bd06,8,FALSE
+physicianAssistant.hospitalMedicine,hospitalMedicine,Hospital Medicine,f1a96dc5-4525-4e5e-8d3c-d9d1d2dffbf9,9,FALSE
+physicianAssistant.internalMedicine,internalMedicine,Internal Medicine,dd16e50f-584f-40f4-b462-e7a608b077fd,10,FALSE
+physicianAssistant.neurology,neurology,Neurology,8e5a6750-056c-4c5a-b7cf-0cd3226e8754,11,FALSE
+physicianAssistant.obstetricsAndGynecology,obstetricsAndGynecology,Obstetrics and Gynecology,20f30c3f-024a-4eee-bfbe-ac34e94f1db6,12,FALSE
+physicianAssistant.occupationalMedicine,occupationalMedicine,Occupational Medicine,8f50ec7d-44c4-4e91-9a97-c7882672518f,13,FALSE
+physicianAssistant.ophthalmology,ophthalmology,Ophthalmology,9009e2f7-fc45-40e0-8e87-0b916fec8c25,14,FALSE
+physicianAssistant.otolaryngology,otolaryngology,Otolaryngology,c8254344-1625-4d52-934e-6451c8db32c4,15,FALSE
+physicianAssistant.painManagement,painManagement,Pain Management,20c6d5e7-81c5-4161-ae1b-a25560fdc727,16,FALSE
+physicianAssistant.pathology,pathology,Pathology,9c7381cf-69b6-4cec-8bbf-e83f629301d6,17,FALSE
+physicianAssistant.pediatricSubspecialties,pediatricSubspecialties,Pediatric Subspecialties,89a682cb-5921-4481-b49a-6beb43e71b7b,19,FALSE
+physicianAssistant.pediatrics,pediatrics,Pediatrics,c8008d2a-3590-41d5-9db7-3bb51029f6d4,18,FALSE
+physicianAssistant.physicianMedicineAndRehabilitation,physicianMedicineAndRehabilitation,Physician Medicine and Rehabilitation,57c915ea-350b-42e9-9cf5-3e93337cb1cc,20,FALSE
+physicianAssistant.psychiatry,psychiatry,Psychiatry,6c371773-9410-40db-a022-61a0596ec3fc,22,FALSE
+physicianAssistant.publicHealth,publicHealth,Public Health,a1ddf3ed-05bc-45b5-bd3a-8c900bfae6a4,21,FALSE
+physicianAssistant.radiationOncology,radiationOncology,Radiation Oncology,43b2d400-a7a8-4549-827d-2453e2da4ffe,23,FALSE
+physicianAssistant.radiology,radiology,Radiology,fe368bbe-2c3d-46fe-9291-26e14367d39f,24,FALSE
+physicianAssistant.surgery,surgery,Surgery,62fe097f-e831-4942-b4c7-caff3dcb22c9,25,FALSE
+physicianAssistant.surgicalSubspecialties,surgicalSubspecialties,Surgical Subspecialties,f5f8cfe7-ef9a-42c1-a29b-5c9024d6ed9d,26,FALSE
+physicianAssistant.urology,urology,Urology,b0f6bda8-688f-49a4-b7b4-540680c62be4,27,FALSE
+registeredNurse,registeredNurse,Registered Nurse,18f39740-a7c2-4215-a50c-8782c326d979,3,FALSE
+registeredNurse.ambulatoryCare,ambulatoryCare,Ambulatory Care,57d0fb47-b166-4590-bfa7-72cda742c362,0,FALSE
+registeredNurse.burnCare,burnCare,Burn Care,0c87ff92-9b24-492c-8b40-928287150eaa,1,FALSE
+registeredNurse.camp,camp,Camp,4db952dd-b776-4098-b160-f726bbcfa90c,2,FALSE
+registeredNurse.cardiacCare,cardiacCare,Cardiac Care,3912851e-12ef-44ff-9f48-4fc4799706a4,3,FALSE
+registeredNurse.cardiacCathLab,cardiacCathLab,Cardiac Cath Lab,e566c257-a414-417e-88c9-78fccace63da,4,FALSE
+registeredNurse.caseManagement,caseManagement,Case Management,af5af10c-1387-4a6b-b3e3-931c780cab1b,5,FALSE
+registeredNurse.correctionalFacility,correctionalFacility,Correctional Facility,e56c0cff-f420-48ec-a919-43ce7aebca28,6,FALSE
+registeredNurse.dermatology,dermatology,Dermatology,e6a2122c-c3ab-4c9b-ad2d-fdf74f9e80b9,7,FALSE
+registeredNurse.developmentalDisability,developmentalDisability,Developmental Disability,456da31d-b304-4287-8b5b-e7f1f6b2bb77,8,FALSE
+registeredNurse.emergency,emergency,Emergency,7c4b3439-168c-4d81-8294-d36b8d9bf0dc,9,FALSE
+registeredNurse.forensic,forensic,Forensic,ec74fc7a-3ff4-4848-9ce7-6e626c7e9103,10,FALSE
+registeredNurse.gastroenterology,gastroenterology,Gastroenterology,6caa97ab-16fc-416a-9947-0ec6e564bc49,11,FALSE
+registeredNurse.genetics,genetics,Genetics,d8852e2f-6115-4302-a3bd-8102c2983f32,12,FALSE
+registeredNurse.geriatric,geriatric,Geriatric,cb80f7f2-de31-4fe7-89e8-3f83a83dd8f8,13,FALSE
+registeredNurse.hIVAIDS,hIVAIDS,HIV/AIDS,14f72378-89a7-4082-9855-4f0a9a6f1d90,15,FALSE
+registeredNurse.hematology,hematology,Hematology,d83bd037-9d6d-467b-b248-3c50a34fbf75,14,FALSE
+registeredNurse.homeHealth,homeHealth,Home Health,ba4bc7c4-c465-4f25-bacd-aa77d626573d,16,FALSE
+registeredNurse.hospice,hospice,Hospice,40480695-3075-48a9-a62e-707475c0b564,17,FALSE
+registeredNurse.infectionControl,infectionControl,Infection Control,ff8286e2-525d-428d-bdcb-14b31f90a5c3,18,FALSE
+registeredNurse.infusion,infusion,Infusion,a421c59f-a8ca-45dd-886a-ee6536c46337,19,FALSE
+registeredNurse.laborAndDelivery,laborAndDelivery,Labor and Delivery,c0744ca3-3ce3-4037-806c-3470e619b54c,20,FALSE
+registeredNurse.lactationConsultant,lactationConsultant,Lactation Consultant,9051a787-9d8d-4c0d-97c9-f7cb0eb6b1f6,21,FALSE
+registeredNurse.longTermCare,longTermCare,Long-Term Care,e34c5b9e-5e41-4352-92c3-44d7f5fc061a,22,FALSE
+registeredNurse.medicalSurgical,medicalSurgical,Medical-Surgical,e85dd9ff-8d8f-41ec-b1ed-962a72073b08,23,FALSE
+registeredNurse.military,military,Military,1aaeecfd-e2cc-4f90-b9cd-5498a0efb579,24,FALSE
+registeredNurse.nephrology,nephrology,Nephrology,242c2ed6-a985-4c40-be97-88634a3b336e,25,FALSE
+registeredNurse.neuroscience,neuroscience,Neuroscience,8799be31-5bc9-444f-9f43-d593c8ccb9e6,26,FALSE
+registeredNurse.obstetrics,obstetrics,Obstetrics,46a57644-c6c5-474e-915e-0786571f885e,27,FALSE
+registeredNurse.occupationalHealth,occupationalHealth,Occupational Health,63b71096-dc62-46c2-8fc5-7d93b89e8fe4,28,FALSE
+registeredNurse.oncology,oncology,Oncology,bec012ef-20af-4b8f-8f3b-5ad9677a0720,29,FALSE
+registeredNurse.ophthalmic,ophthalmic,Ophthalmic,abefa05a-0c02-44af-89f6-d35da9da8d91,30,FALSE
+registeredNurse.orthopedic,orthopedic,Orthopedic,00376e7d-d423-410e-8bd5-12428c6d533b,31,FALSE
+registeredNurse.otorhinolaryngology,otorhinolaryngology,Otorhinolaryngology,e010925a-0a27-47d6-bdc9-0a41240126a4,32,FALSE
+registeredNurse.painManagement,painManagement,Pain Management,ad0fdddc-0da1-418c-aee6-869dceb6cc06,33,FALSE
+registeredNurse.pediatricNurse,pediatricNurse,Pediatric Nurse,4350bbcb-d3e7-491d-a504-0b188d0bb7d4,34,FALSE
+registeredNurse.perinatalNurse,perinatalNurse,Perinatal Nurse,d50f5da7-1a0b-4eea-8d27-c7e6eac6b8de,35,FALSE
+registeredNurse.plasticSurgery,plasticSurgery,Plastic Surgery,f77b0ed4-917f-41d1-b91a-790f8676a4d3,36,FALSE
+registeredNurse.psychiatric,psychiatric,Psychiatric,8563f8d1-bb97-48c4-9da6-3a247161ceb6,37,FALSE
+registeredNurse.publicHealth,publicHealth,Public Health,9c900dff-01e5-431e-a58d-1d0ae0f0b672,38,FALSE
+registeredNurse.radiology,radiology,Radiology,cabce6ec-4822-4c86-a92e-9832a12f7bef,39,FALSE
+registeredNurse.rehabilitation,rehabilitation,Rehabilitation,9f0ef05c-3eb8-4b4b-8e7a-f8a56a1029d9,40,FALSE
+registeredNurse.reproductive,reproductive,Reproductive,3e4405b7-7d4c-408b-8d38-4fbbb7ee8e53,41,FALSE
+registeredNurse.rural,rural,Rural,c635ee8b-a4d5-4841-a934-95fc05cdab5c,42,FALSE
+registeredNurse.school,school,School,75f704f4-9c53-48f7-868e-435921aa8d15,43,FALSE
+registeredNurse.subacute,subacute,Subacute,3fedf860-e56e-4bf3-923d-5f9510db11d0,44,FALSE
+registeredNurse.telemetry,telemetry,Telemetry,bed64e8c-b2df-4e4b-b1e1-cdcfdb2a330b,45,FALSE
+registeredNurse.toxicology,toxicology,Toxicology,8cb357dd-67b5-4d57-9894-8f3a23a4406b,46,FALSE
+registeredNurse.transplant,transplant,Transplant,68850d44-3ea8-4e87-ae3e-af4e2b731604,47,FALSE
+registeredNurse.trauma,trauma,Trauma,fadf52fd-33c6-4f66-8ca3-73c09ecd9d8e,48,FALSE
+registeredNurse.urology,urology,Urology,d1064703-275f-435a-8108-1d1e1658a7df,49,FALSE
+nursePractitioner,nursePractitioner,Nurse Practitioner,a74d1e89-d2d3-4cf3-b313-bc8bc6938eda,4,FALSE
+nursePractitioner.acuteCare,acuteCare,Acute Care,cdc16c3e-5276-466c-b4ed-aea152150d0f,3,FALSE
+nursePractitioner.adult,adult,Adult,6533cd35-f1a6-4add-8b9b-80b590d9f833,1,FALSE
+nursePractitioner.adultGerontologyAcuteCare,adultGerontologyAcuteCare,Adult - Gerontology Acute Care,685af63b-b357-44c8-9592-169fc78bdf55,5,FALSE
+nursePractitioner.adultGerontologyPrimaryCare,adultGerontologyPrimaryCare,Adult - Gerontology Primary Care,67028128-90d8-429d-94cd-d58e982dfa7f,2,FALSE
+nursePractitioner.family,family,Family,86ff01e9-20e1-404a-812f-73d85bdf1134,0,FALSE
+nursePractitioner.gerontology,gerontology,Gerontology,3111741c-0680-4f5d-af67-b78afb627c63,8,FALSE
+nursePractitioner.pediatrics,pediatrics,Pediatrics,88e19cfb-84e2-4d3c-8807-7b3eee997d7c,4,FALSE
+nursePractitioner.psychiatricMentalHealth,psychiatricMentalHealth,Psychiatric/Mental Health,d3172d99-102a-4327-a723-6dbb54f56147,7,FALSE
+nursePractitioner.womensHealth,womensHealth,Women's Health,d00b2e01-4bcd-4b78-a121-d1d02afe8159,6,FALSE
+medicalStudent,medicalStudent,Medical Student,9378e625-ab4b-4304-8a17-d641ecde074e,5,FALSE
+medicalStudent.addictionMedicine,addictionMedicine,Addiction Medicine,1b5af27b-fa9e-4a24-ab45-d01c751755db,0,FALSE
+medicalStudent.adolescentMedicine,adolescentMedicine,Adolescent Medicine,ace3fb0d-bb02-49c3-a501-5a87fa3908d6,1,FALSE
+medicalStudent.anesthesiology,anesthesiology,Anesthesiology,720d1922-538f-4cdf-aa96-ce0df6aa13ad,2,FALSE
+medicalStudent.criticalCareMedicine,criticalCareMedicine,Critical Care Medicine,b5685e21-b36b-4363-91c9-8db104ff3d82,3,FALSE
+medicalStudent.dermatology,dermatology,Dermatology,3b7debf0-d537-433b-9747-00cfc9759dae,4,FALSE
+medicalStudent.emergencyMedicine,emergencyMedicine,Emergency Medicine,3bed8202-475c-486c-bb5e-555638040041,5,FALSE
+medicalStudent.familyMedicine,familyMedicine,Family Medicine,6881e35d-2979-49da-bb32-3a2b41d57111,6,FALSE
+medicalStudent.gynecology,gynecology,Gynecology,62352a84-dd19-4ca9-82d5-be349e8334f5,7,FALSE
+medicalStudent.hospicePalliativeMedicine,hospicePalliativeMedicine,Hospice & Palliative Medicine,d3f29241-50b3-4d60-aae0-cbc5df23c60e,8,FALSE
+medicalStudent.hospitalMedicine,hospitalMedicine,Hospital Medicine,1c4044be-d3dd-44e8-8e9a-8e5dc774410f,9,FALSE
+medicalStudent.internalMedicine,internalMedicine,Internal Medicine,b9dc7646-93cb-4f83-acfc-afa6d28ac912,10,FALSE
+medicalStudent.neurology,neurology,Neurology,579341d0-c8c3-4bdf-aeff-da60a975cc1d,11,FALSE
+medicalStudent.obstetricsAndGynecology,obstetricsAndGynecology,Obstetrics and Gynecology,177758b3-7867-4b9a-b51f-761367236303,12,FALSE
+medicalStudent.occupationalMedicine,occupationalMedicine,Occupational Medicine,f2644d68-9b48-4768-80cd-4d78f414f81e,13,FALSE
+medicalStudent.ophthalmology,ophthalmology,Ophthalmology,e9dc0947-aaf4-46d7-b626-5cb346acf938,14,FALSE
+medicalStudent.otolaryngology,otolaryngology,Otolaryngology,f1247689-9d81-4785-a378-ae2f1668f85f,15,FALSE
+medicalStudent.painManagement,painManagement,Pain Management,8bc8ac58-b896-4beb-abc7-b612e63a994a,16,FALSE
+medicalStudent.pathology,pathology,Pathology,3125a822-4ea3-4486-acdf-4eb42ddc8877,17,FALSE
+medicalStudent.pediatricSubspecialties,pediatricSubspecialties,Pediatric Subspecialties,c78ab7df-2ed2-4f1e-9595-bbbd29b5bbe8,19,FALSE
+medicalStudent.pediatrics,pediatrics,Pediatrics,78d05cf2-135a-4f19-85e4-faa6139a33e3,18,FALSE
+medicalStudent.physicianMedicineAndRehabilitation,physicianMedicineAndRehabilitation,Physician Medicine and Rehabilitation,73527b29-3a7b-405b-be6c-0f4dd11c4b81,20,FALSE
+medicalStudent.psychiatry,psychiatry,Psychiatry,a3c52486-4df1-4890-9bae-40f369f0f8b5,22,FALSE
+medicalStudent.publicHealth,publicHealth,Public Health,9477a4cb-cd77-40de-b19c-bc9e9bcf65ce,21,FALSE
+medicalStudent.radiationOncology,radiationOncology,Radiation Oncology,ec0f0e67-5da0-4090-8f25-c014a1c29931,23,FALSE
+medicalStudent.radiology,radiology,Radiology,8e7ff1dc-4a4b-4b34-9003-59b5227d4c3c,24,FALSE
+medicalStudent.surgery,surgery,Surgery,37949ae1-1fda-4bff-9e77-41ab7096293b,25,FALSE
+medicalStudent.surgicalSubspecialties,surgicalSubspecialties,Surgical Subspecialties,80231050-371a-48c9-bcd7-2a9f7237da77,26,FALSE
+medicalStudent.urology,urology,Urology,3aa81d7c-d148-4b97-a501-528830deca1d,27,FALSE
+dentistry,dentistry,Dentist,b8b3027e-5386-4345-b997-28af33308226,6,FALSE
+dentistry.cosmeticDentistry,cosmeticDentistry,Cosmetic Dentistry,f7e351a5-b878-4777-818e-77bed8b4724e,0,FALSE
+dentistry.dentalAssistant,dentalAssistant,Dental Assistant,eef141fd-c277-43a1-8dd2-ec8374090275,1,FALSE
+dentistry.dentalHygienist,dentalHygienist,Dental Hygienist,a8ff98c0-40f7-4121-ae77-f0160f1c36d6,2,FALSE
+dentistry.endodontics,endodontics,Endodontics,ac772ac8-75ed-45e7-abb3-fe250aef2512,3,FALSE
+dentistry.generalPractice,generalPractice,General Practice,bc93f69e-ba8b-41b8-9dbd-5b6dbc59b79b,4,FALSE
+dentistry.geriatricDentistry,geriatricDentistry,Geriatric Dentistry,b7f03114-54b8-4fc4-95cc-440f29b8d1bd,5,FALSE
+dentistry.implantDentistry,implantDentistry,Implant Dentistry,d98ad3a7-f039-49c0-a7bc-565edff9e7f8,6,FALSE
+dentistry.oralAndMaxillofacialPathology,oralAndMaxillofacialPathology,Oral and Maxillofacial Pathology,c2ba0212-ae76-4384-8e35-2dff717b49f6,7,FALSE
+dentistry.oralAndMaxillofacialRadiology,oralAndMaxillofacialRadiology,Oral and Maxillofacial Radiology,39e41770-588c-4f96-b4b3-c898db30b007,8,FALSE
+dentistry.oralAndMaxillofacialSurgery,oralAndMaxillofacialSurgery,Oral and Maxillofacial Surgery,e6153418-fff1-48b4-9745-f290f3e9cbe3,9,FALSE
+dentistry.oralMicrobiology,oralMicrobiology,Oral Microbiology,e80869d1-11ea-40b1-8120-d758a8dc89e4,10,FALSE
+dentistry.orthodontics,orthodontics,Orthodontics,c295871a-3622-47ff-982d-1fc7ae27cbae,11,FALSE
+dentistry.other,other,Other,2c64b73b-a956-4190-a2fa-fccdfef971f8,12,FALSE
+dentistry.pediatric,pediatric,Pediatric,bc087ba7-7ce6-47d7-a7a9-ae1f3db5ad4a,13,FALSE
+dentistry.periodontics,periodontics,Periodontics,6b7ffb24-723c-484c-8d03-8ab1c9b937e5,14,FALSE
+dentistry.prosthodontics,prosthodontics,Prosthodontics,aabea30a-1191-415f-a3c2-bc963ddc7756,15,FALSE
+dentistry.publicHealthDentistry,publicHealthDentistry,Public Health Dentistry,54dcb3ae-d1db-4b6e-9360-77ce6e473a6a,16,FALSE
+dentistry.reconstructiveDentistry,reconstructiveDentistry,Reconstructive Dentistry,4d0a686b-a549-403a-b252-498fb5edc18d,17,FALSE
+otherHCP,otherHCP,Other HCP,df8267d7-f4db-4c30-b0a2-bf1bcafc37d1,7,FALSE
+otherHCP.acupuncturist,acupuncturist,Acupuncturist,18d09eee-605a-4236-8c91-65f52d97448f,0,TRUE
+otherHCP.anatomist,anatomist,Anatomist,666d85a0-c869-4b91-8270-556fa27a1e86,1,TRUE
+otherHCP.audiologist,audiologist,Audiologist,b05490c0-3281-4ac1-91d5-92adbc957276,2,TRUE
+otherHCP.chiropractor,chiropractor,Chiropractor,c0b9475c-d069-43e8-81fc-7f6f0e4b1a2a,3,TRUE
+otherHCP.clinicalAssociate,clinicalAssociate,Clinical Associate,345fe9a0-c2c9-4f61-bb59-5ee68fbc09cb,4,TRUE
+otherHCP.dietitian,dietitian,Dietitian,d7d2d322-66e4-4b25-b231-5d75b7347c3b,5,TRUE
+otherHCP.eMT,eMT,EMT,c51475fe-dc7c-4b64-9a80-3d8d6b5b4e38,6,FALSE
+otherHCP.labScientist,labScientist,Lab Scientist,0cadb98a-3514-4c26-be94-7d1e0a22bc57,7,TRUE
+otherHCP.medicalEducator,medicalEducator,Medical Educator,fa1bb156-f905-49fa-b497-79d0446e68f7,8,TRUE
+otherHCP.medicalLibrarian,medicalLibrarian,Medical Librarian,3f2c3d0f-aa83-4eff-bbe7-76417bf99b57,9,TRUE
+otherHCP.medicalPhotographer,medicalPhotographer,Medical Photographer,5010612e-3ded-466b-9600-cd6f8f13b309,10,TRUE
+otherHCP.midwife,midwife,Midwife,aba3e693-718d-4337-b46b-c52f1d5a1202,11,TRUE
+otherHCP.naturopathicSpecialist,naturopathicSpecialist,Naturopathic Specialist,2e5fe9cc-e692-421f-b8cc-653b9864fe08,12,TRUE
+otherHCP.occupationalTherapist,occupationalTherapist,Occupational Therapist,151672ce-6176-45e5-aea4-2c8e16c730fc,13,TRUE
+otherHCP.optometrist,optometrist,Optometrist,837c946c-9404-4c4e-9fab-93e361a331c1,14,TRUE
+otherHCP.orderly,orderly,Orderly,f79adde4-dd9b-4e6c-ba0d-f09935446f65,15,TRUE
+otherHCP.other,other,Other,37d29071-c492-4043-8515-369854e0bad2,30,TRUE
+otherHCP.paramedic,paramedic,Paramedic,91e92696-e13d-414d-98b2-fd8e63f746a9,16,TRUE
+otherHCP.pathologistsAssistant,pathologistsAssistant,Pathologists' Assistant,806451d4-e27e-45b4-a455-1530c7640cec,17,TRUE
+otherHCP.perfusionist,perfusionist,Perfusionist,12fa9f86-7e10-4262-a876-feb9b62adf7a,18,TRUE
+otherHCP.pharmacist,pharmacist,Pharmacist,5b181394-a865-4d2a-b4ad-d3a3af39e81a,19,TRUE
+otherHCP.physicianAssistant,physicianAssistant,Physician Assistant,77334451-9845-4195-a8d4-9d516cf7edf1,20,TRUE
+otherHCP.physiotherapist,physiotherapist,Physiotherapist,440c63e6-9b91-4359-a911-e562a36e03b7,21,TRUE
+otherHCP.podiatrist,podiatrist,Podiatrist,b05eaa16-fa2a-42e8-9958-21ea5e78517f,22,TRUE
+otherHCP.psychologist,psychologist,Psychologist,e97c41fb-de10-4f72-8a14-8a4b110c2293,23,TRUE
+otherHCP.respiratoryTherapist,respiratoryTherapist,Respiratory Therapist,ef3c16f1-6280-4f2c-a6d0-09c63ebe5561,24,TRUE
+otherHCP.socialWorker,socialWorker,Social Worker,038e5db9-2e05-4811-a215-9859d369cfa4,25,TRUE
+otherHCP.speechLanguagePathologist,speechLanguagePathologist,Speech-Language Pathologist,076add74-8897-408c-9a64-33f2aaac8b41,26,TRUE
+otherHCP.technician,technician,Technician,253dbbd5-f6e9-4135-ad31-22fe103f6873,27,TRUE
+otherHCP.technologist,technologist,Technologist,0ca20285-c197-47dc-90eb-ba196469f480,28,TRUE
+otherHCP.veterinarian,veterinarian,Veterinarian,b8ecee04-767c-453f-b9cb-d7e23547e171,29,TRUE
+otherStudent,otherStudent,Other Student,df381740-0176-4670-9a36-58c5e5a3d541,8,FALSE
+otherStudent.otherStudent,otherStudent,Other Student,ea3f5b66-8347-4a96-b814-69893664e485,0,FALSE
+nonHCP,nonHCP,Non-Healthcare Professional,967e329e-b7d7-4fd0-8b39-e0bb2cdfd314,9,TRUE
+unknown,unknown,Unknown,6d8916a6-bfd7-4e9d-8873-69587d1dc06c,10,TRUE

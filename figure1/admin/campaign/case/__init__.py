@@ -1,0 +1,1 @@
+from .tasks import sync_targeted_promo_cards_task, sync_promo_card_task

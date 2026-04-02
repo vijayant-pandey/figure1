@@ -1,0 +1,458 @@
+Physician,0,NO,NO
+Medical Resident,0,NO,NO
+Medical Student,0,NO,NO
+Nurse Practitioner,0,NO,NO
+Physician Assistant,0,NO,NO
+Registered Nurse,0,NO,NO
+Dentist,0,NO,NO
+Acupuncturist,0,NO,NO
+Advanced Practice Registered Nurse,0,NO,NO
+Anatomist,0,NO,NO
+Audiologist,0,NO,NO
+Certified Nurse Midwife,0,NO,NO
+Certified Nursing Assistant,0,NO,NO
+Certified Registered Nurse Anesthetist,0,NO,NO
+Chiropractor,0,NO,NO
+Clinical Associate,0,NO,NO
+Clinical Nurse Specialist,0,NO,NO
+Dietitian,0,NO,NO
+Dental Assistant,0,NO,NO
+Dental Hygienist,0,NO,NO
+EMT,0,NO,NO
+Lab Scientist,0,NO,NO
+Licensed Practical Nurse,0,NO,NO
+Licensed Vocational Nurse,0,NO,NO
+Medical Educator,0,NO,NO
+Medical Librarian,0,NO,NO
+Medical Photographer,0,NO,NO
+Midwife,0,NO,NO
+Naturopathic Specialist,0,NO,NO
+Occupational Therapist,0,NO,NO
+Optometrist,0,NO,NO
+Orderly,0,NO,NO
+Paramedic,0,NO,NO
+Pathologists' Assistant,0,NO,NO
+Perfusionist,0,NO,NO
+Pharmacist,0,NO,NO
+Physiotherapist,0,NO,NO
+Podiatrist,0,NO,NO
+Psychologist,0,NO,NO
+Respiratory Therapist,0,NO,NO
+Social Worker,0,NO,NO
+Speech-Language Pathologist,0,NO,NO
+Technician,0,NO,NO
+Technologist,0,NO,NO
+Veterinarian,0,NO,NO
+Acupuncturist Student,0,NO,NO
+Anatomist Student,0,NO,NO
+Audiology Student,0,NO,NO
+Chiropractic Student,0,NO,NO
+Clinical Associate Student,0,NO,NO
+Dentistry Student,0,NO,NO
+Dental Assistant Student,0,NO,NO
+Dental Hygienist Student,0,NO,NO
+Dietetic Student,0,NO,NO
+EMT Student,0,NO,NO
+Lab Science Student,0,NO,NO
+Medical Educator Student,0,NO,NO
+Medical Librarian Student,0,NO,NO
+Midwifery Student,0,NO,NO
+Naturopathy Student,0,NO,NO
+Nursing Student,0,NO,NO
+Occupational Therapy Student,0,NO,NO
+Optometry Student,0,NO,NO
+Paramedic Student,0,NO,NO
+Pathologists' Assistant Student,0,NO,NO
+Perfusion Student,0,NO,NO
+Pharmacy Student,0,NO,NO
+Physician Assistant Student,0,NO,NO
+Physiotherapy Student,0,NO,NO
+Podiatry Student,0,NO,NO
+Pre-Med Student,0,NO,NO
+Pre-Nursing Student,0,NO,NO
+Psychology Student,0,NO,NO
+Respiratory Therapy Student,0,NO,NO
+Social Worker Student,0,NO,NO
+Speech-Language Pathology Student,0,NO,NO
+Technician Student,0,NO,NO
+Technologist Student,0,NO,NO
+Veterinarian Student,0,NO,NO
+Acute Care,1,YES,YES
+Allergy & Immunology,1,YES,YES
+Anesthesiology,1,YES,YES
+Burn Care,1,YES,YES
+Cardiology,1,YES,YES
+Colorectal Surgery,1,YES,YES
+Cosmetic Dentistry,1,YES,YES
+Critical Care,1,YES,YES
+Dermatology,1,YES,YES
+Emergency Medicine,1,YES,YES
+Endocrinology,1,YES,YES
+Endodontics,1,YES,YES
+Family Medicine,1,YES,YES
+Gastroenterology,1,YES,YES
+General Practice,1,YES,YES
+Geriatric Dentistry,1,YES,YES
+Hematology,1,YES,YES
+Hospice & Palliative Medicine,1,YES,YES
+Hospital Medicine,1,YES,YES
+Implant Dentistry,1,YES,YES
+Infectious Diseases,1,YES,YES
+Internal Medicine,1,YES,YES
+Long Term Care,1,YES,YES
+Managed Care,1,YES,YES
+Medical Genetics,1,YES,YES
+Nephrology,1,YES,YES
+Neurology,1,YES,YES
+Neurosurgery,1,YES,YES
+Nuclear Medicine,1,YES,YES
+Obstetrics & Gynecology,1,YES,YES
+Oncology,1,YES,YES
+Ophthalmology,1,YES,YES
+Oral and Maxillofacial Pathology,1,YES,YES
+Oral and Maxillofacial Radiology,1,YES,YES
+Oral and Maxillofacial Surgery,1,YES,YES
+Oral Microbiology,1,YES,YES
+Orthodontics,1,YES,YES
+Orthopedic Surgery,1,YES,YES
+Other Specialist,1,YES,YES
+Otolaryngology,1,YES,YES
+Pathology,1,YES,YES
+Pediatric,1,YES,YES
+Pediatrics,1,YES,YES
+Periodontics,1,YES,YES
+Physical Medicine & Rehabilitation,1,YES,YES
+Plastic Surgery,1,YES,YES
+Prosthodontics,1,YES,YES
+Psychiatry,1,YES,YES
+Public Health & Preventive Medicine,1,YES,YES
+Public Health Dentistry,1,YES,YES
+Pulmonology,1,YES,YES
+Radiology,1,YES,YES
+Reconstructive Dentistry,1,YES,YES
+Rheumatology,1,YES,YES
+Surgery,1,YES,YES
+Telemetry,1,YES,YES
+Toxicology,1,YES,YES
+Urology,1,YES,YES
+Abdominal Imaging,2,YES,YES
+Addiction Medicine,2,YES,YES
+Addiction Psychiatry,2,YES,YES
+Administration & Management,2,NO,NO
+Adolescent Medicine,2,YES,YES
+Adult Cardiac Surgery,2,YES,YES
+Adult Clinical & Laboratory,2,YES,YES
+Adult Congenital Heart Disease,2,YES,YES
+Adult Reconstruction,2,YES,YES
+Advanced Dialysis,2,YES,YES
+Advanced Endoscopic Intervention,2,YES,YES
+Aerospace Medicine,2,YES,YES
+Ambulatory Anesthesiology,2,YES,YES
+Anatomic Pathology,2,YES,YES
+Andrology & Male Reproductive Health,2,YES,YES
+Anorectal Function & Pelvic Floor Dysfunction,2,YES,YES
+Asthma & COPD,2,YES,YES
+Autonomic Disorders,2,YES,YES
+Bariatric Medicine,2,YES,YES
+Behavioral & Neuropsychiatry,2,YES,YES
+Biliary Tract Disease,2,YES,YES
+Blood Banking & Transfusion Medicine,2,YES,YES
+Brain Injury Rehabilitation,2,YES,YES
+Breast Cancer,2,YES,YES
+Breast Imaging,2,YES,YES
+Breast Pathology,2,YES,YES
+Breast Surgery,2,YES,YES
+Burn Surgery,2,YES,YES
+Cancer Genetics,2,YES,YES
+Cardiac & Thoracic Surgery,2,YES,YES
+Cardiac Care,2,YES,YES
+Cardiac Cath Lab,2,YES,YES
+Cardiac Critical Care,2,YES,YES
+Cardio-Oncology,2,YES,YES
+Cardiothoracic Anesthesiology,2,YES,YES
+Cardiothoracic Radiology,2,YES,YES
+Case Management & Discharge Planning,2,NO,NO
+Cerebrovascular & Skull Base Surgery,2,YES,YES
+Child & Adolescent Psychiatry,2,YES,YES
+Clinical Neurophysiology,2,YES,YES
+Clinical Pathology,2,YES,YES
+Colorectal Cancer,2,YES,YES
+Complementary & Alternative Medicine,2,YES,YES
+Compounding,2,YES,YES
+Computed Tomography/Magnetic Resonance (CT/MR),2,YES,YES
+Congenital Kidney Disease,2,YES,YES
+Consultation-Liaison Psychiatry,2,YES,YES
+Corneal & Anterior Disease,2,YES,YES
+Correctional Health,2,YES,YES
+Cosmetic Dermatology,2,YES,YES
+Cosmetic Surgery,2,YES,YES
+Craniofacial Surgery,2,YES,YES
+"Critical Care, Anesthesiology",2,YES,YES
+Cystic Fibrosis,2,YES,YES
+Cytopathology,2,YES,YES
+Dermatologic Surgery,2,YES,YES
+Dermatopathology,2,YES,YES
+Diabetes,2,YES,YES
+Diagnostic Radiology,2,YES,YES
+Echocardiography,2,YES,YES
+Elbow Surgery,2,YES,YES
+Electrophysiology,2,YES,YES
+Emergency & Pain Medicine,2,YES,YES
+Emergency & Sports Medicine,2,YES,YES
+Emergency Medicine & Toxicology,2,YES,YES
+Emergency Radiology,2,YES,YES
+Emergency Undersea & Hyperbaric Medicine,2,YES,YES
+Endocrine Cancer,2,YES,YES
+Endocrinology & Metabolism,2,YES,YES
+Endourology & Laparoscopy,2,YES,YES
+Endovascular Surgical Neuroradiology,2,YES,YES
+Epidemiology,2,YES,YES
+Epilepsy,2,YES,YES
+Epilepsy Surgery,2,YES,YES
+Esophageal Diseases,2,YES,YES
+Facial Plastic & Reconstructive Surgery,2,YES,YES
+Faculty & Teaching,2,NO,NO
+Female Pelvic Medicine & Reconstructive Surgery,2,YES,YES
+Foot & Ankle Surgery,2,YES,YES
+Forensic Pathology,2,YES,YES
+Forensic Psychiatry,2,YES,YES
+Gastrointestinal & Hepatic Pathology,2,YES,YES
+Gastrointestinal Cancer,2,YES,YES
+Gastrointestinal Function & Motility Disorders,2,YES,YES
+Gastrointestinal Radiology,2,YES,YES
+General Surgery,2,YES,YES
+Genitourinary Oncology,2,YES,YES
+Genitourinary Pathology,2,YES,YES
+Genitourinary Radiology,2,YES,YES
+Genomic Medicine,2,YES,YES
+Geriatric Medicine,2,YES,YES
+Geriatric Neurology,2,YES,YES
+Geriatric Psychiatry,2,YES,YES
+Geriatric Rheumatology,2,YES,YES
+Glaucoma,2,YES,YES
+Glomerular Disease,2,YES,YES
+Gout & Crystalline Arthropathy,2,YES,YES
+Gynecologic Cancer,2,YES,YES
+Gynecologic Oncology,2,YES,YES
+Gynecologic Pathology,2,YES,YES
+Hand Surgery,2,YES,YES
+Head & Neck Cancer,2,YES,YES
+Head & Neck Microvascular Surgery,2,YES,YES
+Head & Neck Oncologic Surgery,2,YES,YES
+Head & Neck Radiology,2,YES,YES
+Head & Neck Reconstructive Surgery,2,YES,YES
+Headache Medicine,2,YES,YES
+Health Informatics,2,NO,NO
+Heart Failure & Transplant,2,YES,YES
+Hematologic Oncology,2,YES,YES
+Hematopathology,2,YES,YES
+Hemophilia & Bleeding Disorder,2,YES,YES
+Hepato-Pancreatico-Biliary Surgery,2,YES,YES
+Hepatology & Liver Transplantation,2,YES,YES
+High Risk Obstetrics,2,YES,YES
+Hip & Knee Reconstructive Surgery,2,YES,YES
+HIV & AIDS,2,YES,YES
+HIV & AIDS Related,2,YES,YES
+Home Care,2,YES,YES
+Hospice & Palliative,2,YES,YES
+Hospice & Palliative Medicine,2,YES,YES
+Hospice & Palliative Medicine Psychiatry,2,YES,YES
+"Hospice & Palliative Medicine, Anesthesiology",2,YES,YES
+"Hospice & Palliative Medicine, Radiology",2,YES,YES
+"Hospice & Palliative Medicine, Surgery",2,YES,YES
+Hospital Medicine,2,YES,YES
+Hypertension,2,YES,YES
+Inflammatory Bowel Disease,2,YES,YES
+Infusion Therapy,2,YES,YES
+"International Health, Travel & Tropical",2,YES,YES
+Interstitial Lung Disease,2,YES,YES
+Interventional Cardiology,2,YES,YES
+Interventional Nephrology,2,YES,YES
+Interventional Neurology,2,YES,YES
+Interventional Neuroradiology,2,YES,YES
+Interventional Pulmonology,2,YES,YES
+Interventional Radiology,2,YES,YES
+Laryngology & Voice Disorders,2,YES,YES
+Legal Consulting,2,NO,NO
+Leukemia & Lymphoma,2,YES,YES
+Low Vision,2,YES,YES
+Lung Cancer,2,YES,YES
+Lung Transplantation Medicine,2,YES,YES
+Lupus,2,YES,YES
+Malabsorption,2,YES,YES
+Male Sexual Dysfunction,2,YES,YES
+Maternal & Fetal Medicine,2,YES,YES
+Medical Microbiology,2,YES,YES
+Medical Oncology,2,YES,YES
+Melanoma,2,YES,YES
+Microbiology,2,YES,YES
+Micrographic Dermatology,2,YES,YES
+Minimally Invasive Surgery,2,YES,YES
+Mohs Surgery,2,YES,YES
+Molecular Genetic Pathology,2,YES,YES
+Molecular Medicine,2,YES,YES
+Movement Disorders,2,YES,YES
+Musculoskeletal Oncology,2,YES,YES
+Musculoskeletal Radiology,2,YES,YES
+Mycobacterial Disease,2,YES,YES
+Myositis,2,YES,YES
+Neonatology,2,YES,YES
+Neural Repair & Rehabilitation,2,YES,YES
+Neuro Oncology,2,YES,YES
+Neuro-Ophthalmology,2,YES,YES
+Neuroanesthesia,2,YES,YES
+Neurocritical Care,2,YES,YES
+Neurodegenerative Disease,2,YES,YES
+Neurodevelopmental Disabilities,2,YES,YES
+Neuroimaging,2,YES,YES
+Neuroimmunology & Multiple Sclerosis,2,YES,YES
+Neurologic Oncology,2,YES,YES
+Neuromuscular Medicine,2,YES,YES
+Neuropathology,2,YES,YES
+Neurophysiology,2,YES,YES
+Neuroradiology,2,YES,YES
+Neurorehabilitation,2,YES,YES
+Neurotrauma,2,YES,YES
+Non-Clinical,2,NO,NO
+Non-Invasive Cardiology,2,YES,YES
+Nuclear Cardiology,2,YES,YES
+Nuclear Radiology,2,YES,YES
+Nutrition,2,YES,YES
+Obstetric Anesthesiology,2,YES,YES
+Obstetrics & Perinatal Pathology,2,YES,YES
+Occupational & Environmental Lung Disease,2,YES,YES
+Occupational Medicine,2,YES,YES
+Ocular Oncology,2,YES,YES
+Oculoplastic & Orbital Reconstructive Surgery,2,YES,YES
+Oral & Maxillofacial Surgery,2,YES,YES
+Orthopedic Sports Medicine,2,YES,YES
+Orthopedic Trauma Surgery,2,YES,YES
+Osteoarthritis,2,YES,YES
+Osteoporosis & Bone Metabolism,2,YES,YES
+Other Clinical,2,NO,NO
+Otolaryngic Allergy,2,YES,YES
+Pain Medicine,2,YES,YES
+Pain Medicine Psychiatry,2,YES,YES
+"Pain Medicine, Anesthesiology",2,YES,YES
+"Pain Medicine, Neurology",2,YES,YES
+"Pain Medicine, Physical Medicine & Rehabilitation",2,YES,YES
+"Pain Medicine, Radiology",2,YES,YES
+Pancreatic Disease,2,YES,YES
+Patient Education,2,NO,NO
+Pediatric & Strabismus,2,YES,YES
+Pediatric Allergy & immunology,2,YES,YES
+Pediatric Anesthesiology,2,YES,YES
+Pediatric Cardiology,2,YES,YES
+Pediatric Critical Care,2,YES,YES
+Pediatric Dermatology,2,YES,YES
+Pediatric Development,2,YES,YES
+Pediatric Emergency Medicine,2,YES,YES
+Pediatric Endocrinology,2,YES,YES
+Pediatric Gastroenterology,2,YES,YES
+Pediatric Hematology-Oncology,2,YES,YES
+Pediatric Hepatology,2,YES,YES
+Pediatric Hospice & Palliative Medicine,2,YES,YES
+Pediatric Hospital Medicine,2,YES,YES
+Pediatric Infectious Disease,2,YES,YES
+Pediatric Medical Genetics,2,YES,YES
+Pediatric Medical Toxicology,2,YES,YES
+Pediatric Nephrology,2,YES,YES
+Pediatric Neurology,2,YES,YES
+Pediatric Neurosurgery,2,YES,YES
+Pediatric Oncology,2,YES,YES
+Pediatric Orthopedic Surgery,2,YES,YES
+Pediatric Otolaryngology,2,YES,YES
+Pediatric Pathology,2,YES,YES
+Pediatric Pulmonology,2,YES,YES
+Pediatric Radiology,2,YES,YES
+Pediatric Rehabilitation Medicine,2,YES,YES
+Pediatric Rheumatology,2,YES,YES
+Pediatric Sleep Medicine,2,YES,YES
+Pediatric Sports Medicine,2,YES,YES
+Pediatric Surgery,2,YES,YES
+Pediatric Transplant Medicine,2,YES,YES
+Pediatric Urology,2,YES,YES
+Pharmacotherapy,2,YES,YES
+Pituitary Surgery,2,YES,YES
+Plastic & Reconstructive Microsurgery,2,YES,YES
+Pleural Disease,2,YES,YES
+Preventive Cardiology,2,YES,YES
+Preventive Medicine,2,YES,YES
+"Psychosomatic Medicine, Psychiatry",2,YES,YES
+Public Health,2,YES,YES
+Pulmonary Pathology,2,YES,YES
+Pulmonary Rehabilitation,2,YES,YES
+Pulmonary Vascular Medicine,2,YES,YES
+Quality Management,2,NO,NO
+Radiation Oncology,2,YES,YES
+Reconstructive Surgery,2,YES,YES
+Refractive Surgery,2,YES,YES
+Renal Imaging,2,YES,YES
+Renal Metabolism,2,YES,YES
+Renal Pathology,2,YES,YES
+Renovascular Medicine,2,YES,YES
+Reproductive Endocrinology,2,YES,YES
+Reproductive Endocrinology & Fertility,2,YES,YES
+Reproductive Genetics,2,YES,YES
+Research,2,YES,YES
+Restrictive Lung Disease,2,YES,YES
+Retinal Disease,2,YES,YES
+Rheumatoid Arthritis & Related,2,YES,YES
+Rhinology & Paranasal Sinus Disease,2,YES,YES
+Risk Management & Utilization Review,2,NO,NO
+Sarcoma,2,YES,YES
+School & College Health,2,YES,YES
+Scleroderma,2,YES,YES
+Sexually Transmitted Infections,2,YES,YES
+Shoulder & Elbow Surgery,2,YES,YES
+Sickle Cell & Other Anemias,2,YES,YES
+Skin Cancer,2,YES,YES
+Sleep Medicine,2,YES,YES
+"Sleep Medicine, Anesthesiology",2,YES,YES
+"Sleep Medicine, Neurology",2,YES,YES
+"Sleep Medicine, Otolaryngology",2,YES,YES
+"Sleep Medicine, Psychiatry",2,YES,YES
+"Sleep Medicine, Pulmonology",2,YES,YES
+Spinal Cord Injury Medicine,2,YES,YES
+Spinal Disease,2,YES,YES
+Spinal Surgery,2,YES,YES
+Spine Surgery,2,YES,YES
+Spondyloarthropathy,2,YES,YES
+Sports Medicine,2,YES,YES
+"Sports Medicine, Physical Medicine & Rehabilitation",2,YES,YES
+STD Medicine,2,YES,YES
+Stone Disease,2,YES,YES
+Stroke Neurology,2,YES,YES
+Surgical Critical Care,2,YES,YES
+Surgical Oncology,2,YES,YES
+Surgical Pathology,2,YES,YES
+Systemic Pain & Inflammatory Syndromes,2,YES,YES
+Therapeutic Endoscopy,2,YES,YES
+Thoracic Cancer,2,YES,YES
+Thoracic Oncology,2,YES,YES
+Thoracic Radiology,2,YES,YES
+Thrombosis & Coagulation,2,YES,YES
+Transplant & Immunocompromised States,2,YES,YES
+Transplant Medicine,2,YES,YES
+Transplant Surgery,2,YES,YES
+Transplantation Immunology,2,YES,YES
+Transplantation Urology,2,YES,YES
+Trauma & Reconstruction Urology,2,YES,YES
+Trauma Surgery,2,YES,YES
+Tumor Neurosurgery,2,YES,YES
+Ultrasound,2,YES,YES
+Undersea & Hyperbaric Medicine,2,YES,YES
+Urgent Care,2,YES,YES
+Urogynecology & Pelvic Reconstructive Surgery,2,YES,YES
+Urologic Oncology,2,YES,YES
+Uveitis,2,YES,YES
+Vascular Medicine,2,YES,YES
+Vascular Neurosurgery,2,YES,YES
+Vascular Radiology,2,YES,YES
+Vascular Surgery,2,YES,YES
+Vasculitis,2,YES,YES
+Wound & Ostomy,2,YES,YES
+Non-Healthcare Professional,0,NO,NO
+Other non-HCP Student,0,NO,NO
+Other Healthcare Professional,0,NO,NO
+Nursing Professional,0,NO,NO

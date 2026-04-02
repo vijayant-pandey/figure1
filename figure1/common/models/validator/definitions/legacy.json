@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "legacy",
+  "definitions": {
+    "Comment": {
+      "type": "object",
+      "properties": {
+        "imageID": {
+          "$ref": "dataTypes#/definitions/ObjectId"
+        },
+        "author": {
+          "$ref": "dataTypes#/definitions/CommentAuthorId"
+        },
+        "specialty": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+from .iterable.endpoints import bp as iterable_admin_api
+from .migrate.cases.endpoints import bp as admin_migrate_cases_endpoint
+from .migrate.users.endpoints import bp as admin_migrate_users_endpoint
+from .moderation.cases.endpoints import bp as admin_moderation_cases_endpoint
+from .moderation.comments.endpoints import bp as admin_moderation_comments_endpoint
+from .reference_data.endpoints import bp as admin_reference_data_endpoint
+from .swagger.endpoints import bp as admin_api_auth
+from .tools.endpoints import bp as admin_tools_endpoint
+from .verification.endpoints import bp as admin_verification_endpoint
+from .campaign.endpoints import bp as admin_campaign_endpoint
+from .campaign.case.endpoints import bp as admin_campaign_case_endpoint
+from .moderation.tagging.endpoints import bp as admin_moderation_tagging_endpoint
+from .elasticsearch.endpoints import bp as admin_elasticsearch_endpoint

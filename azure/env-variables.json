@@ -1,0 +1,114 @@
+[
+  {
+    "name": "DB_HOST",
+    "value": "trial-psql.postgres.database.azure.com"
+  },
+  {
+    "name": "DB_PORT",
+    "value": "5432"
+  },
+  {
+    "name": "DB_USERNAME",
+    "value": "figure1"
+  },
+  {
+    "name": "DB_DATABASE",
+    "value": "figure1"
+  },
+  {
+    "name": "REDIS_URL",
+    "value": "redis://:eVBu9xSCgJX340sic1k6zGIRj4laBXxY9AzCaLFVLJI=@fig1a.redis.cache.windows.net:6379/0"
+  },
+  {
+    "name": "ELASTICSEARCH_HOSTS",
+    "value": "https://f1dev.es.eastus.azure.elastic-cloud.com"
+  },
+  {
+    "name": "ELASTICSEARCH_CLOUD_ID",
+    "value": "f1dev:ZWFzdHVzLmF6dXJlLmVsYXN0aWMtY2xvdWQuY29tOjQ0MyRjOTUzYzNhMjRlOTE0M2NmOTA0NTc0YWNmZjdmYjY3YiRkNTFkNTc3ZTE3OGE0YWVlOWEwZTBlNzdkMTBiNjZkYw=="
+  },
+  {
+    "name": "FIREBASE_RTDB_URL",
+    "value": "figure1-azure-default-rtdb"
+  },
+  {
+    "name": "FIREBASE_PROJECT_ID",
+    "value": "figure1-azure"
+  },
+  {
+    "name": "FIREBASE_CLIENT_EMAIL",
+    "value": "firebase-adminsdk-17zxu@figure1-azure.iam.gserviceaccount.com"
+  },
+  {
+    "name": "FIREBASE_CLIENT_ID",
+    "value": "111954359865824616864"
+  },
+  {
+    "name": "FIREBASE_CLIENT_X509_CERT_URL",
+    "value": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-17zxu%40figure1-azure.iam.gserviceaccount.com"
+  },
+  {
+    "name": "FIREBASE_PRIVATE_KEY_ID",
+    "value": "f8b359ff5d344589783106929e9260eca9c34631"
+  },
+  {
+    "name": "DB_PASSWORD",
+    "secretRef": "db-password"
+  },
+  {
+    "name": "JWT_SECRET_KEY",
+    "secretRef": "jwt-secret-key"
+  },
+  {
+    "name": "ELASTICSEARCH_API_KEY",
+    "secretRef": "elasticsearch-key"
+  },
+  {
+    "name": "FIREBASE_PRIVATE_KEY",
+    "secretRef": "firebase-key"
+  },
+  {
+    "name": "LOG_LEVEL",
+    "value": "DEBUG"
+  },
+  {
+    "name": "AWS_ACCESS_KEY_ID",
+    "value": "AKIAT2FLJNPDRUWMXOHC"
+  },
+  {
+    "name": "AWS_SECRET_ACCESS_KEY",
+    "secretRef": "aws-secret-key"
+  },
+  {
+    "name": "S3_UPLOAD_BUCKET",
+    "value": "pro-figure1-dev"
+  },
+  {
+    "name": "EXTERNAL_WEBAPP_URL",
+    "value": "https://app.preview.figure1.com"
+  },
+  {
+    "name": "APP_URL",
+    "value": "https://app.preview.figure1.com"
+  },
+  {
+    "name": "CASE_CME_ENABLED",
+    "value": "true"
+  },
+  {
+    "name": "TRANSLATION_API_ENABLED",
+    "value": "true"
+  },
+  {
+    "name": "CASE_SYNC_ENABLED",
+    "value": "true"
+  },
+  {
+    "name": "USER_SYNC_ENABLED",
+    "value": "true"
+  },
+  {
+    "name": "CASE_SYNC_THROTTLE_ENABLED",
+    "value": "true"
+  }
+]

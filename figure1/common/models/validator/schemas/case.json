@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "case",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "media": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string"
+          },
+          "filename": {
+            "type": "string"
+          },
+          "index": {
+            "type": "integer"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "image",
+              "image_series",
+              "video"
+            ]
+          }
+        }
+      }
+    },
+    "specialty_uuids": {
+      "type": "array",
+      "items": {
+        "$ref": "dataTypes#/definitions/UUID"
+      }
+    },
+    "label_uuids": {
+      "type": "array",
+      "items": {
+        "$ref": "dataTypes#/definitions/UUID"
+      }
+    },
+    "paging": {
+      "type": "boolean"
+    }
+  }
+}

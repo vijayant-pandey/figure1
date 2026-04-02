@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "elasticsearch_definitions",
+  "definitions": {
+    "User": {
+      "type": "object",
+      "properties": {
+        "userUuid": {
+          "$ref": "dataTypes#/definitions/UUID"
+        },
+        "countryUuid": {
+          "$ref": "dataTypes#/definitions/UUID"
+        },
+        "countryName": {
+          "type": "string"
+        },
+        "countryCode": {
+          "type": "string"
+        },
+        "username": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "specialtyUuid": {
+          "$ref": "dataTypes#/definitions/UUID"
+        },
+        "specialtyLabel": {
+          "type": "string"
+        }
+      }
+    },
+    "Comment": {
+      "type": "object",
+      "properties": {
+        "commentUuid": {
+          "$ref": "dataTypes#/definitions/UUID"
+        },
+        "text": {
+          "type": "string"
+        },
+        "likes": {
+          "type": "number"
+        },
+        "follows": {
+          "type": "number"
+        },
+        "acceptedAnswer": {
+          "type": "boolean"
+        },
+        "parentId": {
+          "type": "string"
+        },
+        "language": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "user": {
+          "$ref": "elasticsearch_definitions#/definitions/User"
+        }
+      }
+    }
+  }
+}

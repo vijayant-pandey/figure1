@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "user",
+  "type": "object",
+  "properties": {
+    "username": {
+      "type": "string"
+    },
+    "specialties": {
+      "type": "array",
+      "items": {
+        "$ref": "dataTypes#/definitions/UUID"
+      }
+    },
+    "interests": {
+      "type": "array",
+      "items": {
+        "$ref": "dataTypes#/definitions/UUID"
+      }
+    },
+    "userBio": {
+      "$ref": "dataTypes#/definitions/freeText1k"
+    },
+    "userPracticeLocation": {
+      "$ref": "dataTypes#/definitions/freeText1k"
+    },
+    "userPracticeHospital": {
+      "$ref": "dataTypes#/definitions/freeText1k"
+    },
+    "userDisplayName": {
+      "$ref": "dataTypes#/definitions/freeText1k"
+    },
+    "email": {
+      "$ref": "dataTypes#/definitions/Email"
+    },
+    "experience": {
+      "type": "array",
+      "items": {
+        "$ref": "dataTypes#/definitions/UserExperience"
+      }
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "$ref": "dataTypes#/definitions/UserExperience"
+      }
+    },
+    "affiliations": {
+      "type": "array",
+      "items": {
+        "$ref": "dataTypes#/definitions/UserExperience"
+      }
+    }
+  }
+}

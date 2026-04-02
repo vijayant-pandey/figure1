@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "legacy_case",
+  "type": "object",
+  "properties": {
+    "url": {
+      "$ref": "dataTypes#/definitions/ObjectId"
+    },
+    "author": {
+      "$ref": "dataTypes#/definitions/ObjectId"
+    },
+    "language": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "voteCount": {
+      "type": "integer"
+    },
+    "followCount": {
+      "type": "integer"
+    },
+    "commentCount": {
+      "type": "integer"
+    },
+    "comments": {
+      "type": "array",
+      "items": {
+        "$ref": "legacy#/definitions/Comment"
+      }
+    }
+  }
+}

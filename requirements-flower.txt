@@ -1,0 +1,2 @@
+# need to use this commit because there's no release the supports celery <5 and promethius client >8
+git+https://github.com/mher/flower.git@f60fff1822acacf5fe4a6f8c2afa9b917fd1dc3f

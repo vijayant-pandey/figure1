@@ -1,0 +1,60 @@
+{
+  "mappings": [
+    {
+      "legacy_profession": "Physician",
+      "new_profession": "Physician"
+    },
+    {
+      "legacy_profession": "Medical Resident",
+      "new_profession": "Medical Resident"
+    },
+    {
+      "legacy_profession": "Nursing Professional",
+      "legacy_specialty": "Nurse Practitioner",
+      "new_profession": "Nurse Practitioner"
+    },
+    {
+      "legacy_profession": "Nursing Professional",
+      "new_profession": "Registered Nurse"
+    },
+    {
+      "legacy_profession": "Other Healthcare Professional",
+      "legacy_specialty": "Physician Assistant",
+      "new_profession": "Physician Assistant"
+    },
+    {
+      "legacy_profession": "Other Healthcare Professional",
+      "new_profession": "Other HCP"
+    },
+    {
+      "legacy_profession": "Student",
+      "legacy_specialty": "Medical",
+      "new_profession": "Medical Student"
+    },
+    {
+      "legacy_profession": "Student",
+      "legacy_specialty": "Physician Assistant",
+      "new_profession": "Medical Student"
+    },
+    {
+      "legacy_profession": "Foundation Doctor or Core Trainee",
+      "new_profession": "Medical Student"
+    },
+    {
+      "legacy_profession": "Student",
+      "new_profession": "Other Student"
+    },
+    {
+      "legacy_profession": "Non-Healthcare Professional",
+      "new_profession": "Non-Healthcare Professional"
+    },
+    {
+      "legacy_profession": "Dentistry",
+      "new_profession": "Dentist"
+    },
+    {
+      "legacy_profession": "Unknown",
+      "new_profession": "Unknown"
+    }
+  ]
+}

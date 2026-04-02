@@ -1,0 +1,63 @@
+services:
+  redis:
+    image: redis:latest
+
+  firestore:
+    image: mtlynch/firestore-emulator
+    environment:
+      PORT: "8200"
+      FIRESTORE_PROJECT_ID: f1-development
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.8.0
+    environment:
+      discovery.type: single-node
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:9200" ]
+      start_period: 5s
+      retries: 5
+      timeout: 3s
+      interval: 10s
+    ports:
+      - 9200
+
+  figure1:
+    build:
+      context: .
+      no_cache: true
+    env_file:
+      - .env.runtime
+    command: python figure1/run/flask_startup.py
+    ports:
+      - "30000:30000"
+    depends_on:
+      - elasticsearch
+      - redis
+      - firestore
+
+  celery:
+    image: figure1_app:latest
+    build:
+      context: .
+    command: celery -A figure1.core.celery_app worker --loglevel=info
+    env_file:
+      - .env.runtime
+    environment:
+      - C_FORCE_ROOT=true
+    depends_on:
+      - figure1
+      - redis
+
+  flower:
+    image: figure1_app:latest
+    build:
+      context: .
+    command: celery -A figure1.core.celery_app flower --port=5555 --conf=flowerconfig.py
+    ports:
+      - "5555:5555"
+    env_file:
+      - .env.runtime
+    depends_on:
+      - redis
+      - celery
+

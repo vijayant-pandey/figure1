@@ -1,0 +1,12 @@
+# figure1 application config map
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: figure1-app-config
+data:
+  DB_PORT: "5432"
+  DB_HOST: figure1-database
+  FIREBASE_ENVIRONMENT: figure1-pro-nothing
+  SERVICE_STARTUP_PAUSE_SECS: "5"
+  PROMETHEUS_EXPORT_ENABLED: "1"

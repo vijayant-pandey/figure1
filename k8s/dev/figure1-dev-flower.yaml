@@ -1,0 +1,43 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: figure1-flower
+  labels:
+    app: figure1
+    tier: backend
+    role: flower
+spec:
+  type: NodePort
+  ports:
+    - port: 5555
+      targetPort: 5555
+      nodePort: 30055
+  selector:
+    app: figure1
+    tier: backend
+    role: flower
+
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: figure1-flower
+  labels:
+    app: figure1
+    tier: backend
+    role: flower
+spec:
+  containers:
+    - name: figure1-flower
+      image: figure1-pro-backend_debug:latest
+      imagePullPolicy: Never
+      command: [ "/bin/sh"]
+      args: ["-c", "/usr/local/bin/flower -A figure1 --conf=/usr/src/app/figure1/celery_config.py --inspect --enable-events"]
+      resources:
+        requests:
+          cpu: 100m                                  # requests a minimum of 1/10th of a CPU (may use more)
+          memory: 100Mi                              # requests a minimum of 100MB of memory (may use more)
+      ports:
+        - containerPort: 5555
